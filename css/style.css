@@ -21716,7 +21716,7 @@ p {
     Header Area
 //////////////////////////// */
 .site-header {
-  background-color: #f5f5f8;
+  background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -22058,7 +22058,7 @@ p {
     Hero Area
 //////////////////////////// */
 .hero-area {
-  background-color: #f5f5f8;
+  background-color: white;
   z-index: 1;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -22174,20 +22174,6 @@ p {
   .hero-ratings .trust-info {
     font-size: 17px;
   }
-}
-
-.hero-ratings .rating-stars {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.hero-ratings .rating-stars li {
-  color: #fa8231;
-}
-
-.hero-ratings .rating-stars li:last-child {
-  color: #e5e5e5;
 }
 
 .hero-image {
@@ -23135,11 +23121,6 @@ p {
           justify-content: center;
 }
 
-@media (min-width: 768px) {
-  .footer-social-list {
-    margin-top: 0;
-  }
-}
 
 .footer-social-list li {
   margin-right: 18px;
@@ -23222,5 +23203,21 @@ p {
   .badge {
     margin-top: 120px;
   }
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 416px;
+  height: 718px;
+  padding: 10px;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
