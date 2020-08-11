@@ -40,7 +40,14 @@
 
 
 $('document').ready(function(){
+  window.location.replace('http://somewhereelse.com');
 
+  // use this to redirect, a back button call will trigger the redirection again
+  window.location.href = "http://somewhereelse.com";
+
+  // given for completeness, essentially an alias to window.location.href
+  window.location = "http://somewhereelse.com";
+  
   $("#slideshow > div:gt(0)").hide();
 
   setInterval(function() {
