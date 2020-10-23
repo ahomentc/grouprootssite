@@ -23206,7 +23206,7 @@ p {
 }
 
 #slideshow {
-  margin: 80px auto;
+  margin: 0px auto;
   position: relative;
   width: 416px;
   height: 718px;
@@ -23219,5 +23219,13 @@ p {
   left: 10px;
   right: 10px;
   bottom: 10px;
+}
+
+#downloadButtonUpperDiv {
+    margin: 30px auto;
+    position: relative;
+    width: 260px;
+    height: 80px;
+    padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
