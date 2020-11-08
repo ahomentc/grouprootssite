@@ -142,17 +142,17 @@ header.masthead h1 {
 }
 
 .visible-when-small {
-  display: block;
+  display: block !important;
 }
 .visible-when-big {
-  display: none;
+  display: none !important;
 }
 @media (min-width: 768) {
   .visible-when-small {
-    display: none;
+    display: none !important;
   }
   .visible-when-big {
-    display: block;
+    display: block !important;
   }
 }
 
