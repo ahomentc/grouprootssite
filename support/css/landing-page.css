@@ -18,6 +18,24 @@ h6 {
   font-weight: 700;
 }
 
+#scroll_text {
+  width: 100%;
+}
+
+#scroll_gif {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #scroll_text {
+    width: 35%;
+  }
+
+  #scroll_gif {
+    width: 38%;
+  }
+}
+
 .brand-logo {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -113,6 +131,14 @@ header.masthead h1 {
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
+}
+
+.screenshot {
+  width: 80%;
+}
+
+.screenshot {
+  width: 80%;
 }
 
 footer.footer {
