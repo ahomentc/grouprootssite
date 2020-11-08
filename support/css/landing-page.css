@@ -141,6 +141,21 @@ header.masthead h1 {
   width: 80%;
 }
 
+.visible-when-small {
+  display: block;
+}
+.visible-when-big {
+  display: none;
+}
+@media (min-width: 768) {
+  .visible-when-small {
+    display: none;
+  }
+  .visible-when-big {
+    display: block;
+  }
+}
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
