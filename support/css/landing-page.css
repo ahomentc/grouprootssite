@@ -23,7 +23,7 @@ h6 {
 }
 
 #scroll_gif {
-  width: 100%;
+  width: 80%;
 }
 
 @media (min-width: 768px) {
@@ -32,7 +32,8 @@ h6 {
   }
 
   #scroll_gif {
-    width: 38%;
+    /*width: 38%;*/
+    width: 30%;
   }
 }
 
