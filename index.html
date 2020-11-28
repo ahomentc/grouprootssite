@@ -176,12 +176,22 @@
                 setTimeout(function(){ 
                   this.currentTime = 0.0;
                   $('video').trigger('play');
-                }, 1000);
+                  setTimeout(function(){ 
+                    $('video').trigger('pause');
+                  }, 200);
+                }, 500);
 
-                setTimeout(function(){ 
-                  $(".vid").fadeTo( 1000 , 1);
-                }, 1500);
-              }, 2000);
+                // setTimeout(function(){ 
+                //   $(".vid").fadeTo( 1000 , 1);
+                // }, 1500);
+              }, 1000);
+          }
+
+          if(this.currentTime <= 0.3) {
+            $(".vid").fadeTo( 500 , 1);
+            setTimeout(function(){ 
+              $('video').trigger('play');
+            }, 500);
           }
       });
   </script>
