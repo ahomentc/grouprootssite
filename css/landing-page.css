@@ -157,6 +157,35 @@ header.masthead h1 {
   }
 }
 
+.block {
+    margin: 10px 50px;
+    display: flex; /* required */
+    flex-flow: row nowrap; /* required */
+}
+.block .background,
+.block .foreground {
+    box-sizing: border-box; /* required */
+    width: 100%; /* required */
+    flex: none; /* required */
+}
+.block .background {
+    /*background: #9ff;*/
+    /*color: #fff;*/
+    /*padding: 15px;*/
+    /*font-size: 30px;*/
+}
+.block .foreground {
+    /*padding: 15px;*/
+    /*border: solid 1px;*/
+    margin-left: -100%; /* required */
+}
+.block .foreground .outside {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+
+
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
