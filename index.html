@@ -170,17 +170,18 @@
           // }
           if(this.currentTime >= 6.0) {
               $('video').trigger('pause');
-
-              $(".vid").fadeTo( 500 , 0);
-
               setTimeout(function(){ 
-                this.currentTime = 0.0;
-                $('video').trigger('play');
-              }, 500);
+                $(".vid").fadeTo( 500 , 0);
 
-              setTimeout(function(){ 
-                $(".vid").fadeTo( 500 , 1);
-              }, 1000);
+                setTimeout(function(){ 
+                  this.currentTime = 0.0;
+                  $('video').trigger('play');
+                }, 500);
+
+                setTimeout(function(){ 
+                  $(".vid").fadeTo( 500 , 1);
+                }, 1000);
+              }, 2000);
           }
       });
   </script>
