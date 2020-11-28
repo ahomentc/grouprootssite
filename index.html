@@ -168,21 +168,14 @@
           // if(this.currentTime >= 5.9 || this.currentTime < 0.2) {
           //     $(".vid").fadeTo( 300 , 1);
           // }
-          if(this.currentTime >= 6.0) {
-              $('.vid').trigger('pause');
-              setTimeout(function(){ 
-                $(".vid").fadeTo( 500 , 0);
-
-                setTimeout(function(){ 
-                  this.currentTime = 0.0;
-                  $('.vid').trigger('play');
-                }, 500);
-
-                setTimeout(function(){ 
-                  $(".vid").fadeTo( 500 , 1);
-                }, 1000);
-              }, 1000);
-              
+          if (this.currentTime >= 5.5) {
+              $(".vid").fadeTo( 500 , 0);
+          }
+          if (this.currentTime >= 6.0) {
+              this.currentTime = 0.0;
+          }
+          if (this.currentTime <= 0.5) {
+              $(".vid").fadeTo( 500 , 1);
           }
       });
   </script>
