@@ -169,29 +169,20 @@
           //     $(".vid").fadeTo( 300 , 1);
           // }
           if(this.currentTime >= 6.0) {
-              $('video').trigger('pause');
+              $('.vid').trigger('pause');
               setTimeout(function(){ 
                 $(".vid").fadeTo( 500 , 0);
 
                 setTimeout(function(){ 
                   this.currentTime = 0.0;
-                  $('video').trigger('play');
-                  setTimeout(function(){ 
-                    $('video').trigger('pause');
-                  }, 200);
+                  $('.vid').trigger('play');
                 }, 500);
 
-                // setTimeout(function(){ 
-                //   $(".vid").fadeTo( 1000 , 1);
-                // }, 1500);
+                setTimeout(function(){ 
+                  $(".vid").fadeTo( 500 , 1);
+                }, 1000);
               }, 1000);
-          }
-
-          if(this.currentTime <= 0.3) {
-            $(".vid").fadeTo( 500 , 1);
-            setTimeout(function(){ 
-              $('video').trigger('play');
-            }, 500);
+              
           }
       });
   </script>
