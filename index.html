@@ -91,7 +91,7 @@
       <img src="screenshots/scroll_text.png" id="scroll_text" />
       <!-- <img src="screenshots/scroll_10.gif" id="scroll_gif" /> -->
       <br/>
-      <video class="player__video viewer" src="screenshots/scroll_vid.mp4" autoplay muted loop playsinline id="scroll_gif"></video>
+      <video class="vid" src="screenshots/scroll_vid.mp4" autoplay muted loop playsinline id="scroll_gif"></video>
       <div class="line"></div>
     </div>
   </section>
@@ -157,8 +157,33 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+      // var vid = document.getElementById("vid");
+      var vid = document.getElementsByClassName("vid")[0];
+      vid.addEventListener("timeupdate", function () {
+          // if(this.currentTime >= 5.6 && this.currentTime < 5.9) {
+          //     $(".vid").fadeTo( 300 , 0.7);
+          // }
+          // if(this.currentTime >= 5.9 || this.currentTime < 0.2) {
+          //     $(".vid").fadeTo( 300 , 1);
+          // }
+          if(this.currentTime >= 6.0) {
+              $('video').trigger('pause');
 
+              $(".vid").fadeTo( 500 , 0.7);
 
+              setTimeout(function(){ 
+                $(".vid").fadeTo( 500 , 1);
+              }, 500);
+
+              setTimeout(function(){ 
+                this.currentTime = 0.0;
+                $('video').trigger('play');
+              }, 1000);
+          }
+      });
+  </script>
 
 </body>
 </html>
