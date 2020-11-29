@@ -164,10 +164,10 @@
       vid.play()
       vid.addEventListener("timeupdate", function () {
           if (this.currentTime >= 6.9) {
-              $(".vid").playbackRate = -1;
+              vid.playbackRate = -1;
           }
           if (this.currentTime <= 0.1) {
-              $(".vid").playbackRate = 1;
+              vid.playbackRate = 1;
           }
           // if (this.currentTime >= 5.5) {
           //     $(".vid").fadeTo( 500 , 0);
