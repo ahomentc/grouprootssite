@@ -163,10 +163,10 @@
       var vid = document.getElementsByClassName("vid")[0];
       vid.play()
       vid.addEventListener("timeupdate", function () {
-          if (this.currentTime >= 6.9) {
+          if (this.currentTime >= 6.8) {
               vid.playbackRate = -1;
           }
-          if (this.currentTime <= 0.1) {
+          if (this.currentTime <= 0.2) {
               vid.playbackRate = 1;
           }
           // if (this.currentTime >= 5.5) {
