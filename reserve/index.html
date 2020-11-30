@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- ********** RESERVE PAGE ********** -->
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL8GNHF3XS"></script>
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL8GNHF3XS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-TL8GNHF3XS');
-  </script>
+  </script> -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,8 +44,10 @@
       <div class="col-md-auto text-center brand-logo">
         <a href=""><img src="img/Logo.png" alt=""/></a>
       </div>
-
-      <div class="col-md-auto text-center logo-social">
+      <div class="mx-auto">
+        <button type="submit" class="btn btn-block btn-lg btn-primary reserve_another_group">Reserve another group</button>
+      </div>
+<!--       <div class="col-md-auto text-center logo-social">
         <ul class="list-inline mb-0">
           <li class="list-inline-item mr-3">
             <a href="https://twitter.com/grouproots_hq">
@@ -56,75 +60,60 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </nav>
 
   <!-- Masthead -->
   <header class="masthead text-black text-center">
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto">
-          <!-- <h1 class="mb-3 visible-when-small">Share Your Groups.<br/>Launching Soon.</h1> -->
-          <!-- <h1 class="mb-3 visible-when-big">Share Your Groups. Launching Soon.</h1> -->
-          <h2 class="mb-3">Share Your Groups.</h2>
-          <h5 class="mb-2 col-10 col-sm-7 col-md-12 col-lg-12 col-xl-12 mx-auto">Build group profiles together, with your favorite memories.</h5>
-          <h5 class="mb-2 col-10 col-sm-7 col-md-12 col-lg-12 col-xl-12 mx-auto">Share the groups you're in, and their posts, with your followers.</h5>
-          <br/>
-          <h6 class="mb-3 col-12 col-sm-7 col-md-12 col-lg-12 col-xl-12 mx-auto">Reserve one of 5,000 early access groups.</h6>
-
-        </div>
-        <div class="col-md-12 col-lg-8 col-xl-7 mx-auto">
-          <form action="https://formspree.io/f/mleonyrk" method="POST">
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input class="form-control form-control-lg" name="_replyto" placeholder="Your Email">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Reserve</button>
-              </div>
-            </div>
-          </form>
-
-          <!-- <form action="https://formspree.io/f/mleonyrk" method="POST">
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input class="form-control form-control-lg" name="_replyto" placeholder="Your Email">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Get notified</button>
-              </div>
-            </div>
-          </form> -->
-        </div>
-      </div>
+    <div class="col-xl-9 mx-auto">
+      <h2 style="margin-bottom: 0">Thank you!</h2>
+      <!-- <h5 class="mb-3">Add other group members to<br/>complete your group reservation</h5> -->
     </div>
   </header>
 
-  <!-- Icons Grid -->
   <section class="features-icons text-center">
     <div class="container" style="font-size: 0;">
-      <img src="screenshots/scroll_text.png" id="scroll_text" />
-      <!-- <img src="screenshots/scroll_10.gif" id="scroll_gif" /> -->
-      <br/>
-      <video class="vid" src="screenshots/scroll_vid_3.mp4" autoplay muted loop playsinline id="scroll_gif"></video>
-      <div class="line"></div>
+      <div class="col-md-10 col-lg-8 col-xl-6 mx-auto">
+        <!-- <h4>Complete the group reservation by sharing this<br/>link for your friends to join the group:</h4> -->
+        <h4>Your group's spot will be reserved when at least one of your friends joins the group with this link:</h4>
+        <h5 class="register_link">https://grouproots.com/code</h5>
+      </div>
     </div>
   </section>
 
-   <section class="features-icons text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4">
-          <img src="screenshots/screenshot_3_2.png" class="screenshot"/>
+  <section class="features-icons text-center">
+    <div class="container" style="font-size: 0;">
+      <div class="col-md-12 col-lg-8 col-xl-7 mx-auto">
+          <h5>Or reserve now by inviting them here:</h5>
+          <form method="POST">
+            <div class="form-group">
+              <div class="col-12 col-md-9 mb-2 mx-auto">
+                <input class="form-control form-control-lg" placeholder="Friend #2 email or phone">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-12 col-md-9 mb-2 mx-auto">
+                <input class="form-control form-control-lg" placeholder="Friend #3 email or phone">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-12 col-md-9 mb-2 mx-auto">
+                <button type="submit" class="btn btn-block btn-lg btn-primary add_another_member">Add another</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-12 col-md-9 mb-2 mx-auto">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Reserve</button>
+              </div>
+            </div>
+            <!-- <div class="form-group">
+              <div class="col-12 col-md-9 mb-2 mx-auto">
+                <button type="submit" class="btn btn-block btn-lg btn-primary reserve_another_group">Reserve another group</button>
+              </div>
+            </div> -->
+          </form>
         </div>
-        <div class="col-lg-4 col-md-4">
-          <img src="screenshots/screenshot_4_2.png" class="screenshot"/>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <img src="screenshots/screenshot_5_2.png" class="screenshot"/>
-        </div>
-      </div>
     </div>
   </section>
 
