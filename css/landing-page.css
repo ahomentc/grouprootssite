@@ -134,6 +134,24 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
+.acquaintances, .acquaintances:hover, .acquaintances:active, .acquaintances:visited {
+    background-color: #00a66c !important;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .acquaintances, .acquaintances:hover, .acquaintances:active, .acquaintances:visited {
+      background-color: #00a66c !important;
+      border-width: 1px;
+      border-color: #FFFFFF;
+      color: #FFFFFF;
+      font-size: 1.3rem;
+  }
+}
+
 .screenshot {
   width: 80%;
 }
