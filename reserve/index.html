@@ -163,28 +163,6 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script>
-      // var vid = document.getElementById("vid");
-      var vid = document.getElementsByClassName("vid")[0];
-      vid.play()
-      vid.addEventListener("timeupdate", function () {
-          if (this.currentTime >= 5.7) {
-              vid.playbackRate = -2;
-          }
-          if (this.currentTime <= 1.5) {
-              vid.playbackRate = 1;
-          }
-          // if (this.currentTime >= 5.5) {
-          //     $(".vid").fadeTo( 500 , 0);
-          // }
-          // if (this.currentTime >= 6.9) {
-          //     this.currentTime = 0.0;
-          // }
-          // if (this.currentTime <= 0.5) {
-          //     $(".vid").fadeTo( 500 , 1);
-          // }
-      });
-  </script>
 
 </body>
 </html>
