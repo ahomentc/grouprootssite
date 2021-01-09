@@ -70,7 +70,8 @@ header.masthead {
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  background-color: #00a66c;
+  /*background-color: #00a66c;*/
+  background-color: #FFFFFF;
   color: white;
 }
 
@@ -108,9 +109,9 @@ header.masthead h1 {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #FFFFFF !important;
+    background-color: #00a66c !important;
     border-width: 0;
-    color: #00a66c;
+    color: #FFF;
 }
 
 .features-icons {
@@ -158,6 +159,6 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 18rem;
+  padding-bottom: 0rem;
 }
