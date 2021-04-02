@@ -51,11 +51,11 @@ h6 {
 
 /* ---------- */
 
-.scroll-container {
+/*.scroll-container {
   height: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-}
+}*/
 
 section {
   height: 100%;
