@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ********** Org PAGE ********** -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL8GNHF3XS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TL8GNHF3XS');
+  </script> -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GroupRoots</title>
+
+  <link rel="icon" type="image/png" href="img/icon_16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="img/icon_32.png" sizes="32x32">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <script src="https://use.fontawesome.com/a567fdd2b5.js"></script>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
+  <script type="text/javascript">
+      var unformatted_school = ""
+      $(document).ready(function(){
+          var query = window.location.search;
+          query = query.replace("?", '');
+          school = query.split('=')[1];
+          unformatted_school = school;
+          school = school.replace(/_/g," ");
+          var just_school = school.split(',')[0]
+          $("#title").html(just_school + " GroupRoots")
+      });
+  </script>
+  <link href="css/landing-page.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light static-top">
+    <div class="container">
+      <div class="col-md-auto mt-5 mx-auto text-center brand-logo">
+        <h4 id="title">GroupRoots</h4>
+      </div>
+    </div>
+  </nav>
+
+  <section class="features-icons text-center">
+    <div class="wrapper" id="group_wrapper">
+<!--       <div class="box group">
+        <div class="box">FirstN LastN <br/><i class="fa fa-instagram" aria-hidden="true" style="font-size:36px; margin-top: 10px;"></i></div>
+        <div class="box">FirstN LastN</div>
+        <div class="box">FirstN LastN</div>
+      </div>
+      <div class="box group">
+        <div class="box">FirstN LastN</div>
+        <div class="box">FirstN LastN</div>
+        <div class="box">FirstN LastN</div>
+        <div class="box">FirstN LastN</div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer"
+    <div class="container">
+      <div class="row" style="margin: 0px; padding: 0px;">
+        <div class="col-lg-6 h-100 text-center" style="margin: 0px; padding: 0px;">
+          <p class="text-muted small mb-4 mb-lg-0">&copy; GroupRoots 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center" style="margin: 0px; padding: 0px;">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="https://twitter.com/grouproots_hq">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/grouproots">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+
+  <script>
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      var expires = "expires="+d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    function checkCookie() {
+      var user = getCookie("username");
+      if (user != "") {
+        alert("Welcome again " + user);
+      } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+          setCookie("username", user, 365);
+        }
+      }
+    }
+  </script>
+
+  <script>
+    function formatForFirebase(key){
+        var res = key.replace("@", "_abc_");
+        res = res.replace(".", "_def_")
+        res = res.replace("-", "_ghi_")
+        res = res.replace("$", "_jkl_")
+        res = res.replace("*", "_mno_")
+        res = res.replace("&", "_pqr_")
+        res = res.replace(" ", "_stu_")
+        return res
+    }
+
+    function formatFromFirebase(key){
+      if (key) {
+        var res = key.replace("_abc_", "@");
+        res = res.replace("_def_", ".")
+        res = res.replace("_ghi_", "-")
+        res = res.replace("_jkl_", "$")
+        res = res.replace("_mno_", "*")
+        res = res.replace("_pqr_", "&")
+        res = res.replace("_stu_", " ")
+        return res
+      }
+      return ""
+    }
+  </script>
+
+  <script>
+    $( document ).ready(function() {
+        var group_id_hashed = getCookie("gropu_being_created_hashed_key")
+        $('#sharelink').text("grouproots.com/join_group?" + group_id_hashed)
+    });
+  </script>
+
+  <script>
+    var DispatchGroup = (function() {
+      var nextId = 0
+
+      function DispatchGroup() {
+        var id = ++nextId
+        var tokens = new Set()
+        var onCompleted = null
+
+        function checkCompleted() {
+            if(!tokens.size) {
+                if(onCompleted) {
+                    onCompleted()
+                }
+            }
+        }
+
+        // the only requirement for this is that it's unique during the group's cycle
+        function nextToken() {
+            return Date.now() + Math.random()
+        }
+
+        this.enter = function () {
+            let token = nextToken()
+            tokens.add(token)
+            return token
+        }
+
+        this.leave = function (token) {
+            if(!token) throw new Error("'token' must be the value earlier returned by '.enter()'")
+            tokens.delete(token)
+            checkCompleted()
+        }
+
+        this.notify = function (whenCompleted) {
+            if(!whenCompleted) throw new Error("'whenCompleted' must be defined")
+            onCompleted = whenCompleted
+            checkCompleted()
+        }
+      }
+      return DispatchGroup;
+    }) ()
+  </script>
+
+  <script>
+    function addAnotherFriendEmail() {
+      // $("#friendEmails").append('<input class="form-control form-control-lg create_group mb-2 create_group_email" type="text" name="create_group" placeholder="Add a friend\'s email">')
+      var number_of_friends = document.getElementsByClassName("create_group_email").length + 1
+
+      $("#friendEmails").append('<input class="form-control form-control-lg create_group mb-2 create_group_name" type="text" placeholder="Friend #' + number_of_friends + ' Name">')
+      $("#friendEmails").append('<input class="form-control form-control-lg create_group mb-2 create_group_email" type="text" placeholder="Friend #' + number_of_friends + ' Email">')  
+    }
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyD1sLDmgetiUZhKbmNOxEoizGAlwLW12mA",
+      authDomain: "grouprootscom.firebaseapp.com",
+      projectId: "grouprootscom",
+      storageBucket: "grouprootscom.appspot.com",
+      messagingSenderId: "468081482120",
+      appId: "1:468081482120:web:125106b13d7f8e6c97423d",
+      measurementId: "G-FB17YQFQT9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    function populateGroups(group_names, group_members) {
+      Object.keys(group_names).forEach(function(group_id) {
+        var group_name = formatFromFirebase(group_names[group_id])
+        var members = group_members[group_id]
+
+        var htmlToAppend = '<div class="box group">'
+        Array.from(members).forEach(function(member_arr) {
+          var member_name = formatFromFirebase(member_arr[0])
+          var member_insta = formatFromFirebase(member_arr[1])
+          htmlToAppend += '<div class="box">' + member_name
+          if (member_insta != "") {
+            htmlToAppend += '<br/><a href="http://www.instagram.com/' + member_insta + '" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size:36px; margin-top: 10px;"></i></a>'
+          }
+          htmlToAppend += '</div>'
+        });
+        htmlToAppend += '</div>'
+
+        $("#group_wrapper").append(htmlToAppend)
+      })
+      
+
+      // <div class="box group">
+      //   <div class="box">FirstN LastN <br/><i class="fa fa-instagram" aria-hidden="true" style="font-size:36px; margin-top: 10px;"></i></div>
+      //   <div class="box">FirstN LastN</div>
+      //   <div class="box">FirstN LastN</div>
+      // </div>
+    }
+
+    function getGroupsForSchool(){
+      console.log("1")
+      
+      // group_id: [name, insta]
+      var group_members = {};
+
+      // group_id: group_name
+      var group_names = {}
+
+      var group_emails = {}
+
+      // get all the groups for the school
+      firebase.database().ref('/schools/' + unformatted_school + '/groups').once('value').then((groups_snapshot) => {
+        console.log("2")
+        // if the school exists
+        if (groups_snapshot !== null && groups_snapshot.val() !== null) {
+          console.log("3")
+
+          let sync = new DispatchGroup();
+          var token_0 = sync.enter();
+
+          groups_snapshot.forEach(function(group) {
+            var token = sync.enter()
+            var group_id = group.key;
+
+            // get the groupname
+            firebase.database().ref('/schools/' + unformatted_school + '/groups/' + group_id + '/group_name').once('value').then((groupname_snapshot) => {
+              var group_name = groupname_snapshot.val();
+              group_names[group_id] = group_name
+
+                // get the emails for the group_id
+              firebase.database().ref('/schools/' + unformatted_school + '/groups/' + group_id + '/emails').once('value').then((emails_snapshot) => {
+                group_emails[group_id] = emails_snapshot
+                sync.leave(token)
+              });
+            });
+          })
+          sync.leave(token_0);
+          sync.notify(function() {
+            console.log("hi")
+
+            let sync = new DispatchGroup();
+            Object.keys(group_emails).forEach(function(group_id) {
+              var emails = group_emails[group_id]
+              emails.forEach(function(email_obj) {
+                var token = sync.enter()
+                var email = email_obj.key;
+
+                // get the full name of the email
+                firebase.database().ref('/schools/' + unformatted_school + '/emails/' + email + '/full_name').once('value').then((full_name_snapshot) => {
+                  var full_name = full_name_snapshot.val()
+
+                  // get the insta of the name
+                  firebase.database().ref('/schools/' + unformatted_school + '/emails/' + email + '/insta').once('value').then((insta_snapshot) => {
+                    var insta = insta_snapshot.val()
+
+                    if (group_members[group_id]) {
+                      group_members[group_id].push([full_name, insta])
+                    }
+                    else {
+                      group_members[group_id] = [[full_name, insta]]
+                    }
+                    sync.leave(token)
+                  });
+                });
+              });
+            });
+            sync.notify(function() {
+              populateGroups(group_names, group_members)
+            });
+          })
+        }
+      })
+    }
+
+    $( document ).ready(function() {
+        getGroupsForSchool()
+    });
+
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

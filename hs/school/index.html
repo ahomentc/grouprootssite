@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ********** Org PAGE ********** -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL8GNHF3XS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TL8GNHF3XS');
+  </script> -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GroupRoots</title>
+
+  <link rel="icon" type="image/png" href="img/icon_16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="img/icon_32.png" sizes="32x32">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
+  <script type="text/javascript">
+      var unformatted_school = ""
+      $(document).ready(function(){
+          var query = window.location.search;
+          query = query.replace("?", '');
+          school = query.split('=')[1];
+          unformatted_school = school;
+          school = school.replace(/_/g," ");
+          var just_school = school.split(',')[0]
+          $("#title").html("See all the Friend Groups in " + just_school + ".")
+      });
+  </script>
+  <link href="css/landing-page.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light static-top">
+    <div class="container">
+      <div class="col-md-auto mt-5 mx-auto text-center brand-logo">
+        <h5 class="mb-2 mt-2" id="title">Friend Groups in Your School</h5>
+        <h6 class="mb-3">Add or join a group to get access.</h6>
+      </div>
+    </div>
+  </nav>
+
+  <section class="features-icons text-center">
+    <div class="container" style="font-size: 0;">
+      <div class="col-12 col-md-11 mx-auto">
+        <div class="form-row mb-0">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-2 mx-auto">
+            <input class="form-control form-control-lg create_group" type="text" id="create_group_email" name="create_group" placeholder="Enter your email">
+            <button type="submit" onclick="addEmailAndGroup()" class="btn btn-block btn-lg btn-primary mt-2" id="submit_group_button">Create a group</button>
+          </div>
+          <!-- <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+            <button type="submit" class="btn btn-block btn-lg btn-primary">Create Group</button>
+          </div> -->
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-1 mx-auto">
+          <button type="submit" class="btn mt-2 in_group_button">Already in a group?</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-icons text-center">
+    <div class="container">
+      <div class="col-12 col-md-6 col-lg-7 col-xl-7 mb-2 mx-auto">
+        <h6 class="mb-3 mt-1">We're giving $10 amazon gift card codes to the first 10 people from your school who share the group they created or joined on their Instagram story.</h6>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-icons text-center">
+    <div class="container" style="font-size: 0;">
+      <h4 class="mb-4 mt-1" style="color: #00a66c">Preview</h4>
+      <img class="mb-4" src="img/org_preview_19.png" id="org_preview" />
+    </div>
+  </section>
+
+  <section class="features-icons text-center">
+    <div class="container" style="font-size: 0;">
+      <h5 class="mb-4 mt-1" style="color: #FFF">We're expanding GroupRoots to an app</h5>
+      <h6 class="mb-3 mt-1 col-10 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto" style="color: #FFF">Build group profiles together with your favorite photos and videos.</h6>
+      <h6 class="mb-0 mt-1 col-10 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto" style="color: #FFF">Show your followers the groups you're in and their posts.</h6>
+    </div>
+  </section>
+
+  <section class="features-icons text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-4">
+          <!-- <img src="screenshots/screenshot_3_3.png" class="screenshot"/> -->
+          <video class="vid" src="screenshots/scroll_vid_14.mp4" autoplay muted loop playsinline></video>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4">
+          <img src="screenshots/screenshot_4_3.png" class="screenshot"/>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img src="screenshots/screenshot_5_3.png" class="screenshot2"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer"
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center my-auto">
+          <p class="text-muted small mb-4 mb-lg-0">&copy; GroupRoots 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="https://twitter.com/grouproots_hq">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/grouproots">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+
+  <script>
+    function setCookie(cname, cvalue, exdays) {
+      var d = new Date();
+      d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+      var expires = "expires="+d.toUTCString();
+      document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    function checkCookie() {
+      var user = getCookie("username");
+      if (user != "") {
+        alert("Welcome again " + user);
+      } else {
+        user = prompt("Please enter your name:", "");
+        if (user != "" && user != null) {
+          setCookie("username", user, 365);
+        }
+      }
+    }
+  </script>
+
+  <script>
+    function formatForFirebase(key){
+        var res = key.replace("@", "_abc_");
+        res = res.replace(".", "_def_")
+        res = res.replace("-", "_ghi_")
+        res = res.replace("$", "_jkl_")
+        res = res.replace("*", "_mno_")
+        res = res.replace("&", "_pqr_")
+        res = res.replace(" ", "_stu_")
+        return res
+    }
+
+    function hashCode (str){
+        var hash = 0;
+        if (str.length == 0) return hash;
+        for (i = 0; i < str.length; i++) {
+            char = str.charCodeAt(i);
+            hash = ((hash<<5)-hash)+char;
+            hash = hash & hash; // Convert to 32bit integer
+        }
+        return hash;
+    }
+  </script>
+
+  <script>
+    // check if the formatted_grouproots_email cookie already exists, if so, then check to see if it exists
+    // in grouproots database and go to it
+
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyD1sLDmgetiUZhKbmNOxEoizGAlwLW12mA",
+      authDomain: "grouprootscom.firebaseapp.com",
+      projectId: "grouprootscom",
+      storageBucket: "grouprootscom.appspot.com",
+      messagingSenderId: "468081482120",
+      appId: "1:468081482120:web:125106b13d7f8e6c97423d",
+      measurementId: "G-FB17YQFQT9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    var set_email_school = false
+    var set_school_email = false
+    var set_school_group = false
+    var set_school_email = false
+    var set_group_school = false
+
+    function checkIfShouldRedirect(){
+      if (set_email_school && set_school_email && set_school_group && set_school_email && set_group_school) {
+        var new_url = window.location.href.substring(0, window.location.href.lastIndexOf('/')) + "/finish_group" + name + window.location.href.substring(window.location.href.lastIndexOf('/'));
+        window.location.href = new_url;
+      }
+    }
+
+    // won't have authentication system or user system, just have email
+    // makes it easier for the user
+    function addEmail(email) {
+
+      // set the email with the school, okay to not have check since we don't have other things under unformatted_school
+      // TODO: *********** Might need to add a counter to this so we know the first x people in a school
+      firebase.database().ref('/emails/' + email + "/schools/" + unformatted_school).set(1).then(() => {
+        set_email_school = true;
+        checkIfShouldRedirect();
+      });
+
+      // check to see if email already exists in database first
+      firebase.database().ref('/schools/' + unformatted_school + '/emails/' + email).once('value').then((snapshot) => {
+        if (snapshot === null && snapshot.val() === null) {
+          firebase.database().ref('/schools/' + unformatted_school + '/emails/' + email + "/").set(1).then(() => {
+            set_school_email = true;
+            checkIfShouldRedirect();
+          });
+        }
+      });
+    }
+
+    function addGroup(email) {
+      var newGroupKey = firebase.database().ref().child('groups').push().key;
+      var groupNameHash = hashCode(newGroupKey)
+
+      setCookie("group_being_created_key", newGroupKey, 3650);
+      setCookie("gropu_being_created_hashed_key", groupNameHash, 3650);
+
+      firebase.database().ref('/schools/' + unformatted_school + '/groups/' + newGroupKey + "/emails/" + email).set(1).then(() => {
+        set_school_group = true;
+        checkIfShouldRedirect();
+      });
+      firebase.database().ref('/schools/' + unformatted_school + '/emails/' + email + '/groups/' + newGroupKey).set(1).then(() => {
+        set_school_email = true;
+        checkIfShouldRedirect();
+      });
+      firebase.database().ref('/groups/' + newGroupKey + '/school').set(unformatted_school).then(() => {
+        firebase.database().ref('/groupid_hashes/' + groupNameHash).set(newGroupKey).then(() => {
+          set_group_school = true;
+          checkIfShouldRedirect();
+        });
+      });
+    }
+
+    function addEmailAndGroup() {
+        // get the email in the form
+        var email = document.getElementById("create_group_email").value;
+        if (email != "") {
+            formatted_email = formatForFirebase(email)
+            // save email to a cookie (formatted_email)
+            setCookie("formatted_grouproots_email", formatted_email, 3650);
+
+            addEmail(formatted_email)
+            addGroup(formatted_email)
+        }
+    }
+
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

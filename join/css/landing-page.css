@@ -135,8 +135,8 @@ header.masthead h1 {
 .new_reservation, .new_reservation:hover, .new_reservation:active, .new_reservation:visited {
     background-color: #FFFFFF !important;
     border-width: 1px;
-    border-color: #00a66c;
-    color: #00a66c;
+    border-color: #000000;
+    color: #000;
     font-size: 1rem;
 }
 
@@ -147,7 +147,8 @@ header.masthead h1 {
 }
 
 .reserve_text{
-  color: #00a66c;
+  /*color: #00a66c;*/
+  text-decoration: underline;
 }
 
 .register_link {

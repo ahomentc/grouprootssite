@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ********** Org PAGE ********** -->
+
+<!-- php -S localhost:8888 to start server -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL8GNHF3XS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TL8GNHF3XS');
+  </script> -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>GroupRoots</title>
+
+  <link rel="icon" type="image/png" href="img/icon_16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="img/icon_32.png" sizes="32x32">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          let req = new XMLHttpRequest();
+          req.onreadystatechange = () => {
+            if (req.readyState == XMLHttpRequest.DONE) {
+              // console.log(req.responseText);
+              let schools = $.parseJSON(req.responseText);
+              console.log(schools)
+              $("#schoolSearch").autocomplete({
+                source: schools,
+                select: function (event, ui) {
+                  var name = ui.item.label;
+                  name = name.replace(/ /g,"_");
+                  var new_url = window.location.href.substring(0, window.location.href.lastIndexOf('/')) + "/school/index.html?name=" + name;
+                  window.location.href = new_url;
+                  return false;
+                }
+              });
+            }
+          };
+          req.open("GET", "https://api.jsonbin.io/b/5fd6e7afbef8b7699e594b3f", true);
+          req.setRequestHeader("secret-key", "$2b$10$gmVegKOXA5XwGbB.2ObUbuxW3wXnON1XmdVpRYfGsp9COjg4P3qnS");
+          req.send();
+
+          // $("#schoolSearch").autocomplete({
+          //   source: data,
+          //   // source: 'https://api.jsonbin.io/b/5fd6e078bef8b7699e5948d6', 
+          //   select: function (event, ui) {
+          //     var name = ui.item.label;
+          //     name = name.replace(/ /g,"_");
+          //     var new_url = window.location.href.substring(0, window.location.href.lastIndexOf('/')) + "/school/index.html?name=" + name;
+          //     window.location.href = new_url;
+          //     return false;
+          //   }
+          // });
+      });
+  </script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light static-top">
+    <div class="container">
+      <div class="col-md-auto mt-5 mx-auto text-center brand-logo">
+        <a href=""><img src="img/Logo.png" alt=""/></a>
+        <h5 class="mb-5 mt-2" id="test">Friend Groups In Your School</h5>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+<!--   <header class="masthead-top text-black text-center">
+    <div class="col-xl-9 mx-auto">
+      <h5 class="mb-5">Find groups in your school</h5>
+    </div>
+  </header>
+  <header class="masthead text-black text-center">
+    <div class="col-xl-9 mx-auto">
+      <h5 class="col-11 col-sm-11 col-md-12 col-lg-12 col-xl-8 mx-auto mb-3">The only app that shows you the friend groups of people you know.</h5>
+      <h5 class="col-11 col-sm-11 col-md-12 col-lg-12 col-xl-8 mx-auto mb-3">See who's in each group, and what photos and videos they post to it.</h5>
+      <h5 class="col-11 col-sm-11 col-md-12 col-lg-12 col-xl-9 mx-auto mb-3">You'll get access to the app when you and a few of your friends reserve groups.</h5>
+
+    </div>
+  </header> -->
+
+  <section class="features-icons text-center">
+    <div class="container" style="font-size: 0;">
+      <div class="col-12 col-md-11 mx-auto">
+        <form autocomplete="off">
+          <div class="form-row mb-0">
+            <div class="col-12 col-md-9 col-lg-8 col-xl-9 mb-2 mx-auto">
+              <input class="form-control form-control-lg enter_school" id="schoolSearch" type="text" name="selectSchool" placeholder="Search for your school">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<!--   <footer class="footer"
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center my-auto">
+          <p class="text-muted small mb-4 mb-lg-0">&copy; GroupRoots 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="https://twitter.com/grouproots_hq">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/grouproots">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

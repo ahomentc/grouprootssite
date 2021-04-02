@@ -1,0 +1,3704 @@
+Monte Vista High School
+San Ramon
+Cal
+
+Remove all symbols
+Remove all lines with "district" or "District"
+
+const lis = document.querySelectorAll("li");
+for (i = 0; i < lis.length; i++) {
+    console.log(lis[i].textContent);
+}
+
+Autauga Academy, Prattville
+VM1424:4 Autaugaville School, Autaugaville
+VM1424:4 Billingsley High School, Billingsley
+VM1424:4 Prattville Christian Academy, Prattville
+VM1424:4 Prattville High School, Prattville
+VM1424:4 Marbury High School, Marbury
+VM1424:4 Baldwin County High School, Bay Minette
+VM1424:4 Daphne High School, Daphne
+VM1424:4 Elberta High School, Elberta
+VM1424:4 Fairhope High School, Fairhope
+VM1424:4 Foley High School, Foley
+VM1424:4 Gulf Shores High School, Gulf Shores
+VM1424:4 Robertsdale High School, Robertsdale
+VM1424:4 Spanish Fort High School, Spanish Fort
+VM1424:4 Barbour County High School, Clayton
+VM1424:4 Eufaula High School, Eufaula
+VM1424:4 Vivian B. Adams High School, Ozark
+VM1424:4 The Lakeside School, Eufaula
+VM1424:4 Bibb County High School, Centreville
+VM1424:4 West Blocton High School, West Blocton
+VM1424:4 Appalachian High School, Appalachian
+VM1424:4 Cleveland High School, Cleveland
+VM1424:4 Hayden High School, Hayden
+VM1424:4 J. B. Pennington High School, Blountsville
+VM1424:4 Locust Fork High School, Locust Fork
+VM1424:4 Oneonta City Schools, Oneonta
+VM1424:4 Susan Moore High School, Snead
+VM1424:4 Bullock County High School, Union Springs
+VM1424:4 Georgiana School, Georgiana
+VM1424:4 Greenville High School, Greenville
+VM1424:4 McKenzie High School, McKenzie
+VM1424:4 Alexandria High School, Alexandria
+VM1424:4 Anniston High School, Anniston
+VM1424:4 Jacksonville High School, Jacksonville
+VM1424:4 Jacksonville Christian Academy, Jacksonville, Alabama
+VM1424:4 Ohatchee High School, Ohatchee
+VM1424:4 Oxford High School, Oxford
+VM1424:4 Piedmont High School, Piedmont
+VM1424:4 Pleasant Valley High School, Jacksonville
+VM1424:4 Saks High School, Anniston
+VM1424:4 Weaver High School, Weaver
+VM1424:4 Wellborn High School, Anniston
+VM1424:4 White Plains High School, Anniston
+VM1424:4 Lafayette High School, Lafayette
+VM1424:4 Lanett High School, Lanett
+VM1424:4 Valley High School, Valley
+VM1424:4 Cedar Bluff High School, Cedar Bluff
+VM1424:4 Cherokee County High School, Centre
+VM1424:4 Gaylesville High School, Gaylesville
+VM1424:4 Sand Rock High School, Sand Rock
+VM1424:4 Spring Garden High School, Spring Garden
+VM1424:4 Chilton Christian Academy, Jemison
+VM1424:4 Chilton County High School, Clanton
+VM1424:4 Isabella High School, Maplesville
+VM1424:4 Jemison High School, Jemison
+VM1424:4 Maplesville High School, Maplesville
+VM1424:4 Thorsby High School, Thorsby
+VM1424:4 Verbena High School, Verbena
+VM1424:4 Choctaw County High School, Butler
+VM1424:4 South Choctaw Academy, Toxey
+VM1424:4 Southern Choctaw High School, Gilbertown
+VM1424:4 Clarke County High School, Grove Hill
+VM1424:4 Jackson High School, Jackson
+VM1424:4 Thomasville High School, Thomasville
+VM1424:4 Clay County Christian Academy
+VM1424:4 Central High School of Clay County
+VM1424:4 Cleburne County High School, Heflin
+VM1424:4 Ranburne High School, Ranburne
+VM1424:4 Elba High School, Elba
+VM1424:4 Enterprise High School, Enterprise
+VM1424:4 Kinston High School, Kinston
+VM1424:4 New Brockton High School, New Brockton
+VM1424:4 Zion Chapel High School, Jack
+VM1424:4 Cherokee High School, Cherokee
+VM1424:4 Colbert County High School, Leighton
+VM1424:4 Colbert Heights High School, Tuscumbia (Colbert Heights)
+VM1424:4 Deshler High School, Tuscumbia
+VM1424:4 Muscle Shoals High School, Muscle Shoals
+VM1424:4 Sheffield High School, Sheffield
+VM1424:4 Hillcrest High School, Evergreen
+VM1424:4 Central High School, Rockford
+VM1424:4 Andalusia High School, Andalusia
+VM1424:4 Florala High School, Florala
+VM1424:4 Opp High School, Opp
+VM1424:4 Pleasant Home School, Andalusia
+VM1424:4 Red Level High School, Red Level
+VM1424:4 Straughn High School, Andalusia
+VM1424:4 Brantley High School, Brantley
+VM1424:4 Highland Home High School, Highland Home
+VM1424:4 Luverne High School, Luverne
+VM1424:4 Cold Springs High School, Bremen
+VM1424:4 Cullman High School, Cullman
+VM1424:4 Fairview High School
+VM1424:4 Good Hope High School
+VM1424:4 Hanceville High School
+VM1424:4 Holly Pond High School
+VM1424:4 St. Bernard Preparatory School, Cullman
+VM1424:4 Vinemont High School
+VM1424:4 West Point High School
+VM1424:4 Carroll High School, Ozark
+VM1424:4 Dale County High School, Midland City
+VM1424:4 Daleville High School, Daleville
+VM1424:4 G. W. Long High School, Skipperville
+VM1424:4 Dallas County High School, Plantersville
+VM1424:4 Ellwood Christian Academy, Selma
+VM1424:4 Keith High School, Orrville
+VM1424:4 Meadowview Christian School, Selma
+VM1424:4 John T. Morgan Academy, Selma
+VM1424:4 Selma High School, Selma
+VM1424:4 Southside High, Selma
+VM1424:4 Collinsville High School, Collinsville
+VM1424:4 Crossville High School, Crossville
+VM1424:4 Fort Payne High School, Fort Payne
+VM1424:4 Fyffe High School, Fyffe
+VM1424:4 Geraldine High School, Geraldine
+VM1424:4 Ider High School, Ider
+VM1424:4 Plainview High School, Rainsville
+VM1424:4 Sylvania High School, Sylvania
+VM1424:4 Valley Head High School, Valley Head
+VM1424:4 Elmore County High School
+VM1424:4 Holtville High School
+VM1424:4 Stanhope Elmore High School
+VM1424:4 Wetumpka High School
+VM1424:4 Tallassee High School, Tallassee, AL
+VM1424:4 Escambia Academy High School, Atmore
+VM1424:4 Escambia County High School, Atmore
+VM1424:4 Flomaton High School, Flomaton
+VM1424:4 T. R. Miller High School, Brewton
+VM1424:4 W. S. Neal High School, East Brewton
+VM1424:4 Coosa Christian High School, Gadsden
+VM1424:4 Emma Sansom High School, Gadsden (closed)
+VM1424:4 Etowah High School, Attalla (closed)
+VM1424:4 Gadsden City High School, Gadsden
+VM1424:4 Glencoe High School, Glencoe
+VM1424:4 Gaston High School, Gadsden
+VM1424:4 Hokes Bluff High School, Hokes Bluff
+VM1424:4 Litchfield High School, Gadsden (closed)
+VM1424:4 Sardis High School, Sardis
+VM1424:4 Southside High School, Southside
+VM1424:4 West End High School, Walnut Grove
+VM1424:4 Berry High School, Berry
+VM1424:4 Fayette County High School, Fayette
+VM1424:4 Hubbertville School, Hubertville
+VM1424:4 Belgreen High School, Russellville
+VM1424:4 Phil Campbell High School, Phil Campbell
+VM1424:4 Red Bay High School, Red Bay
+VM1424:4 Russellville High School, Russellville
+VM1424:4 Tharptown High School, Russellville
+VM1424:4 Vina High School, Vina
+VM1424:4 Geneva County High School, Hartford
+VM1424:4 Geneva High School, Geneva
+VM1424:4 Samson High School, Samson
+VM1424:4 Slocomb High School, Slocomb
+VM1424:4 Greene County High School, Eutaw
+VM1424:4 Hale County High School, Moundville
+VM1424:4 Abbeville Christian Academy
+VM1424:4 Abbeville High School, Abbeville
+VM1424:4 Headland High School
+VM1424:4 Ashford Academy, Ashford
+VM1424:4 Ashford High School, Ashford
+VM1424:4 Cottonwood High School, Cottonwood
+VM1424:4 Dothan High School, Dothan
+VM1424:4 Emmanuel Christian School, Dothan
+VM1424:4 Houston Academy, Dothan
+VM1424:4 Houston County High School, Columbia
+VM1424:4 Northside Methodist Academy, Dothan
+VM1424:4 Northview High School, Dothan
+VM1424:4 Providence Christian School, Dothan
+VM1424:4 Rehobeth High School Rehobeth
+VM1424:4 Wicksburg High School, Wicksburg
+VM1424:4 Mountain View Christian Academy, Bryant
+VM1424:4 North Jackson High School, Stevenson
+VM1424:4 North Sand Mountain, Higdon
+VM1424:4 Scottsboro High School, Scottsboro
+VM1424:4 Section High School, Section
+VM1424:4 Skyline High School, Scottsboro
+VM1424:4 Woodville High School, Woodville, Alabama
+VM1424:4 A. H. Parker High School, Birmingham
+VM1424:4 Alabama School of Fine Arts, Birmingham
+VM1424:4 Altamont School, Birmingham
+VM1424:4 Bessemer City High School, Bessemer
+VM1424:4 Center Point High School, Center Point
+VM1424:4 Clay-Chalkville High School, Clay
+VM1424:4 Corner High School, Warrior
+VM1424:4 Ensley High School, Birmingham
+VM1424:4 Fairfield High Preparatory School, Fairfield
+VM1424:4 Fultondale High School, Fultondale
+VM1424:4 Gardendale High School, Gardendale
+VM1424:4 George Washington Carver High School, Birmingham
+VM1424:4 Hewitt-Trussville High School, Trussville
+VM1424:4 Homewood High School, Homewood
+VM1424:4 Hoover High School, Hoover
+VM1424:4 Hueytown High School, Hueytown
+VM1424:4 Huffman High School, Birmingham
+VM1424:4 Jackson-Olin High School, Birmingham
+VM1424:4 Jefferson County International Baccalaureate School, Irondale
+VM1424:4 John Carroll Catholic High School, Birmingham
+VM1424:4 Leeds High School, Leeds
+VM1424:4 McAdory High School, McCalla
+VM1424:4 Midfield High School, Midfield
+VM1424:4 Minor High School, Adamsville
+VM1424:4 Mortimer Jordan High School, Morris
+VM1424:4 Mountain Brook High School, Mountain Brook
+VM1424:4 Oak Grove High School, Bessemer
+VM1424:4 Pinson Valley High School, Pinson
+VM1424:4 Pleasant Grove High School, Pleasant Grove
+VM1424:4 Ramsay High School, Birmingham
+VM1424:4 Shades Valley High School, Irondale
+VM1424:4 Tabernacle Christian School, Gardendale
+VM1424:4 Tarrant High School, Birmingham
+VM1424:4 Vestavia Hills High School, Vestavia Hills
+VM1424:4 Wenonah High School, Birmingham
+VM1424:4 West End High School, Birmingham
+VM1424:4 Woodlawn High School, Birmingham
+VM1424:4 Lamar County High School, Vernon
+VM1424:4 South Lamar High School, Millport
+VM1424:4 Sulligent High School, Sulligent
+VM1424:4 Brooks High School, Killen
+VM1424:4 Central High School, Florence
+VM1424:4 Florence High School, Florence
+VM1424:4 Lauderdale County High School, Rogersville
+VM1424:4 Lexington High School, Lexington
+VM1424:4 Mars Hill Bible School, Florence
+VM1424:4 Shoals Christian Academy, Florence
+VM1424:4 Rogers High School, Lexington (Greenhill)
+VM1424:4 Waterloo High School, Waterloo
+VM1424:4 East Lawrence High School, Trinity (Caddo)
+VM1424:4 Hatton High School, Town Creek (Hatton)
+VM1424:4 Lawrence County High School, Moulton
+VM1424:4 R.A. Hubbard High School, North Courtland
+VM1424:4 Auburn High School, Auburn
+VM1424:4 Beauregard High School, Opelika
+VM1424:4 Loachapoka High School, Loachapoka
+VM1424:4 Opelika High School, Opelika
+VM1424:4 Smiths Station High School, Smiths Station
+VM1424:4 Beulah High School, Beulah, AL
+VM1424:4 Athens High School, Athens
+VM1424:4 Clements High School, Athens (Clements)
+VM1424:4 East Limestone High School, Athens (Capshaw)
+VM1424:4 Elkmont High School, Elkmont
+VM1424:4 Ardmore High School, Ardmore
+VM1424:4 Tanner High School, Tanner
+VM1424:4 West Limestone High School, Athens (Lester)
+VM1424:4 Calhoun Colored School, Calhoun (1892–1945)
+VM1424:4 Calhoun High School, Letohatchee
+VM1424:4 Central High School, Hayneville
+VM1424:4 Lowndes Academy, Lowndesboro
+VM1424:4 Booker T. Washington High School, Tuskegee
+VM1424:4 Notasulga High School, Notasulga
+VM1424:4 Buckhorn High School, New Market
+VM1424:4 Bob Jones High School, Madison
+VM1424:4 Columbia High School, Huntsville
+VM1424:4 Hazel Green High School, Hazel Green
+VM1424:4 Huntsville High School, Huntsville
+VM1424:4 J.O. Johnson High School, Huntsville
+VM1424:4 James Clemens High School, Madison
+VM1424:4 Jemison High School (Huntsville), Huntsville
+VM1424:4 Lee High School, Huntsville
+VM1424:4 Madison County High School, Gurley
+VM1424:4 New Century Technology High School, Huntsville
+VM1424:4 New Hope High School, New Hope
+VM1424:4 Oakwood Adventist Academy, Huntsville
+VM1424:4 Pope John Paul II Catholic High School, Huntsville
+VM1424:4 Randolph School, Huntsville
+VM1424:4 S. R. Butler High School, Huntsville
+VM1424:4 Sparkman High School, Harvest
+VM1424:4 Virgil I. Grissom High School, Huntsville
+VM1424:4 Amelia Love Johnson High School, Thomaston
+VM1424:4 Demopolis High School, Demopolis
+VM1424:4 John Essex High School, Demopolis
+VM1424:4 Linden High School, Linden
+VM1424:4 Marengo Academy High School, Linden
+VM1424:4 Marengo High School, Dixons Mills
+VM1424:4 Sweet Water High School, Sweet Water
+VM1424:4 Brilliant High School, Brilliant
+VM1424:4 Hackleburg High School, Hackleburg
+VM1424:4 Hamilton High School, Hamilton
+VM1424:4 Marion County High School, Guin
+VM1424:4 Phillips High School, Bear Creek
+VM1424:4 Winfield High School, Winfield
+VM1424:4 Albertville High School, Albertville
+VM1424:4 Arab High School, Arab
+VM1424:4 Asbury High School, Albertville
+VM1424:4 Boaz High School, Boaz
+VM1424:4 Brindlee Mountain High School, Guntersville
+VM1424:4 Douglas High School, Douglas
+VM1424:4 Guntersville High School, Guntersville
+VM1424:4 Kate Duncan Smith DAR School, Grant
+VM1424:4 Alabama School of Mathematics and Science, Mobile
+VM1424:4 Alma Bryant High School,  Bayou La Batre, Grand Bay
+VM1424:4 B.C. Rain High School, Mobile
+VM1424:4 Baker High School, Mobile
+VM1424:4 Citronelle High School, Citronelle
+VM1424:4 Davidson High School, Mobile
+VM1424:4 Faith Academy, Mobile
+VM1424:4 John L. LeFlore Magnet High School of Advanced Communication and Fine Performing Arts, Mobile
+VM1424:4 Mary G. Montgomery High School, Semmes
+VM1424:4 Mattie T. Blount High School, Eight Mile
+VM1424:4 McGill-Toolen Catholic High School, Mobile
+VM1424:4 Murphy High School, Mobile
+VM1424:4 Saint Pauls High School, Mobile
+VM1424:4 Saraland High School, Saraland
+VM1424:4 Satsuma High School, Satsuma
+VM1424:4 Theodore High School, Theodore
+VM1424:4 UMS-Wright High School, Mobile
+VM1424:4 Vigor High School, Prichard
+VM1424:4 Williamson High School, Mobile
+VM1424:4 Excel High School, Excel
+VM1424:4 Frisco City High School, Frisco City
+VM1424:4 J. F. Shields High School, Beatrice
+VM1424:4 J. U. Blacksher School, Uriah
+VM1424:4 Monroe Academy, Monroeville
+VM1424:4 Monroe County High School, Monroeville
+VM1424:4 Monroe Intermediate School
+VM1424:4 Alabama Christian Academy, Montgomery
+VM1424:4 Booker T. Washington High Magnet School, Montgomery
+VM1424:4 Brewbaker Technology Magnet High School, Montgomery
+VM1424:4 George Washington Carver High School, Montgomery
+VM1424:4 Jefferson Davis High School, Montgomery
+VM1424:4 Loveless Academic Magnet Program  (LAMP), Montgomery
+VM1424:4 Montgomery Academy, Montgomery
+VM1424:4 Montgomery Catholic Preparatory School, Montgomery
+VM1424:4 Park Crossing High School, Montgomery
+VM1424:4 Robert E. Lee High School, Montgomery
+VM1424:4 Saint James School, Montgomery
+VM1424:4 St. Jude Educational Institute, Montgomery
+VM1424:4 Lanier High School, Montgomery
+VM1424:4 Trinity Presbyterian School, Montgomery
+VM1424:4 Albert P. Brewer High School, Somerville (Florette)
+VM1424:4 Austin High School, Decatur
+VM1424:4 Danville High School, Danville
+VM1424:4 Decatur Heritage Christian Academy, Decatur
+VM1424:4 Decatur High School, Decatur
+VM1424:4 Falkville High School, Falkville
+VM1424:4 Hartselle High School, Hartselle
+VM1424:4 Priceville High School, Priceville
+VM1424:4 West Morgan High School, Trinity
+VM1424:4 Francis Marion School, Marion
+VM1424:4 Robert C. Hatch, Uniontown
+VM1424:4 Marion Academy, Marion
+VM1424:4 Aliceville High School, Aliceville
+VM1424:4 Gordo High School, Gordo
+VM1424:4 Pickens Academy, Carrollton
+VM1424:4 Pickens County High School, Reform
+VM1424:4 Charles Henderson High School, Troy
+VM1424:4 Goshen High School, Goshen
+VM1424:4 Pike County High School, Brundidge
+VM1424:4 Handley High School
+VM1424:4 Randolph County High School
+VM1424:4 Wadley High School
+VM1424:4 Woodland High School
+VM1424:4 Central-Phenix City High School, Phenix City
+VM1424:4 Russell County High School, Seale
+VM1424:4 Ashville High School, Ashville
+VM1424:4 Moody High School, Moody
+VM1424:4 Pell City High School, Pell City
+VM1424:4 Ragland High School, Ragland
+VM1424:4 St. Clair County High School, Odenville
+VM1424:4 Springville High School, Springville
+VM1424:4 Victory Christian School, Pell City
+VM1424:4 Briarwood Christian School, Birmingham
+VM1424:4 Calera High School, Calera
+VM1424:4 Chelsea High School, Chelsea
+VM1424:4 Coosa Valley Academy Harpersville
+VM1424:4 Evangel Christian School, Alabaster
+VM1424:4 Helena High School, Helena
+VM1424:4 Indian Springs School, Indian Springs Village
+VM1424:4 Oak Mountain High School, Birmingham
+VM1424:4 Pelham High School, Pelham
+VM1424:4 Shelby County High School, Columbiana
+VM1424:4 Spain Park High School, Hoover
+VM1424:4 Thompson High School, Alabaster
+VM1424:4 Vincent High School,  Vincent
+VM1424:4 Sumter Academy, York (closed 2017)
+VM1424:4 Sumter Central High School, York
+VM1424:4 B. B. Comer Memorial High School, Sylacauga
+VM1424:4 Fayetteville High School, Sylacauga
+VM1424:4 Lincoln High School, Lincoln
+VM1424:4 Munford High School, Munford
+VM1424:4 Sylacauga High School, Sylacauga
+VM1424:4 Talladega High School, Talladega
+VM1424:4 Winterboro High School, Alpine
+VM1424:4 Talladega County Central High School (Talladega, Al)
+VM1424:4 Benjamin Russell High School, Alexander City
+VM1424:4 Horseshoe Bend High School, New Site
+VM1424:4 Reeltown High School, Notasulga, AL
+VM1424:4 Dadeville High School, Dadeville, AL
+VM1424:4 American Christian Academy, Tuscaloosa
+VM1424:4 Brookwood High School, Brookwood
+VM1424:4 Central High School, Tuscaloosa
+VM1424:4 Hillcrest High School, Tuscaloosa
+VM1424:4 Holt High School, Holt
+VM1424:4 Northridge High School, Tuscaloosa
+VM1424:4 Northside High School, Northport
+VM1424:4 Paul W. Bryant High School, Tuscaloosa
+VM1424:4 Sipsey Valley High School, Romulus
+VM1424:4 Tuscaloosa County High School, Northport
+VM1424:4 Carbon Hill High School, Carbon Hill
+VM1424:4 Cordova High School, Cordova
+VM1424:4 Curry High School, Curry
+VM1424:4 Dora High School,  Dora
+VM1424:4 Oakman High School, Oakman
+VM1424:4 Parrish High School, Parrish
+VM1424:4 Sumiton Christian School, Sumiton
+VM1424:4 Jasper High School, Jasper
+VM1424:4 Fruitdale High School, Fruitdale
+VM1424:4 Leroy High School, Leroy
+VM1424:4 McIntosh High School, McIntosh
+VM1424:4 Millry High School, Millry
+VM1424:4 Washington County High School, Chatom
+VM1424:4 Wilcox Academy, Camden
+VM1424:4 Wilcox Central High School, Camden
+VM1424:4 Addison High School, Addison
+VM1424:4 Lynn High School, Lynn
+VM1424:4 Meek High School, Arley
+VM1424:4 Winston County High School, Double Springs
+Unalaska School, Unalaska (3A)
+VM1440:4 Alternative Career Education School, Anchorage
+VM1440:4 Anchorage Junior Academy, Anchorage
+VM1440:4 Anchorage Outreach/Private School, Anchorage
+VM1440:4 Atheneum School, Anchorage
+VM1440:4 Anchorage Christian Schools(ACS), Anchorage
+VM1440:4 Birchwood Christian School, Chugiak
+VM1440:4 Eagle Crest Academy, Anchorage
+VM1440:4 Grace Christian School, Anchorage (3A)
+VM1440:4 Heritage Christian School, Anchorage (3A)
+VM1440:4 Holy Rosary Academy, Anchorage (1A)
+VM1440:4 iGrad~Alaska, Anchorage
+VM1440:4 Interior Distance Education of Alaska (IDEA), Anchorage
+VM1440:4 Lumen Christi Junior/Senior High School, Anchorage (1A)
+VM1440:4 McKinley Heights School, Eagle River
+VM1440:4 Pacific Northern Academy, Anchorage (1A)
+VM1440:4 Akiuk Memorial School, Kasigluk
+VM1440:4 Akula Elitnaurvik School, Kasigluk
+VM1440:4 Aniak High School, Aniak (1A)
+VM1440:4 Anna Tobeluk Memorial School, Nunapitchuk
+VM1440:4 Ayaprun School, Newtok
+VM1440:4 Chaptnguak School, Chefornak
+VM1440:4 Chief Paul Memorial, Kipnuk
+VM1440:4 Crow Village Sam School, Chuathbaluk
+VM1440:4 Dick R. Kiunya Memorial School, Kongiganak
+VM1440:4 Eek School, Eek
+VM1440:4 George Morgan Junior/Senior High School, Upper Kalskag (1A)
+VM1440:4 JoAnn Alexie School, Atmautluak
+VM1440:4 Ket'acik-Aapalluk Memorial School, Kwethluk
+VM1440:4 Kuinerrarmiut Elitnaurviat School, Quinhagak
+VM1440:4 Kwigillingok School, Kwigillingok
+VM1440:4 Lewis Angapak Memorial School, Tuntutuliaks
+VM1440:4 Lower Kuskokwim School District
+Bethel Alternative Boarding School, Bethel
+Bethel Regional High School, Bethel (3A)
+VM1440:4 Bethel Alternative Boarding School, Bethel
+VM1440:4 Bethel Regional High School, Bethel (3A)
+VM1440:4 Moses Peter School, Akiachak
+VM1440:4 Nelson Island School, Toksook Bay
+VM1440:4 Nightmute School, Nightmute
+VM1440:4 Nuniwarmiut School, Mekoryuk
+VM1440:4 Paul T. Albert Memorial School, Tununak
+VM1440:4 QuQuum School, Oscarville
+VM1440:4 Rocky Mountain School, Goodnews Bay
+VM1440:4 Tuluksak School, Tuluksak
+VM1440:4 William Miller Memorial School, Napakiak
+VM1440:4 Z. John Williams Memorial School, Napaskiak
+VM1440:4 Chief Ivan Blunka School, New Stuyahok
+VM1440:4 Koliganek School, Koliganek
+VM1440:4 Manokotak School, Manokotak
+VM1440:4 Togiak School, Togiak
+VM1440:4 iGrad~Alaska, Fairbanks
+VM1440:4 Interior Distance Education of Alaska (IDEA), Fairbanks
+VM1440:4 Monroe Catholic High School, Fairbanks (3A)
+Career Education Center, Fairbanks
+North Pole Academy, North Pole
+VM1440:4 Career Education Center, Fairbanks
+VM1440:4 North Pole Academy, North Pole
+VM1440:4 iGrad~Alaska, Juneau
+VM1440:4 Interior Distance Education of Alaska (IDEA), Juneau
+VM1440:4 Cook Inlet Academy, Soldotna (2A)
+VM1440:4 iGrad~Alaska, Kenai
+VM1440:4 Interior Distance Education of Alaska (IDEA), Kenai
+VM1440:4 Akhiok School, Akhiok
+VM1440:4 Chiniak School, Chiniak
+VM1440:4 Karluk School, Karluk
+VM1440:4 Kodiak High School, Kodiak (4A)[1]
+VM1440:4 Larsen Bay School, Larsen Bay
+VM1440:4 Old Harbor School, Old Harbor
+VM1440:4 Ouzinkie School, Ouzinkie
+VM1440:4 Port Lions School, Port Lions
+VM1440:4 Chignik Bay School, Chignik
+VM1440:4 Chignik Lake School, Chignik Lake
+VM1440:4 Kokhanok School, Kokhanok
+VM1440:4 Meshik School, Port Heiden
+VM1440:4 Newhalen School, Newhalen
+VM1440:4 Nondalton School, Nondalton
+VM1440:4 Perryville School, Perryville
+VM1440:4 Tanalian School, Port Alsworth
+VM1440:4 Alakanuk School, Alakanuk
+VM1440:4 Andreafski School, St. Mary's
+VM1440:4 Emmonak School, Emmonak
+VM1440:4 Hooper Bay High School, Hooper Bay
+VM1440:4 Ignatius Beans School, Mountain Village
+VM1440:4 Kotlik School, Kotlik
+VM1440:4 Marshall School, Marshall
+VM1440:4 Pilot Station School, Pilot Station
+VM1440:4 Pitkas Point School, Pitkas Point
+VM1440:4 Russian Mission School, Russian Mission
+VM1440:4 Scammon Bay School, Scammon Bay
+VM1440:4 Sheldon Point School, Nunam Iqua
+VM1440:4 iGrad~Alaska, MatSu
+VM1440:4 Interior Distance Education of Alaska (IDEA), MatSu
+VM1440:4 Matanuska-Susitna Borough School District
+Burchell High School, Wasilla
+Colony High School, Palmer (4A)
+Glacier View School, Sutton
+Houston High School, Big Lake (4A)
+Mat-Su Career & Technical High School, Wasilla
+Palmer High School, Palmer (4A)
+Redington Jr./Sr. High School, Wasilla
+Susitna Valley High School, Talkeetna (3A)
+Twindly Bridge Charter School, Wasilla
+Valley Pathways High School, Palmer
+Wasilla High School, Wasilla (4A)
+VM1440:4 Burchell High School, Wasilla
+VM1440:4 Colony High School, Palmer (4A)
+VM1440:4 Glacier View School, Sutton
+VM1440:4 Houston High School, Big Lake (4A)
+VM1440:4 Mat-Su Career & Technical High School, Wasilla
+VM1440:4 Palmer High School, Palmer (4A)
+VM1440:4 Redington Jr./Sr. High School, Wasilla
+VM1440:4 Susitna Valley High School, Talkeetna (3A)
+VM1440:4 Twindly Bridge Charter School, Wasilla
+VM1440:4 Valley Pathways High School, Palmer
+VM1440:4 Wasilla High School, Wasilla (4A)
+VM1440:4 Wasilla Lake Christian School, Wasilla
+VM1440:4 Nome-Beltz Junior/Senior High School, Nome (3A)
+VM1440:4 Alak School, Wainwright (1A)
+VM1440:4 Barrow High School, Utqiagvik (3A)
+VM1440:4 Harold Kaveolook School, Kaktovik (1A)
+VM1440:4 Kali School, Point Lay
+VM1440:4 Meade River School, Atqasuk (1A)
+VM1440:4 Nuiqsut Trapper School, Nuiqsut (1A)
+VM1440:4 Nunamiut School, Anaktuvuk Pass (1A)
+VM1440:4 Tikgaq School, Point Hope (1A)
+VM1440:4 Aqqaluk School, Noorvik (1A)
+VM1440:4 Buckland School, Buckland (1A)
+VM1440:4 Davis-Ramoth School, Selawik
+VM1440:4 Deering School, Deering
+VM1440:4 Ikiaiaglig School, Ambler
+VM1440:4 Kiana School, Kiana
+VM1440:4 Kotzebue High School, Kotzebue
+VM1440:4 McQueen School, Kivalina
+VM1440:4 Napaaqtugmiut School, Noatak
+VM1440:4 Shungnak School, Shungnak
+VM1440:4 Petersburg High School, Petersburg (2A)
+VM1440:4 Klawock School, Klawock
+VM1440:4 Southeast Islands School, Thorne Bay
+VM1440:4 Thorne Bay School, Thorne Bay
+VM1440:4 Mount Edgecumbe High School, Sitka (3A)
+VM1440:4 Pacific High School (Sitka, Alaska), Sitka
+VM1440:4 Sitka High School, Sitka (3A)
+VM1440:4 Skagway High School, Skagway
+VM1440:4 Valdez High School, Valdez
+VM1440:4 Wrangell High School, Wrangell (2A)
+VM1440:4 Yakutat School, Yakutat
+VM1440:4 Allakaket School, Allakaket (1A)
+VM1440:4 Andrew K. Demoski School, Nulato
+VM1440:4 Fort Yukon School, Fort Yukon (1A)
+VM1440:4 iGrad~Alaska, Galena
+VM1440:4 Interior Distance Education of Alaska (IDEA), Galena
+VM1440:4 Jimmy Huntington School, Huslia (1A)
+VM1440:4 Johnny Oldman School, Hughes (1A)
+VM1440:4 Kaltag School, Kaltag
+VM1440:4 Maudrey J. Sommer School, Tanana (1A)
+VM1440:4 Merriline A. Kangas School, Ruby
+VM1440:4 Minto School, Minto (1A)
+VM1440:4 Nenana High School, Nenana (2A)
+VM1440:4 Project Education Residential School, Galena
+DeWitt High School, DeWitt
+VM1461:3 Stuttgart High School, Stuttgart
+VM1461:3 Crossett High School, Crossett
+VM1461:3 Hamburg High School, Hamburg
+VM1461:3 Cotter High School, Cotter
+VM1461:3 Mountain Home High School Career Academies, Mountain Home
+VM1461:3 Norfork High School, Norfork
+VM1461:3 Benton County School of the Arts High School, Rogers
+VM1461:3 Bentonville High School, Bentonville
+VM1461:3 Decatur High School, Decatur
+Gentry High School, Gentry
+VM1461:3 Gravette High School, Gravette
+VM1461:3 Ozark Adventist Academy, Gentry
+VM1461:3 Pea Ridge High School, Pea Ridge
+VM1461:3 Rogers High School, Rogers
+VM1461:3 Rogers Heritage High School, Rogers
+VM1461:3 Siloam Springs High School, Siloam Springs
+VM1461:3 Alpena High School, Alpena
+VM1461:3 Bergman High School, Bergman
+VM1461:3 Harrison High School, Harrison
+VM1461:3 Lead Hill High School, Lead Hill
+VM1461:3 Omaha High School, Omaha
+VM1461:3 Valley Springs High School, Valley Springs
+VM1461:3 Hermitage High School, Hermitage
+VM1461:3 Warren High School, Warren
+VM1461:3 Hampton High School, Hampton
+VM1461:3 Berryville High School, Berryville
+VM1461:3 Eureka Springs High School, Eureka Springs
+VM1461:3 Green Forest High School, Green Forest
+VM1461:3 Dermott High School, Dermott
+VM1461:3 Lakeside High School, Lake Village
+VM1461:3 Arkadelphia High School, Arkadelphia
+VM1461:3 Gurdon High School, Gurdon
+VM1461:3 Corning High School, Corning
+VM1461:3 Piggott High School, Piggot
+VM1461:3 Rector High School, Rector
+VM1461:3 Concord High School, Concord
+VM1461:3 Heber Springs High School, Heber Springs
+VM1461:3 Quitman High School, Quitman
+VM1461:3 West Side High School, Greers Ferry
+VM1461:3 Rison High School, Rison
+VM1461:3 Woodlawn High School, Rison
+VM1461:3 Emerson High School, Emerson
+VM1461:3 Magnolia High School, Magnolia
+VM1461:3 Taylor High School, Taylor
+VM1461:3 Morrilton High School, Morrilton
+VM1461:3 Nemo Vista High School, Center Ridge
+VM1461:3 † Sacred Heart High School, Morrilton
+VM1461:3 Wonderview High School, Hattieville
+VM1461:3 Bay High School, Bay
+VM1461:3 Brookland High School, Brookland
+VM1461:3 Buffalo Island Central High School, Monette
+VM1461:3 Jonesboro High School, Jonesboro
+VM1461:3 Nettleton High School, Jonesboro
+VM1461:3 Ridgefield Christian School, Jonesboro
+VM1461:3 Riverside High School, Lake City
+VM1461:3 Valley View High School,  Jonesboro
+VM1461:3 Westside High School, Jonesboro
+VM1461:3 Alma High School, Alma
+VM1461:3 Cedarville High School, Cedarville
+VM1461:3 Mountainburg High School, Mountainburg
+VM1461:3 Mulberry High School, Mulberry
+VM1461:3 Van Buren High School, Van Buren
+VM1461:3 Earle High School, Earle
+VM1461:3 Marion High School, Marion
+VM1461:3 West Memphis High School, West Memphis
+VM1461:3 † West Memphis Christian School, West Memphis
+VM1461:3 Cross County High School, Cherry Valley
+VM1461:3 Wynne High School, Wynne
+VM1461:3 Fordyce High School, Fordyce (Fordyce School District)
+VM1461:3 Sparkman High School, Sparkman (Harmony Grove School District)
+VM1461:3 Dumas High School, Dumas
+VM1461:3 McGehee High School, McGehee
+VM1461:3 Drew Central High School, Monticello
+VM1461:3 Monticello High School, Monticello
+VM1461:3 Conway Christian High School, Conway
+VM1461:3 Conway High School, Conway
+VM1461:3 Greenbrier High School, Greenbrier
+VM1461:3 Guy–Perkins High School, Guy
+VM1461:3 Mayflower High School, Mayflower
+VM1461:3 Mount Vernon–Enola High School, Mount Vernon
+VM1461:3 St. Joseph High School, Conway
+VM1461:3 Vilonia High School, Vilonia
+VM1461:3 Charleston High School, Charleston
+VM1461:3 County Line High School, Branch
+VM1461:3 Ozark High School, Ozark
+VM1461:3 Mammoth Spring High School, Mammoth Spring (Mammoth Spring School District)
+VM1461:3 Salem High School, Salem (Salem School District)
+VM1461:3 Viola High School, Viola (Viola School District)
+VM1461:3 ℝ Arkansas School for Mathematics, Sciences, and the Arts, Hot Springs
+VM1461:3 Cutter–Morning Star High School, Hot Springs
+VM1461:3 Fountain Lake High School, Hot Springs
+VM1461:3 Hot Springs High School, Hot Springs
+VM1461:3 Jessieville High School, Jessieville
+VM1461:3 Lake Hamilton High School, Pearcy
+VM1461:3 Lakeside High School, Hot Springs
+VM1461:3 Mountain Pine High School, Mountain Pine
+VM1461:3 Poyen High School, Poyen (Poyen School District)
+VM1461:3 Sheridan High School, Sheridan (Sheridan School District)
+VM1461:3 † Crowley's Ridge Academy, Paragould
+VM1461:3 Greene County Tech High School, Paragould
+VM1461:3 Marmaduke High School, Marmaduke
+VM1461:3 Paragould High School, Paragould
+VM1461:3 Blevins High School, Blevins
+VM1461:3 Hope High School, Hope
+VM1461:3 ⊗ Saratoga High School, Saratoga
+VM1461:3 Spring Hill High School, Hope
+VM1461:3 Bismarck High School, Bismarck
+VM1461:3 Glen Rose High School, Malvern
+VM1461:3 Magnet Cove High School, Malvern
+VM1461:3 Malvern High School, Malvern
+VM1461:3 Ouachita High School, Donaldson
+VM1461:3 Dierks High School, Dierks
+VM1461:3 Mineral Springs High School, Mineral Springs
+VM1461:3 Nashville High School, Nashville
+VM1461:3 Umpire High School, Umpire
+VM1461:3 Batesville High School, Batesville
+VM1461:3 Cedar Ridge High School, Newark
+VM1461:3 Midland High School, Pleasant Plains
+VM1461:3 Southside High School, Batesville
+VM1461:3 Calico Rock High School, Calico Rock
+VM1461:3 Izard County Consolidated High School, Brockwell
+VM1461:3 Melbourne High School, Melbourne (Mt. Pleasant)
+VM1461:3 Newport High School, Newport
+VM1461:3 Tuckerman High School, Tuckerman
+VM1461:3 Dollarway High School, Pine Bluff
+VM1461:3 Pine Bluff High School, Pine Bluff
+VM1461:3 †⊗ St. Joseph Catholic High School, Pine Bluff
+VM1461:3 Watson Chapel High School, Pine Bluff
+VM1461:3 White Hall High School, Pine Bluff
+VM1461:3 Clarksville High School, Clarksville
+VM1461:3 Lamar High School, Lamar
+VM1461:3 Oark High School, Oark
+VM1461:3 Westside High School, Coal Hill
+VM1461:3 Bradley High School, Bradley
+VM1461:3 Lafayette County High School, Stamps
+VM1461:3 Hoxie High School, Hoxie
+VM1461:3 Hillcrest High School, Strawberry (Strawberry, Poughkeepsie, Lynn Schools)
+VM1461:3 Sloan–Hendrix High School, Imboden
+VM1461:3 Walnut Ridge High School, Walnut Ridge (Lawrence County School District)
+VM1461:3 Black Rock High School, Black Rock (Lawrence County School District)
+VM1461:3 Lee High School, Marianna
+VM1461:3 Grady High School, Grady (closed 2004)
+VM1461:3 Star City High School, Star City (Star City School District)
+VM1461:3 Ashdown High School, Ashdown
+VM1461:3 Foreman High School, Foreman
+VM1461:3 Booneville High School, Booneville
+VM1461:3 J. D. Leftwich High School, Magazine
+VM1461:3 Paris High School, Paris
+VM1461:3 Scranton High School, Scranton
+VM1461:3 Subiaco Academy, Subiaco
+VM1461:3 Cabot High School, Cabot
+VM1461:3 Carlisle High School, Carlisle
+VM1461:3 England High School, England
+VM1461:3 Lonoke High School, Lonoke
+VM1461:3 Huntsville High School, Huntsville
+VM1461:3 Kingston High School, Kingston
+VM1461:3 St. Paul High School, St. Paul
+VM1461:3 Bruno–Pyatt High School, Everton
+VM1461:3 Flippin High School, Flippin
+VM1461:3 Yellville–Summit High School, Yellville
+VM1461:3 % Arkansas High School, Texarkana
+VM1461:3 Fouke High School, Fouke
+VM1461:3 Genoa Central High School, Texarkana
+VM1461:3 † Trinity Christian High School, Texarkana
+VM1461:3 Armorel High School, Armorel (Armorel School District)
+VM1461:3 Blytheville High School, Blytheville (Blytheville School District)
+VM1461:3 Gosnell High School, Gosnell (Gosnell School District)
+VM1461:3 Manila High School, Manila (Manila School District)
+VM1461:3 Osceola High School, Osceola (Osceola School District)
+VM1461:3 Rivercrest High School, Wilson (Southern Mississippi County School District)
+VM1461:3 Brinkley High School, Brinkley
+VM1461:3 Clarendon High School, Clarendon
+VM1461:3 Caddo Hills High School, Norman (Caddo Hills School District)
+VM1461:3 Mount Ida High School, Mount Ida (Mount Ida School District)
+VM1461:3 Oden High School, Oden (Ouachita River School District)
+VM1461:3 Nevada High School, Rosston (Nevada School District)
+VM1461:3 Prescott High School, Prescott (Prescott School District)
+VM1461:3 Deer High School, Deer (Deer/Mount Judea School District)
+VM1461:3 Mount Judea High School, Mount Judea (Deer/Mount Judea School District)
+VM1461:3 Jasper High School, Jasper (Jasper School District)
+VM1461:3 Western Grove High School, Western Grove (Ozark Mountain School District)
+VM1461:3 Bearden High School, Bearden
+VM1461:3 Camden Fairview High School, Camden
+VM1461:3 Harmony Grove High School, Camden
+VM1461:3 Stephens High School, Stephens
+VM1461:3 Bigelow High School, Bigelow
+VM1461:3 Perryville High School, Perryville
+VM1461:3 Barton High School, Lexa
+VM1461:3 Central High School, Helena–West Helena
+VM1461:3 Marvell Academy, Marvell
+VM1461:3 Marvell High School, Marvell
+VM1461:3 Centerpoint High School, Amity
+VM1461:3 Delight High School, Delight
+VM1461:3 Kirby High School, Kirby (Kirby School District)
+VM1461:3 Murfreesboro High School, Murfreesboro (South Pike County School District)
+VM1461:3 East Poinsett County High School, Lepanto
+VM1461:3 Harrisburg High School, Harrisburg
+VM1461:3 Marked Tree High School, Marked Tree
+VM1461:3 Trumann High School, Trumann
+VM1461:3 Weiner High School, Weiner (closed 2012)
+VM1461:3 Acorn High School, Mena
+VM1461:3 Mena High School, Mena
+VM1461:3 Van–Cove High School, Cove
+VM1461:3 Wickes High School, Wickes
+VM1461:3 Atkins High School, Atkins
+VM1461:3 Dover High School, Dover
+VM1461:3 Hector High School, Hector
+VM1461:3 Pottsville High School, Pottsville
+VM1461:3 Russellville High School, Russellville
+VM1461:3 Des Arc High School, Des Arc
+VM1461:3 Hazen High School, Hazen
+VM1461:3 Arkansas School for the Blind
+VM1461:3 ℝ Arkansas School for the Deaf
+VM1461:3 Abundant Life School, Sherwood
+VM1461:3 Catholic High School for Boys, Little Rock
+VM1461:3 Mount St. Mary Academy, Little Rock
+VM1461:3 Central Arkansas Christian Schools, North Little Rock
+VM1461:3 Episcopal Collegiate School, Little Rock
+VM1461:3 Pulaski Academy, Little Rock
+VM1461:3 Little Rock Christian Academy, Little Rock
+VM1461:3 Academics Plus High Charter School, Maumelle
+VM1461:3 LISA Academy Public Charter High School, Little Rock
+VM1461:3 LISA Academy North Public Charter High School, Sherwood
+VM1461:3 Lutheran High School, Little Rock (closed in 2010)
+VM1461:3 Little Rock Central High School, Little Rock
+VM1461:3 Hall High School, Little Rock
+VM1461:3 J. A. Fair Systems Magnet High School, Little Rock
+VM1461:3 McClellan Magnet High School, Little Rock
+VM1461:3 Parkview Arts and Science Magnet High School, Little Rock
+VM1461:3 North Little Rock High School, North Little Rock
+VM1461:3 Jacksonville High School, Jacksonville
+VM1461:3 Maumelle High School, Maumelle
+VM1461:3 Wilbur D. Mills High School, Little Rock
+VM1461:3 North Pulaski High School, Jacksonville
+VM1461:3 Joe T. Robinson High School, Little Rock
+VM1461:3 Sylvan Hills High School, Sherwood
+VM1461:3 Oak Grove High School, North Little Rock (closed spring 2011)
+VM1461:3 Maynard High School, Maynard (Maynard School District)
+VM1461:3 Pocahontas High School, Pocahontas (Pocahontas School District)
+VM1461:3 Forrest City High School, Forrest City
+VM1461:3 Hughes High School, Hughes
+VM1461:3 Palestine–Wheatley High School, Palestine
+VM1461:3 Bauxite High School, Bauxite
+VM1461:3 Benton High School, Benton
+VM1461:3 Bryant High School, Bryant
+VM1461:3 Harmony Grove High School, Benton
+VM1461:3 Paron High School, Paron
+VM1461:3 Mansfield High School, Mansfield
+VM1461:3 Waldron High School, Waldron
+VM1461:3 Marshall High School, Marshall
+VM1461:3 St. Joe High School, St. Joe
+VM1461:3 Greenwood High School, Greenwood
+VM1461:3 Hackett High School, Hackett
+VM1461:3 Hartford High School, Hartford
+VM1461:3 Lavaca High School, Lavaca
+VM1461:3 Northside High School, Fort Smith
+VM1461:3 Southside High School, Fort Smith
+VM1461:3 Union Christian Academy, Fort Smith
+VM1461:3 De Queen High School, De Queen (DeQueen School District)
+VM1461:3 Horatio High School, Horatio (Horatio School District)
+VM1461:3 Lockesburg High School, Lockesburg
+VM1461:3 Cave City High School, Cave City
+VM1461:3 Highland High School, Hardy
+VM1461:3 Williford High School, Williford
+VM1461:3 Mountain View High School, Mountain View
+VM1461:3 Rural Special High School, Fox
+VM1461:3 Timbo High School, Timbo
+VM1461:3 El Dorado High School, El Dorado
+VM1461:3 Junction City High School, Junction City
+VM1461:3 Norphlet High School, Norphlet
+VM1461:3 Parkers Chapel High School, El Dorado
+VM1461:3 Smackover High School, Smackover
+VM1461:3 Strong High School, Strong
+VM1461:3 Clinton High School, Clinton
+VM1461:3 Shirley High School, Shirley
+VM1461:3 South Side High School, Bee Branch
+VM1461:3 Elkins High School, Elkins
+VM1461:3 Farmington High School, Farmington
+VM1461:3 Fayetteville High School, Fayetteville
+VM1461:3 Greenland High School, Greenland
+VM1461:3 Haas Hall Academy, Fayetteville
+VM1461:3 Har-Ber High School, Springdale
+VM1461:3 Lincoln High School, Lincoln
+VM1461:3 Prairie Grove High School, Prairie Grove
+VM1461:3 † Shiloh Christian School, Springdale
+VM1461:3 Springdale High School, Springdale
+VM1461:3 West Fork High School, West Fork
+VM1461:3 Bald Knob High School, Bald Knob
+VM1461:3 Beebe High School, Beebe
+VM1461:3 Bradford High School, Bradford
+VM1461:3 † Harding Academy, Searcy
+VM1461:3 Pangburn High School, Pangburn
+VM1461:3 Riverview High School, Searcy
+VM1461:3 Rose Bud High School, Rose Bud
+VM1461:3 Searcy High School, Searcy
+VM1461:3 White County Central High School, Judsonia
+VM1461:3 Augusta High School, Augusta
+VM1461:3 McCrory High School, McCrory
+VM1461:3 Danville High School, Danville
+VM1461:3 Dardanelle High School, Dardanelle
+VM1461:3 Two Rivers High School, Plainview
+VM1461:3 Western Yell County High School, Havana
+Alameda Community Learning Center
+Alameda High School
+Alameda Science and Technology Institute
+Encinal High School
+Island High School (continuation school)
+VM1477:3 Alameda Community Learning Center
+VM1477:3 Alameda High School
+VM1477:3 Alameda Science and Technology Institute
+VM1477:3 Encinal High School
+VM1477:3 Island High School (continuation school)
+VM1477:3 Albany Unified School District, Albany
+Albany High School
+MacGregor High School (continuation)
+VM1477:3 Albany High School
+VM1477:3 MacGregor High School (continuation)
+VM1477:3 Berkeley Unified School District, Berkeley
+Berkeley High School
+VM1477:3 Berkeley High School
+VM1477:3 Castro Valley Unified School District, Castro Valley
+Castro Valley High School
+Redwood Alternative High School (continuation)
+VM1477:3 Castro Valley High School
+VM1477:3 Redwood Alternative High School (continuation)
+VM1477:3 Dublin Unified School District, Dublin
+Dublin High School
+VM1477:3 Dublin High School
+VM1477:3 Emery Unified School District, Emeryville
+Emery Secondary School (grades 7–12)
+VM1477:3 Emery Secondary School (grades 7–12)
+VM1477:3 Fremont Unified School District, Fremont
+American High School
+Irvington High School
+John F. Kennedy High School
+Mission San Jose High School
+Washington High School
+VM1477:3 American High School
+VM1477:3 Irvington High School
+VM1477:3 John F. Kennedy High School
+VM1477:3 Mission San Jose High School
+VM1477:3 Washington High School
+VM1477:3 Hayward Unified School District, Hayward
+Hayward High School
+Mount Eden High School
+Sunset High School (closed)
+Tennyson High School
+VM1477:3 Hayward High School
+VM1477:3 Mount Eden High School
+VM1477:3 Sunset High School (closed)
+VM1477:3 Tennyson High School
+VM1477:3 Livermore Valley Joint Unified School District, Livermore
+Granada High School
+Livermore High School
+VM1477:3 Granada High School
+VM1477:3 Livermore High School
+VM1477:3 New Haven Unified School District (Union City and south Hayward)
+Conley-Caraballo High School, Hayward
+James Logan High School, Union City
+VM1477:3 Conley-Caraballo High School, Hayward
+VM1477:3 James Logan High School, Union City
+VM1477:3 Newark Unified School District, Newark
+Newark Memorial High School
+VM1477:3 Newark Memorial High School
+VM1477:3 Oakland Unified School District, Oakland
+Bay Area Technology School (charter school)
+Castlemont Community of Small Schools (previously Castlemont Senior High School)
+Fremont Federation of High Schools (previously Fremont Senior High School)
+McClymonds Educational Complex (previously McClymonds High School)
+Oakland High School
+Oakland International High School
+Oakland Military Institute (charter school)
+Oakland School for the Arts
+Oakland Technical High School
+Skyline High School
+University Preparatory Charter Academy
+VM1477:3 Bay Area Technology School (charter school)
+VM1477:3 Castlemont Community of Small Schools (previously Castlemont Senior High School)
+VM1477:3 Fremont Federation of High Schools (previously Fremont Senior High School)
+VM1477:3 McClymonds Educational Complex (previously McClymonds High School)
+VM1477:3 Oakland High School
+VM1477:3 Oakland International High School
+VM1477:3 Oakland Military Institute (charter school)
+VM1477:3 Oakland School for the Arts
+VM1477:3 Oakland Technical High School
+VM1477:3 Skyline High School
+VM1477:3 University Preparatory Charter Academy
+VM1477:3 Piedmont Unified School District, Piedmont
+Millennium High School
+Piedmont High School
+VM1477:3 Millennium High School
+VM1477:3 Piedmont High School
+VM1477:3 Pleasanton Unified School District, Pleasanton
+Amador Valley High School
+Foothill High School
+Horizon High School
+Village High School
+VM1477:3 Amador Valley High School
+VM1477:3 Foothill High School
+VM1477:3 Horizon High School
+VM1477:3 Village High School
+VM1477:3 San Leandro Unified School District, San Leandro
+Lincoln High School (continuation)
+San Leandro High School
+VM1477:3 Lincoln High School (continuation)
+VM1477:3 San Leandro High School
+VM1477:3 San Lorenzo Unified School District, San Lorenzo
+Arroyo High School
+San Lorenzo High School
+VM1477:3 Arroyo High School
+VM1477:3 San Lorenzo High School
+VM1477:3 Schools not administered by Alameda County public school districts
+VM1477:3 Roman Catholic Diocese of Oakland, various cities in the East Bay
+Bishop O'Dowd High School, Oakland
+Holy Names High School, Oakland
+Moreau Catholic High School, Hayward
+St. Elizabeth High School, Oakland
+St. Joseph Notre Dame High School, Alameda
+St. Mary's College High School, Albany
+VM1477:3 Bishop O'Dowd High School, Oakland
+VM1477:3 Holy Names High School, Oakland
+VM1477:3 Moreau Catholic High School, Hayward
+VM1477:3 St. Elizabeth High School, Oakland
+VM1477:3 St. Joseph Notre Dame High School, Alameda
+VM1477:3 St. Mary's College High School, Albany
+VM1477:3 Alameda Community Learning Center, Alameda
+VM1477:3 Averroes High School, Fremont
+VM1477:3 Chinese Christian Schools, San Leandro
+VM1477:3 The College Preparatory School, Oakland
+VM1477:3 Emery High School, Emeryville
+VM1477:3 Head-Royce School, Oakland
+VM1477:3 Maybeck High School, Berkeley
+VM1477:3 The Quarry Lane School, Dublin
+VM1477:3 Valley Christian School, Dublin
+VM1477:3 Bear Valley High School, Bear Valley
+VM1477:3 Woodfords High School, Markleeville
+VM1477:3 Amador High School, Sutter Creek
+VM1477:3 Argonaut High School, Jackson
+VM1477:3 Biggs High School, Biggs
+VM1477:3 Chico High School, Chico
+VM1477:3 Couture High School, Oroville
+VM1477:3 Durham High School, Durham
+VM1477:3 Gridley High School, Gridley
+VM1477:3 Las Plumas High School, Oroville
+VM1477:3 Oroville High School, Oroville
+VM1477:3 Paradise High School, Paradise
+VM1477:3 Pleasant Valley High School, Chico
+VM1477:3 Arnold High School, Arnold
+VM1477:3 Bret Harte Union High School, Angels Camp
+VM1477:3 Calaveras High School, San Andreas
+VM1477:3 Copper Cove High School, Copperopolis
+VM1477:3 Colusa High School, Colusa
+VM1477:3 Maxwell High School, Maxwell
+VM1477:3 Pierce High School, Sudhir
+VM1477:3 Williams High School, Williams
+VM1477:3 Acalanes Union High School District
+Acalanes High School, Lafayette
+Campolindo High School, Moraga
+Las Lomas High School, Walnut Creek
+Miramonte High School, Orinda
+VM1477:3 Acalanes High School, Lafayette
+VM1477:3 Campolindo High School, Moraga
+VM1477:3 Las Lomas High School, Walnut Creek
+VM1477:3 Miramonte High School, Orinda
+VM1477:3 Antioch Unified School District
+Antioch High School, Antioch
+Deer Valley High School, Antioch
+Dozier-Libbey Medical High School, Antioch
+VM1477:3 Antioch High School, Antioch
+VM1477:3 Deer Valley High School, Antioch
+VM1477:3 Dozier-Libbey Medical High School, Antioch
+VM1477:3 John Swett Unified School District
+John Swett High School, Crockett
+Willow High School, Crockett
+VM1477:3 John Swett High School, Crockett
+VM1477:3 Willow High School, Crockett
+VM1477:3 Mount Diablo Unified School District
+Clayton Valley High School, Concord
+College Park High School, Pleasant Hill
+Concord High School, Concord
+Mount Diablo High School, Concord
+Northgate High School, Walnut Creek
+Ygnacio Valley High School, Concord
+VM1477:3 Clayton Valley High School, Concord
+VM1477:3 College Park High School, Pleasant Hill
+VM1477:3 Concord High School, Concord
+VM1477:3 Mount Diablo High School, Concord
+VM1477:3 Northgate High School, Walnut Creek
+VM1477:3 Ygnacio Valley High School, Concord
+VM1477:3 West Contra Costa Unified School District
+De Anza High School, Richmond
+El Cerrito High School, El Cerrito
+Hercules High School, Hercules
+Kennedy High School, Richmond
+Middle College High School (San Pablo), San Pablo
+Pinole Valley High School, Pinole
+Richmond High School, Richmond
+VM1477:3 De Anza High School, Richmond
+VM1477:3 El Cerrito High School, El Cerrito
+VM1477:3 Hercules High School, Hercules
+VM1477:3 Kennedy High School, Richmond
+VM1477:3 Middle College High School (San Pablo), San Pablo
+VM1477:3 Pinole Valley High School, Pinole
+VM1477:3 Richmond High School, Richmond
+VM1477:3 Alhambra High School, Martinez
+VM1477:3 The Athenian School, Danville
+VM1477:3 Bentley School, Lafayette
+VM1477:3 Berean Christian High School, Walnut Creek
+VM1477:3 California High School, San Ramon
+VM1477:3 Carondelet High School, Concord
+VM1477:3 Christ the King Catholic School, Pleasant Hill
+VM1477:3 De La Salle High School, Concord
+VM1477:3 Delta Christian Junior/Senior High School, Antioch
+VM1477:3 Dougherty Valley High School, San Ramon
+VM1477:3 El Sobrante Christian School, El Sobrante
+VM1477:3 Freedom High School, Oakley
+VM1477:3 Heritage High School, Brentwood
+VM1477:3 Holden High School, Orinda
+VM1477:3 Independence High School, Brentwood
+VM1477:3 Liberty High School, Brentwood
+VM1477:3 Monte Vista High School, Danville
+VM1477:3 Orinda Academy, Orinda
+VM1477:3 Pittsburg High School, Pittsburg
+VM1477:3 Pleasant Hill Adventist Academy, Pleasant Hill
+VM1477:3 Salesian College Preparatory, Richmond
+VM1477:3 San Ramon Valley High School, Danville
+VM1477:3 Del Norte High School, Crescent City
+VM1477:3 El Dorado Adventist School, Placerville
+VM1477:3 El Dorado High School, Placerville
+VM1477:3 Golden Sierra High School, Garden Valley
+VM1477:3 Muir Charter School, Placerville
+VM1477:3 Oak Ridge High School, El Dorado Hills
+VM1477:3 Ponderosa High School, Shingle Springs
+VM1477:3 Shenandoah High School, El Dorado
+VM1477:3 South Tahoe High School, South Lake Tahoe
+VM1477:3 Union Mine High School, El Dorado
+VM1477:3 Vista High School, Placerville
+VM1477:3 Clovis Unified School District
+Buchanan High School, Clovis
+Clovis East High School, Clovis
+Clovis High School, Clovis
+Clovis North High School, Fresno
+Clovis West High School, Fresno
+VM1477:3 Buchanan High School, Clovis
+VM1477:3 Clovis East High School, Clovis
+VM1477:3 Clovis High School, Clovis
+VM1477:3 Clovis North High School, Fresno
+VM1477:3 Clovis West High School, Fresno
+VM1477:3 Fresno Unified School District
+Bullard High School, Fresno
+The Center for Advanced Research and Technology
+Erma Duncan Polytechnical High School, Fresno
+Edison High School, Fresno
+Fresno High School, Fresno
+Herbert Hoover High School, Fresno
+McLane High School, Fresno
+Roosevelt High School, Fresno
+Sunnyside High School, Fresno
+VM1477:3 Bullard High School, Fresno
+VM1477:3 The Center for Advanced Research and Technology
+VM1477:3 Erma Duncan Polytechnical High School, Fresno
+VM1477:3 Edison High School, Fresno
+VM1477:3 Fresno High School, Fresno
+VM1477:3 Herbert Hoover High School, Fresno
+VM1477:3 McLane High School, Fresno
+VM1477:3 Roosevelt High School, Fresno
+VM1477:3 Sunnyside High School, Fresno
+VM1477:3 Ambassador Phillip V. Sanchez Public Charter, Fresno (Sunnyside)
+VM1477:3 Ambassador Phillip V. Sanchez Public Charter, Fresno (West Shaw)
+VM1477:3 Ambassador Phillip V. Sanchez Public Charter, Mendota
+VM1477:3 Ambassador Phillip V. Sanchez Public Charter, Parlier
+VM1477:3 Carter G. Woodson Public Charter School, Fresno
+VM1477:3 Caruthers High School, Caruthers
+VM1477:3 Central High School, Fresno
+VM1477:3 Charter Academy of Ambassador Phillip V. Sanchez, Fresno
+VM1477:3 Coalinga High School, Coalinga
+VM1477:3 Crescent View South Public Charter, Clovis
+VM1477:3 Crescent View South Public Charter, Fresno
+VM1477:3 Crescent View West Public Charter, Fresno
+VM1477:3 Dewolf West High School, Fresno
+VM1477:3 Firebaugh High School, Firebaugh
+VM1477:3 Fowler High School, Fowler
+VM1477:3 Fresno Prep Academy, Fresno
+VM1477:3 Immanuel High School, Reedley
+VM1477:3 Kerman High School, Kerman
+VM1477:3 Kingsburg High School, Kingsburg
+VM1477:3 Laton High School, Laton
+VM1477:3 Mendota High School, Mendota
+VM1477:3 New Millennium Charter School, Fresno
+VM1477:3 Parlier High School, Parlier
+VM1477:3 Reedley High School, Reedley
+VM1477:3 Riverdale High School, Riverdale
+VM1477:3 San Joaquin Memorial High School, Fresno
+VM1477:3 Sanger High School, Sanger
+VM1477:3 School of Unlimited Learning, Fresno
+VM1477:3 Selma High School, Selma
+VM1477:3 Sierra High School, Tollhouse
+VM1477:3 Tranquillity High School, Tranquility
+VM1477:3 University High School, Fresno
+VM1477:3 Washington Union High School, Fresno
+VM1477:3 Elk Creek Junior-Senior High School, Elk Creek
+VM1477:3 Hamilton Union High School, Hamilton City
+VM1477:3 Orland High School, Orland
+VM1477:3 Princeton Junior-Senior High School, Princeton
+VM1477:3 Willows High School, Willows
+VM1477:3 Academy of the Redwoods Early college high school, Fortuna
+VM1477:3 Arcata High School, Arcata
+VM1477:3 Eureka High School, Eureka
+VM1477:3 Ferndale High School, Ferndale
+VM1477:3 Fortuna Union High School, Fortuna
+VM1477:3 Hoopa Valley High School, Hoopa
+VM1477:3 Humboldt Bay High School, Eureka
+VM1477:3 Mattole Triple Junction High School, Petrolia
+VM1477:3 McKinleyville High School, McKinleyville
+VM1477:3 St. Bernard's High School, Eureka
+VM1477:3 South Fork High School, Miranda
+VM1477:3 Brawley (renamed) North County High School, Brawley
+VM1477:3 Brawley Union High School, Brawley
+VM1477:3 Calexico High School, Calexico
+VM1477:3 Calipatria High School, Calipatria
+VM1477:3 Central Union High School, El Centro
+VM1477:3 De Anza High School (continuation), Calexico
+VM1477:3 Desert Valley High School (continuation), Brawley
+VM1477:3 Holtville High School, Holtville
+VM1477:3 Imperial High School, Imperial
+VM1477:3 San Pasqual Valley High School, Winterhaven
+VM1477:3 Southwest High School, El Centro
+VM1477:3 Vincent Memorial High School (Catholic), Calexico
+VM1477:3 West Shores High School, Salton City
+VM1477:3 Big Pine High School, Big Pine
+VM1477:3 Bishop High School, Bishop
+VM1477:3 Death Valley Academy, Shoshone
+VM1477:3 Lone Pine High School, Lone Pine
+VM1477:3 Owens Valley High School, Independence
+VM1477:3 Arvin High School, Arvin
+VM1477:3 Bakersfield Christian High School, Bakersfield
+VM1477:3 Bakersfield High School, Bakersfield
+VM1477:3 Boron Junior-Senior High School, Boron
+VM1477:3 Burroughs High School, Ridgecrest
+VM1477:3 Centennial High School, Bakersfield
+VM1477:3 Central Valley High School, Bakersfield
+VM1477:3 Cesar E. Chavez High School, Delano
+VM1477:3 Delano High School, Delano
+VM1477:3 Desert Junior/Senior High School, Edwards
+VM1477:3 East Bakersfield High School, Bakersfield
+VM1477:3 Foothill High School, Bakersfield
+VM1477:3 Frazier Mountain High School, Lebec
+VM1477:3 Frontier High School, Bakersfield
+VM1477:3 Garces Memorial High School, Bakersfield
+VM1477:3 Golden Valley High School, Bakersfield
+VM1477:3 Highland High School, Bakersfield
+VM1477:3 Independence High School, Bakersfield
+VM1477:3 Kern Valley High School, Lake Isabella
+VM1477:3 Liberty High School, Bakersfield
+VM1477:3 Maricopa High School, Maricopa
+VM1477:3 McFarland High School, McFarland
+VM1477:3 Mira Monte High School, Bakersfield
+VM1477:3 Mojave High School 1954, Mojave
+VM1477:3 North High School
+VM1477:3 Ridgeview High School, Bakersfield
+VM1477:3 Robert F. Kennedy High School, Delano
+VM1477:3 Rosamond High School, Rosamond
+VM1477:3 Shafter High School, Shafter
+VM1477:3 South High School, Bakersfield
+VM1477:3 Stockdale High School, Bakersfield
+VM1477:3 Taft Union High School, Taft
+VM1477:3 Tehachapi High School, Tehachapi
+VM1477:3 Wasco High School, Wasco
+VM1477:3 West High School, Bakersfield
+VM1477:3 Avenal High School, Avenal
+VM1477:3 Corcoran High School, Corcoran
+VM1477:3 Crescent Valley Public Charter, Hanford
+VM1477:3 Hanford High School, Hanford
+VM1477:3 Hanford West High School, Hanford
+VM1477:3 Earl F. Johnson Continuation School, Hanford
+VM1477:3 Kings Community School, Hanford
+VM1477:3 Lemoore High School, Lemoore
+VM1477:3 Sierra Pacific High School, Hanford
+VM1477:3 Armona Union Academy, Armona
+VM1477:3 Clear Lake High School, Lakeport
+VM1477:3 Intermountain High School, Cobb
+VM1477:3 Kelseyville High School, Kelseyville
+VM1477:3 Lower Lake High School, Lower Lake
+VM1477:3 Middletown High School, Middletown
+VM1477:3 Upper Lake High School, Upper Lake
+VM1477:3 Big Valley High School, Bieber
+VM1477:3 Herlong High School, Herlong
+VM1477:3 Lassen High School, Susanville
+VM1477:3 Westwood High School, Westwood
+VM1477:3 Chowchilla High School, Chowchilla
+VM1477:3 Evergreen High School, Oakhurst
+VM1477:3 Glacier Charter High School, Oakhurst
+VM1477:3 Madera High School, Madera
+VM1477:3 Madera South High School, Madera
+VM1477:3 Minarets High School, O'Neals
+VM1477:3 Mountain Oaks High School, North Fork
+VM1477:3 Pioneer Technical Center, Madera
+VM1477:3 Yosemite High School, Oakhurst
+VM1477:3 The Branson School, Ross
+VM1477:3 Marin Academy, San Rafael
+VM1477:3 Marin Catholic High School, Kentfield
+VM1477:3 Marin Oaks High School, Novato
+VM1477:3 North Bay Christian Academy, Novato
+VM1477:3 Novato High School, Novato
+VM1477:3 Redwood High School, Larkspur
+VM1477:3 San Domenico School, San Anselmo
+VM1477:3 San Marin High School, Novato
+VM1477:3 San Rafael High School, San Rafael
+VM1477:3 Sir Francis Drake High School, San Anselmo
+VM1477:3 Tamalpais High School, Mill Valley
+VM1477:3 Terra Linda High School, San Rafael
+VM1477:3 Tomales High School, Tomales
+VM1477:3 Coulterville High School, Coulterville
+VM1477:3 Mariposa County High School, Mariposa
+VM1477:3 Yosemite Park High School, Yosemite
+VM1477:3 Anderson Valley Junior-Senior High School, Boonville
+VM1477:3 Developing Virtue Secondary School, Ukiah
+VM1477:3 Fort Bragg High School, Fort Bragg
+VM1477:3 Laytonville High School, Laytonville
+VM1477:3 Leggett Valley High School, Leggett
+VM1477:3 Mendocino High School, Mendocino
+VM1477:3 Pacific Community Charter High School, Point Arena
+VM1477:3 Point Arena High School, Point Arena
+VM1477:3 Potter Valley High School, Potter Valley
+VM1477:3 Redwood Academy of Ukiah, Ukiah
+VM1477:3 Round Valley High School, Covelo
+VM1477:3 South Coast High School, Point Arena
+VM1477:3 Ukiah High School, Ukiah
+VM1477:3 Whale Gulch High School, Whitethorn
+VM1477:3 Willits Charter School, Willits
+VM1477:3 Willits High School, Willits
+VM1477:3 Yokayo Valley Charter High School, Ukiah
+VM1477:3 Atwater High School, Atwater
+VM1477:3 Buhach Colony High School, Atwater
+VM1477:3 Delhi High School, Delhi
+VM1477:3 Dos Palos High School, Dos Palos
+VM1477:3 Golden Valley High School, Merced
+VM1477:3 Gustine High School, Gustine
+VM1477:3 Hilmar High School, Hilmar
+VM1477:3 Le Grand High School, Le Grand
+VM1477:3 Livingston High School, Livingston
+VM1477:3 Los Banos High School, Los Banos
+VM1477:3 Merced High School, Merced
+VM1477:3 Pacheco High School, Los Banos
+VM1477:3 Stone Ridge Christian High School, Merced
+VM1477:3 Valley High School, Atwater
+VM1477:3 Valley High School, Los Banos
+VM1477:3 Valley High School, Merced
+VM1477:3 Great Basin High School, Cedarville
+VM1477:3 Modoc High School, Alturas
+VM1477:3 Surprise Valley High School, Cedarville
+VM1477:3 Warner High School, Alturas
+VM1477:3 Coleville High School, Coleville
+VM1477:3 Eastern Sierra Academy, Bridgeport
+VM1477:3 Lee Vining High School, Lee Vining
+VM1477:3 Mammoth High School, Mammoth Lakes
+VM1477:3 King City Union School District
+Greenfield High School, Greenfield
+King City High School, King City
+VM1477:3 Greenfield High School, Greenfield
+VM1477:3 King City High School, King City
+VM1477:3 Monterey Peninsula Unified School District
+Central Coast High School (continuation), Seaside
+Marina High School, Marina
+Monterey High School, Monterey
+Seaside High School, Seaside
+VM1477:3 Central Coast High School (continuation), Seaside
+VM1477:3 Marina High School, Marina
+VM1477:3 Monterey High School, Monterey
+VM1477:3 Seaside High School, Seaside
+VM1477:3 North Monterey County Unified School District
+North Monterey County High School, Castroville
+VM1477:3 North Monterey County High School, Castroville
+VM1477:3 Pacific Grove Unified School District
+Pacific Grove High School, Pacific Grove
+VM1477:3 Pacific Grove High School, Pacific Grove
+VM1477:3 Salinas Union High School District
+Alisal High School, Salinas
+Everett Alvarez High School, Salinas
+North Salinas High School, Salinas
+Salinas High School, Salinas
+VM1477:3 Alisal High School, Salinas
+VM1477:3 Everett Alvarez High School, Salinas
+VM1477:3 North Salinas High School, Salinas
+VM1477:3 Salinas High School, Salinas
+VM1477:3 Carmel High School, Carmel
+VM1477:3 Cypress Grove Charter High School for Arts and Science, Carmel (closed in 2006)
+VM1477:3 Gonzales High School, Gonzales
+VM1477:3 Notre Dame High School, Salinas
+VM1477:3 Palma School, Salinas
+VM1477:3 Santa Catalina School, Monterey
+VM1477:3 Soledad High School, Soledad
+VM1477:3 Stevenson School, Pebble Beach
+VM1477:3 Trinity Christian High School, Monterey
+VM1477:3 York School, Monterey
+VM1477:3 American Canyon High School, American Canyon
+VM1477:3 Calistoga High School, Calistoga
+VM1477:3 Justin-Siena High School, Napa
+VM1477:3 Napa High School, Napa
+VM1477:3 New Technology High School, Napa
+VM1477:3 Pacific Union College Prep School, Angwin
+VM1477:3 St. Helena High School, St. Helena
+VM1477:3 Valley Oak High School, Napa
+VM1477:3 Vintage High School, Napa
+VM1477:3 Bear River High School, Grass Valley
+VM1477:3 Bitney College Preparatory High School, Grass Valley
+VM1477:3 Ghidotti Early College High School, Grass Valley
+VM1477:3 Nevada Union High School, Grass Valley
+VM1477:3 Sierra Mountain High School, Grass Valley
+VM1477:3 Tahoe-Truckee High School, Truckee
+VM1477:3 Anaheim High School, Anaheim
+VM1477:3 Katella High School, Anaheim
+VM1477:3 John F. Kennedy High School, La Palma
+VM1477:3 Loara High School, Anaheim
+VM1477:3 Cypress High School, Cypress
+VM1477:3 Oxford Academy, Cypress
+VM1477:3 Magnolia High School, Anaheim
+VM1477:3 Savanna High School, Anaheim
+VM1477:3 Western High School, Anaheim
+VM1477:3 Brea Canyon Alternative High School, Brea
+VM1477:3 Brea Olinda High School, Brea
+VM1477:3 Aliso Niguel High School, Aliso Viejo
+VM1477:3 Capistrano Valley High School, Mission Viejo
+VM1477:3 Dana Hills High School, Dana Point
+VM1477:3 San Juan Hills High School, San Juan Capistrano
+VM1477:3 San Clemente High School, San Clemente
+VM1477:3 Tesoro High School, Rancho Santa Margarita
+VM1477:3 Fred Newhart Middle School, Mission Viejo
+VM1477:3 Fullerton Union High School, Fullerton
+VM1477:3 La Vista High School (continuation), Fullerton
+VM1477:3 Sunny Hills High School, Fullerton
+VM1477:3 Troy High School, Fullerton
+VM1477:3 Buena Park High School, Buena Park
+VM1477:3 La Habra High School, La Habra
+VM1477:3 Sonora High School, La Habra
+VM1477:3 Garden Grove High School, Garden Grove
+VM1477:3 Pacifica High School, Garden Grove
+VM1477:3 Rancho Alamitos High School, Garden Grove
+VM1477:3 Santiago High School, Garden Grove
+VM1477:3 Bolsa Grande High School, Garden Grove
+VM1477:3 La Quinta High School, Westminster
+VM1477:3 Los Amigos High School, Fountain Valley
+VM1477:3 Edison High School, Huntington Beach
+VM1477:3 Huntington Beach High School, Huntington Beach
+VM1477:3 Marina High School, Huntington Beach
+VM1477:3 Ocean View High School, Huntington Beach
+VM1477:3 Westminster High School, Westminster
+VM1477:3 Fountain Valley High School, Fountain Valley
+VM1477:3 Irvine High School, Irvine
+VM1477:3 Northwood High School, Irvine
+VM1477:3 Portola High School, Irvine
+VM1477:3 University High School, Irvine
+VM1477:3 Woodbridge High School, Irvine
+VM1477:3 Laguna Beach High School, Laguna Beach
+VM1477:3 Los Alamitos High School, Los Alamitos
+VM1477:3 Corona del Mar High School, Newport Beach
+VM1477:3 Costa Mesa High School, Costa Mesa
+VM1477:3 Estancia High School, Costa Mesa
+VM1477:3 Early College High School, Costa Mesa
+VM1477:3 Newport Harbor High School, Newport Beach
+VM1477:3 El Modena High School, Orange
+VM1477:3 Orange High School, Orange
+VM1477:3 Villa Park High School, Villa Park
+VM1477:3 Richland Continuation High School, Orange
+VM1477:3 Canyon High School, Anaheim
+VM1477:3 El Camino High School (Continuation), Placentia
+VM1477:3 El Dorado High School, Placentia
+VM1477:3 Valencia High School, Placentia
+VM1477:3 Esperanza High School, Anaheim
+VM1477:3 Yorba Linda High School, Yorba Linda
+VM1477:3 El Toro High School, Lake Forest
+VM1477:3 Laguna Hills High School, Laguna Hills
+VM1477:3 Mission Viejo High School, Mission Viejo
+VM1477:3 Silverado High School, Mission Viejo
+VM1477:3 Trabuco Hills High School, Mission Viejo
+VM1477:3 Albor Charter School, Santa Ana
+VM1477:3 Century High School, Santa Ana
+VM1477:3 Cesar Chavez High School, Santa Ana
+VM1477:3 Godinez Fundamental High School, Santa Ana
+VM1477:3 Lorin Griset Academy, Santa Ana
+VM1477:3 Middle College High School, Santa Ana
+VM1477:3 Orange County High School of the Arts, Santa Ana
+VM1477:3 Saddleback High School, Santa Ana
+VM1477:3 Santa Ana High School, Santa Ana
+VM1477:3 Segerstrom Fundamental High School, Santa Ana
+VM1477:3 Valley High School, Santa Ana
+VM1477:3 Arnold O. Beckman High School, Tustin
+VM1477:3 Foothill High School (Tustin), North Tustin
+VM1477:3 Hillview High School (Orange County, California), North Tustin
+VM1477:3 Tustin High School, Tustin
+VM1477:3 Mater Dei High School, Santa Ana
+VM1477:3 Rosary Academy, Fullerton
+VM1477:3 Santa Margarita Catholic High School, Rancho Santa Margarita
+VM1477:3 Cornelia Connelly High School, Anaheim
+VM1477:3 Padre Pio Academy, Garden Grove
+VM1477:3 JSerra Catholic High School, San Juan Capistrano
+VM1477:3 St. Michael's Preparatory School, Silverado
+VM1477:3 Servite High School, Anaheim
+VM1477:3 Orangewood Academy[1]
+VM1477:3 Brethren Christian Junior/Senior High School, Huntington Beach
+VM1477:3 Capistrano Valley Christian Schools, San Juan Capistrano
+VM1477:3 Calvary Chapel High School, Santa Ana
+VM1477:3 Crystal Cathedral High School, Garden Grove
+VM1477:3 Saddleback Valley Christian School, San Juan Capistrano
+VM1477:3 Spirit Christian Academy, Tustin
+VM1477:3 Whittier Christian High School, La Habra
+VM1477:3 Grace OC Academy, Anaheim
+VM1477:3 Pacifica Christian High School, Newport Beach
+VM1477:3 St. Margaret's Episcopal School
+VM1477:3 Crean Lutheran High School, Irvine
+VM1477:3 Lutheran High School of Orange County, Orange
+VM1477:3 Hebrew Academy OC
+VM1477:3 Tarbut V' Torah Community Day School
+VM1477:3 Acaciawood Preparatory Academy, Anaheim
+VM1477:3 Alton School, Cypress
+VM1477:3 Eldorado-Emerson, Orange
+VM1477:3 Fairmont Preparatory Academy, Anaheim
+VM1477:3 Florence Crittenton School, Fullerton
+VM1477:3 Fusion Academy & Learning Center, Huntington Beach
+VM1477:3 Fusion Academy & Learning Center, Mission Viejo
+VM1477:3 Halstrom High School, Mission Viejo
+VM1477:3 Sage Hill School, Newport Beach
+VM1477:3 Silverleaf Academy, Mission Viejo
+VM1477:3 Desert Sands Charter High School, Anaheim
+VM1477:3 Desert Sands Charter High School, Garden Grove
+VM1477:3 Desert Sands Charter High School, Santa Ana
+VM1477:3 Colfax High School, Colfax
+VM1477:3 Del Oro High School, Loomis
+VM1477:3 Forest Lake Christian High School, Auburn
+VM1477:3 Foresthill High School, Foresthill
+VM1477:3 Granite Bay High School, Granite Bay
+VM1477:3 Horizon Charter School, Lincoln
+VM1477:3 Lincoln High School, Lincoln
+VM1477:3 North Tahoe High School, Tahoe City
+VM1477:3 Oakmont High School, Roseville
+VM1477:3 Pine Hills Adventist Academy, Auburn
+VM1477:3 Placer High School, Auburn
+VM1477:3 Rocklin High School, Rocklin
+VM1477:3 Roseville High School, Roseville
+VM1477:3 Sierra Christian High School, Rocklin
+VM1477:3 Squaw Valley Academy, Squaw Valley
+VM1477:3 Whitney High School, Rocklin
+VM1477:3 Woodcreek High School, Roseville
+VM1477:3 Western Sierra Collegiate Academy,Rocklin
+VM1477:3 Chester High School, Chester
+VM1477:3 Greenville Junior-Senior High School, Greenville
+VM1477:3 Pine Hills Adventist School
+VM1477:3 Portola High School, Portola
+VM1477:3 Quincy High School, Quincy
+VM1477:3 Amistad High School (continuation), Indio
+VM1477:3 Arlington High School, Riverside
+VM1477:3 Banning High School, Banning
+VM1477:3 Beaumont High School, Beaumont
+VM1477:3 California Lutheran High School, Wildomar
+VM1477:3 Calvary Chapel Christian School, Murrieta
+VM1477:3 Canyon Springs High School, Moreno Valley
+VM1477:3 Cathedral City High School, Cathedral City
+VM1477:3 Centennial High School, Corona
+VM1477:3 Chaparral High School, Temecula
+VM1477:3 Christian School of the Desert, Bermuda Dunes
+VM1477:3 Citrus Hill High School, Perris
+VM1477:3 Coachella Valley High School, Thermal
+VM1477:3 Corona High School, Corona
+VM1477:3 Desert Adventist Academy, Desert Hot Springs
+VM1477:3 Desert Chapel High School, Palm Springs
+VM1477:3 Desert Hot Springs High School, Desert Hot Springs
+VM1477:3 Desert Mirage High School, Thermal
+VM1477:3 Eagle Mountain (K-12) School, Desert Center
+VM1477:3 Eleanor Roosevelt High School Eastvale
+VM1477:3 Elsinore High School, Wildomar
+VM1477:3 Grace Chapel of the Desert School, Indio
+VM1477:3 Great Oak High School, Temecula
+VM1477:3 Hamilton High School, Anza
+VM1477:3 Hemet Academy of Applied Academics and Technology, Hemet
+VM1477:3 Hemet High School, Hemet
+VM1477:3 Heritage High School, Menifee
+VM1477:3 Idyllwild Arts Academy, Idyllwild
+VM1477:3 Indio High School, Indio
+VM1477:3 John F. Kennedy Middle College High School, Norco
+VM1477:3 John W. North High School, Riverside
+VM1477:3 Jurupa Valley High School, Jurupa Valley
+VM1477:3 La Familia High School (continuation), Thermal
+VM1477:3 La Quinta High School, La Quinta
+VM1477:3 La Sierra Adventist Academy, Riverside
+VM1477:3 La Sierra High School, Riverside
+VM1477:3 Lakeside High School, Lake Elsinore
+VM1477:3 Lee Pollard High School, Corona
+VM1477:3 Linfield Christian School, Temecula
+VM1477:3 Martin Luther King Jr. High School, Riverside
+VM1477:3 Mater Dei High School, Mecca
+VM1477:3 Mesa Grande Academy, Calimesa
+VM1477:3 Mojave Desert (Mission Creek) Military Academy, Desert Hot Springs
+VM1477:3 Mount San Jacinto High School (continuation), Cathedral City
+VM1477:3 Moreno Valley High School, Moreno Valley
+VM1477:3 Murrieta Mesa High School, Murrieta
+VM1477:3 Murrieta Valley High School, Murrieta
+VM1477:3 Norco High School, Norco
+VM1477:3 Norte Vista High School, Riverside
+VM1477:3 Notre Dame Catholic High School, Riverside
+VM1477:3 Nuview Bridge Academy, Nuevo
+VM1477:3 Orange Grove High School, Corona
+VM1477:3 Palm Desert High School, Palm Desert
+VM1477:3 Palm Springs High School, Palm Springs
+VM1477:3 Palm Valley High School (private), Rancho Mirage
+VM1477:3 Palo Verde Valley High School, Blythe
+VM1477:3 Paloma Valley High School, Menifee
+VM1477:3 Patriot High School, Riverside
+VM1477:3 Perris High School, Perris
+VM1477:3 Quadrille Academy, Indio
+VM1477:3 Polytechnic High School, Riverside
+VM1477:3 Ramona High School, Riverside
+VM1477:3 Rancho Christian School, Temecula[2]
+VM1477:3 Rancho Mirage High School, Rancho Mirage [3]
+VM1477:3 Rancho Verde High School, Moreno Valley
+VM1477:3 River Springs Charter School, County wide charter school
+VM1477:3 Rubidoux High School, Riverside
+VM1477:3 San Gorgonio (K-12) School, Cabazon
+VM1477:3 San Jacinto Senior High School, San Jacinto
+VM1477:3 Santiago High School, Corona
+VM1477:3 Seaview High School, Thermal/Mecca
+VM1477:3 Shadow Hills High School, Indio
+VM1477:3 Sherman Indian High School, Riverside
+VM1477:3 Southwest Educational Center, Wildomar
+VM1477:3 Summit High School (independent studies), La Quinta
+VM1477:3 Sunnymead High School (continuation), Moreno Valley
+VM1477:3 Tahquitz High School, Hemet
+VM1477:3 Temecula Preparatory School, French Valley
+VM1477:3 Temecula Valley High School, Temecula
+VM1477:3 Temescal Canyon High School, Lake Elsinore
+VM1477:3 The Ranch Academy, 1000 Palms
+VM1477:3 Val Verde High School, Perris
+VM1477:3 Valley View High School, Moreno Valley
+VM1477:3 Vista Calimesa High School, Calimesa/Yucaipa
+VM1477:3 Vista del Lago High School, Moreno Valley
+VM1477:3 Vista Murrieta High School, Murrieta
+VM1477:3 West Shores High School, Salton City/Mecca
+VM1477:3 West Valley High School, Hemet
+VM1477:3 Woodcrest Christian School, Riverside
+VM1477:3 Xavier College Preparatory (Catholic), Palm Desert
+VM1477:3 American Legion High School, Central Sacramento
+VM1477:3 Arthur A. Benjamin Health Professions High School, Sacramento
+VM1477:3 Bella Vista High School, Fair Oaks
+VM1477:3 C. K. McClatchy High School, Sacramento
+VM1477:3 Calvine High School, Sacramento
+VM1477:3 Casa Roble High School, Orangevale
+VM1477:3 Center High School, Antelope
+VM1477:3 Christian Brothers High School, Central Sacramento
+VM1477:3 Cordova High School, Rancho Cordova
+VM1477:3 Cosumnes Oaks High School, Elk Grove
+VM1477:3 Del Campo High School, Fair Oaks
+VM1477:3 East Anthwood Angles High School, East Sacramento
+VM1477:3 East Side High School, East Sacramento
+VM1477:3 El Camino Fundamental High School, Sacramento
+VM1477:3 Elk Grove Charter School, Elk Grove
+VM1477:3 Elk Grove High School, Elk Grove
+VM1477:3 Encina High School, Sacramento
+VM1477:3 Florin High School, South Sacramento
+VM1477:3 Folsom High School, Folsom
+VM1477:3 Foothill High School, Sacramento
+VM1477:3 Franklin D. Roosevelt School, Sacramento
+VM1477:3 Franklin High School, Elk Grove
+VM1477:3 Galt High School, Galt
+VM1477:3 Grant Union High School, North Sacramento
+VM1477:3 Golden Valley Charter School
+VM1477:3 Highlands High School, North Highlands
+VM1477:3 Hiram W. Johnson High School, Sacramento
+VM1477:3 Inderkum High School, Sacramento
+VM1477:3 Jane Lathrop School, Carmichael
+VM1477:3 Jesuit High School of Sacramento, Carmichael
+VM1477:3 John F. Kennedy High School, South Sacramento
+VM1477:3 K. Robinson Anthwood Continuation High School, East Sacramento
+VM1477:3 Laguna Creek High School, Elk Grove
+VM1477:3 Lexington Union High School, Central Sacramento
+VM1477:3 Loretto High School, Sacramento
+VM1477:3 Luther Burbank High School, Sacramento
+VM1477:3 Lutheran School, Sacramento
+VM1477:3 Mesa Verde High School, Citrus Heights
+VM1477:3 Mira Loma High School, Sacramento
+VM1477:3 Monterey Trail High School, Elk Grove
+VM1477:3 Natomas Charter School, Sacramento
+VM1477:3 Natomas High School, Sacramento
+VM1477:3 Pleasant Grove High School,[4] Elk Grove
+VM1477:3 Rio Americano High School, Sacramento
+VM1477:3 Rio Linda High School, Rio Linda
+VM1477:3 River Valley School, Sacramento
+VM1477:3 Rochester High School, East Sacramento
+VM1477:3 Rosemont High School, Sacramento
+VM1477:3 Sacramento Adventist Academy, Sacramento
+VM1477:3 Sacramento Country Day School, Sacramento
+VM1477:3 Sacramento High School, Sacramento
+VM1477:3 Sacramento New Technology High School, Sacramento
+VM1477:3 Sacramento Preparatory Academy, Sacramento
+VM1477:3 Sacramento Valley School, Sacramento
+VM1477:3 Sacramento Waldorf School, Fair Oaks
+VM1477:3 St. Francis High School, Sacramento
+VM1477:3 San Juan High School, Citrus Heights
+VM1477:3 Sheldon High School, Sacramento
+VM1477:3 Tahaloma High School, Citrus Heights
+VM1477:3 Upper Valley High School, East Sacramento
+VM1477:3 Valley High School, South Sacramento
+VM1477:3 Valley Oak Academy - Mariposa, Citrus Heights
+VM1477:3 Victory Christian High School, Carmichael
+VM1477:3 Vista del Lago High School, Folsom
+VM1477:3 Vista Nueva Career & Technology High School, Sacramento
+VM1477:3 West Campus High School, West Sacramento
+VM1477:3 West Heights High School, West Sacramento
+VM1477:3 Wizbin High School, East Sacramento
+VM1477:3 Anzar High School, San Juan Bautista
+VM1477:3 San Benito High School, Hollister
+VM1477:3 Alta Vista Public Charter, Adelanto
+VM1477:3 Alta Vista Public Charter, Apple Valley
+VM1477:3 Alta Vista Public Charter, Hesperia
+VM1477:3 Alta Vista Public Charter, San Bernardino
+VM1477:3 Alta Vista South Public Charter, Highland
+VM1477:3 Apple Valley Unified School District
+Apple Valley High School, Apple Valley
+Granite Hills High School, Apple Valley
+VM1477:3 Apple Valley High School, Apple Valley
+VM1477:3 Granite Hills High School, Apple Valley
+VM1477:3 Barstow Unified School District
+Barstow High School
+Central High Continuation School
+VM1477:3 Barstow High School
+VM1477:3 Central High Continuation School
+VM1477:3 Bear Valley Unified School District
+Big Bear High School, Big Bear City
+Big Bear STEM School, Big Bear City
+Chataqua High School, Big Bear City
+VM1477:3 Big Bear High School, Big Bear City
+VM1477:3 Big Bear STEM School, Big Bear City
+VM1477:3 Chataqua High School, Big Bear City
+VM1477:3 Big River School, Big River (county)
+VM1477:3 Chaffey Joint Union High School District
+Alta Loma High School
+Canyon View High School
+Chaffey Adult School
+Chaffey High School
+Colony High School
+Etiwanda High School
+Los Osos High School
+Montclair High School
+Ontario High School
+Rancho Cucamonga High School
+Valley View High School, Ontario
+VM1477:3 Alta Loma High School
+VM1477:3 Canyon View High School
+VM1477:3 Chaffey Adult School
+VM1477:3 Chaffey High School
+VM1477:3 Colony High School
+VM1477:3 Etiwanda High School
+VM1477:3 Los Osos High School
+VM1477:3 Montclair High School
+VM1477:3 Ontario High School
+VM1477:3 Rancho Cucamonga High School
+VM1477:3 Valley View High School, Ontario
+VM1477:3 Chino Valley Unified School District
+Chino High School, Chino
+Chino Hills High School, Chino Hills
+Don Antonio Lugo High School
+Ruben S. Ayala High School, Chino Hills
+VM1477:3 Chino High School, Chino
+VM1477:3 Chino Hills High School, Chino Hills
+VM1477:3 Don Antonio Lugo High School
+VM1477:3 Ruben S. Ayala High School, Chino Hills
+VM1477:3 Colton Joint Unified School District
+Bloomington High School, Bloomington
+Colton High School, Colton
+Grand Terrace High School, Grand Terrace
+Slover Mountain High School, Colton
+Washington Alternative High School, Colton
+VM1477:3 Bloomington High School, Bloomington
+VM1477:3 Colton High School, Colton
+VM1477:3 Grand Terrace High School, Grand Terrace
+VM1477:3 Slover Mountain High School, Colton
+VM1477:3 Washington Alternative High School, Colton
+VM1477:3 Desert Sands Charter High School, Fontana
+VM1477:3 Desert Sands Charter High School, Rialto
+VM1477:3 Fontana Unified School District
+A. B. Miller High School, Fontana
+Fontana High School, Fontana
+Henry J. Kaiser High School, Fontana
+Jurupa Hills High School, Fontana
+Summit High School, Fontana
+VM1477:3 A. B. Miller High School, Fontana
+VM1477:3 Fontana High School, Fontana
+VM1477:3 Henry J. Kaiser High School, Fontana
+VM1477:3 Jurupa Hills High School, Fontana
+VM1477:3 Summit High School, Fontana
+VM1477:3 Hesperia Unified School District
+Hesperia High School, Hesperia
+Sultana High School, Hesperia
+VM1477:3 Hesperia High School, Hesperia
+VM1477:3 Sultana High School, Hesperia
+VM1477:3 Mojave Desert Public School, Amboy
+VM1477:3 Morongo Unified School District
+Twentynine Palms High School, Twentynine Palms
+Yucca Valley High School, Yucca Valley
+Black Rock High School (continuation), Joshua Tree
+VM1477:3 Twentynine Palms High School, Twentynine Palms
+VM1477:3 Yucca Valley High School, Yucca Valley
+VM1477:3 Black Rock High School (continuation), Joshua Tree
+VM1477:3 Needles Unified School District
+Needles High School
+VM1477:3 Needles High School
+VM1477:3 Redlands Unified School District
+The Grove School
+Orangewood Contintuation High School
+Redlands Citrus Valley High School
+Redlands East Valley High School
+Redlands High School
+VM1477:3 The Grove School
+VM1477:3 Orangewood Contintuation High School
+VM1477:3 Redlands Citrus Valley High School
+VM1477:3 Redlands East Valley High School
+VM1477:3 Redlands High School
+VM1477:3 Rialto Unified School District
+Doctor John H Milor High School, Rialto
+Dwight D. Eisenhower High School, Rialto
+Rialto High School, Rialto
+Wilmer Amina Carter High School, Rialto
+Zupanic High School, Rialto
+VM1477:3 Doctor John H Milor High School, Rialto
+VM1477:3 Dwight D. Eisenhower High School, Rialto
+VM1477:3 Rialto High School, Rialto
+VM1477:3 Wilmer Amina Carter High School, Rialto
+VM1477:3 Zupanic High School, Rialto
+VM1477:3 Rim of the World Unified School District
+Rim of the World High School, Lake Arrowhead
+VM1477:3 Rim of the World High School, Lake Arrowhead
+VM1477:3 San Bernardino City Unified School District
+Arroyo Valley High School
+Cajon High School
+Pacific High School
+San Andreas High School
+San Bernardino High School
+San Gorgonio High School
+Sierra High School
+VM1477:3 Arroyo Valley High School
+VM1477:3 Cajon High School
+VM1477:3 Pacific High School
+VM1477:3 San Andreas High School
+VM1477:3 San Bernardino High School
+VM1477:3 San Gorgonio High School
+VM1477:3 Sierra High School
+VM1477:3 Silver Valley Unified School District
+Silver Valley High School, Yermo
+VM1477:3 Silver Valley High School, Yermo
+VM1477:3 Snowline Joint Unified School District
+Chaparral High School, Phelan
+Serrano High School
+VM1477:3 Chaparral High School, Phelan
+VM1477:3 Serrano High School
+VM1477:3 Upland Unified School District
+Upland High School
+VM1477:3 Upland High School
+VM1477:3 Victor Valley Union High School District
+Adelanto High School, Adelanto
+Maverick High School, Victorville
+Silverado High School, Victorville
+Victor Valley High School, Victorville
+VM1477:3 Adelanto High School, Adelanto
+VM1477:3 Maverick High School, Victorville
+VM1477:3 Silverado High School, Victorville
+VM1477:3 Victor Valley High School, Victorville
+VM1477:3 Vista Calimesa High School, Yucaipa/Calimesa
+VM1477:3 Yucaipa High School, Yucaipa
+VM1477:3 Aquinas Catholic High School, San Bernardino
+VM1477:3 Arrowhead Christian Academy, Redlands
+VM1477:3 Bloomington Christian School, Big Bear Lake
+VM1477:3 Bloomington Christian School, Bloomington
+VM1477:3 Crestline High School, Crestline
+VM1477:3 Grace Chapel of the Desert School, Yucca Valley
+VM1477:3 Loma Linda Academy, Loma Linda
+VM1477:3 Mesa Grande Academy, Calimesa/Yucaipa
+VM1477:3 Mojave Desert (Morongo Basin) Military Academy, Yucca Valley
+VM1477:3 Riverside Prep, Oro Grande
+VM1477:3 (Seventh-Day) Adventist Academy, Yucca Valley/29 Palms
+VM1477:3 (Seventh-Day) Adventist Academy, Yucaipa/Calimesa
+VM1477:3 Upland Christian Academy, Rancho Cucamonga
+VM1477:3 Xavier College Preparatory High School, Palm Desert
+VM1477:3 Warner High School, Warner Springs
+VM1477:3 Borrego Springs High School, Borrego Springs
+VM1477:3 Palm Canyon High School (continuation), Borrego Springs
+VM1477:3 Carlsbad High School, Carlsbad
+VM1477:3 Carlsbad Village Academy 10-12, Carlsbad
+VM1477:3 Sage Creek High School, Carlsbad, Carlsbad
+VM1477:3 Coronado High School, Coronado
+VM1477:3 Palm Academy for Learning, Coronado
+VM1477:3 Diego Valley Charter High School, Escondido
+VM1477:3 Center City High School, Escondido
+VM1477:3 Escondido Charter High School, Escondido
+VM1477:3 Escondido High School, Escondido
+VM1477:3 Orange Glen High School, Escondido
+VM1477:3 San Pasqual High School, Escondido
+VM1477:3 Valley High School (continuation), Escondido
+VM1477:3 Classical Academy High School, Escondido
+VM1477:3 Del Lago Academy, Escondido
+VM1477:3 Fallbrook Union High School, Fallbrook
+VM1477:3 Ivy High School (continuation), Fallbrook
+VM1477:3 Oasis High School (alternative), Fallbrook
+VM1477:3 Diego Valley Charter High School, El Cajon
+VM1477:3 Chaparral High School (continuation), El Cajon
+VM1477:3 El Cajon Valley High School, El Cajon
+VM1477:3 El Capitan High School, Lakeside
+VM1477:3 Granite Hills High School, El Cajon
+VM1477:3 Grossmont High School, La Mesa/El Cajon
+VM1477:3 Grossmont Middle College High School, El Cajon
+VM1477:3 Helix High School, La Mesa (independent charter high school, authorized by the Grossmont Union HS District)
+VM1477:3 Monte Vista High School, Spring Valley
+VM1477:3 Mount Miguel High School, Spring Valley
+VM1477:3 Santana High School, Santee
+VM1477:3 Steele Canyon High School, Spring Valley (independent charter high school, authorized by the Grossmont Union HS District)
+VM1477:3 Valhalla High School, El Cajon
+VM1477:3 West Hills High School, Santee
+VM1477:3 Julian High School, Julian
+VM1477:3 Redding (Ray) High (continuation), Julian
+VM1477:3 Summit High Community Day, Julian
+VM1477:3 Mountain Empire High School, Pine Valley
+VM1477:3 Diego Valley Charter High School, Oceanside
+VM1477:3 El Camino High School, Oceanside
+VM1477:3 Oceanside High School, Oceanside
+VM1477:3 Oceanside School of Business and Technology, Oceanside
+VM1477:3 Pacific View Charter School, Oceanside
+VM1477:3 Abraxas High School, Poway
+VM1477:3 Del Norte High School, San Diego
+VM1477:3 Mount Carmel High School, San Diego
+VM1477:3 Poway High School, Poway
+VM1477:3 Rancho Bernardo High School, San Diego
+VM1477:3 Westview High School, San Diego
+VM1477:3 Montecito High School (alternative), Ramona
+VM1477:3 Mountain Valley Academy High School, Ramona
+VM1477:3 Ramona High School, Ramona
+VM1477:3 Monarch School, San Diego
+VM1477:3 Canyon Crest Academy, San Diego
+VM1477:3 La Costa Canyon High School, Carlsbad
+VM1477:3 North Coast High School (alternative), Encinitas
+VM1477:3 San Dieguito Academy, Encinitas
+VM1477:3 Sunset High School (alternative), Encinitas
+VM1477:3 Torrey Pines High School, San Diego
+VM1477:3 Bayshore Prep Charter School, San Marcos
+VM1477:3 Foothills High (alternative), San Marcos
+VM1477:3 Mission Hills High School, San Marcos
+VM1477:3 San Marcos High School, San Marcos
+VM1477:3 Twin Oaks High School (continuation), San Marcos
+VM1477:3 Bonita Vista High School, Chula Vista
+VM1477:3 Castle Park High School, Chula Vista
+VM1477:3 Chula Vista High School, Chula Vista
+VM1477:3 Eastlake High School, Chula Vista
+VM1477:3 Hilltop High School, Chula Vista
+VM1477:3 MAAC Community Charter School, Chula Vista
+VM1477:3 Mar Vista High School, Imperial Beach
+VM1477:3 Montgomery High School, San Diego
+VM1477:3 Olympian High School, Chula Vista
+VM1477:3 Options Secondary School, Chula Vista
+VM1477:3 Otay Ranch High School, Chula Vista
+VM1477:3 Palomar High School, Chula Vista
+VM1477:3 San Ysidro High School, San Diego
+VM1477:3 Southwest High School, San Diego
+VM1477:3 Sweetwater High School, National City
+VM1477:3 Oak Glen High School (continuation), Valley Center
+VM1477:3 Valley Center Adult Education, Valley Center
+VM1477:3 Valley Center High School, Valley Center
+VM1477:3 Valley Center Independent Study, Valley Center
+VM1477:3 Diego Valley Charter High School, Vista
+VM1477:3 Guajome Park Academy (charter), Vista
+VM1477:3 Mission Vista High School, Oceanside
+VM1477:3 North County Trade Tech High School (charter), Vista
+VM1477:3 Rancho Buena Vista High School, Vista
+VM1477:3 Vista High School, Vista
+VM1477:3 San Jose Valley Continuation High School, Warner Springs
+VM1477:3 Warner Middle / High School, Warner Springs
+VM1477:3 Ocean View Christian Academy
+VM1477:3 Academy of Our Lady of Peace
+VM1477:3 Saint Augustine High School
+VM1477:3 Mater Dei Catholic High School
+VM1477:3 Cathedral Catholic High School
+VM1477:3 The Bishop's School, La Jolla
+VM1477:3 San Diego Jewish Academy, San Diego
+VM1477:3 Southern California Yeshiva High School, San Diego
+VM1477:3 Torah High Schools of San Diego, San Diego
+VM1477:3 Victory Christian Academy, San Diego (formerly Lutheran High School of San Diego)
+VM1477:3 Escondido Adventist Academy, Escondido
+VM1477:3 San Diego Academy, National City
+VM1477:3 Army and Navy Academy, Carlsbad
+VM1477:3 Maranatha Christian Schools, San Diego
+VM1477:3 Calvin Christian School, Escondido
+VM1477:3 Santa Fe Christian Schools, Solana Beach
+VM1477:3 Horizon Christian Academy, San Diego
+VM1477:3 Horizon Prep School, Rancho Santa Fe
+VM1477:3 Tri-City Christian School, Tri-City Christian School
+VM1477:3 The Child's Primary School, San Diego
+VM1477:3 Carlsbad Seaside Academy, Carlsbad
+VM1477:3 Carlsbad Village Academy, Carlsbad
+VM1477:3 Francis W. Parker School, San Diego
+VM1477:3 Fusion Academy, Del Mar
+VM1477:3 The Grauer School, Encinitas
+VM1477:3 Halstrom High School, Oceanside
+VM1477:3 Halstrom High School, San Diego
+VM1477:3 La Jolla Country Day School, La Jolla
+VM1477:3 Pacific Academy International, Encinitas
+VM1477:3 Pacific Ridge School, Carlsbad
+VM1477:3 San Diego French American School, La Jolla
+VM1477:3 The Waldorf School of San Diego High School, San Diego
+VM1477:3 Leeway Sudbury School, San Diego
+VM1477:3 High Bluff Academy, San Diego
+VM1477:3 Day-McKellar Prep K-High School, La Mesa. Closed as of December, 2011 due to lack of funding.
+VM1477:3 List of high schools in California
+VM1477:3 List of school districts in California
+VM1477:3 List of school districts in California by county
+VM1477:3 List of school districts in San Diego County, California
+VM1477:3 Primary and secondary schools in San Diego, California
+VM1477:3 List of closed secondary schools in California
+VM1477:3 ^ http://www.orangewoodacademy.com
+
+VM1477:3 ^ http://www.ranchochristian.org
+
+VM1477:3 ^ http://www.ranchomiragehighschool.org/
+
+VM1477:3 ^ Pleasant Grove High School
+
+VM1477:3 San Diego County Office of Education
+VM1477:3 San Diego County Schools, list of schools from SchoolTree.org
+VM1477:3 Abraham Lincoln High School
+VM1477:3 Academy of Arts & Sciences
+VM1477:3 Balboa High School
+VM1477:3 Downtown High School
+VM1477:3 Galileo Academy of Science and Technology
+VM1477:3 George Washington High School
+VM1477:3 Ida B. Wells Continuation High School
+VM1477:3 Independence High School
+VM1477:3 International Studies Academy
+VM1477:3 John A. O'Connell High School
+VM1477:3 June Jordan School for Equity
+VM1477:3 Lowell High School
+VM1477:3 Mission High School
+VM1477:3 Phillip & Sala Burton High School
+VM1477:3 Raoul Wallenberg Traditional High School
+VM1477:3 San Francisco Flex Academy
+VM1477:3 San Francisco International High School
+VM1477:3 School of the Arts (SOTA)
+VM1477:3 Thurgood Marshall Academic High School
+VM1477:3 City Arts & Technology
+VM1477:3 Gateway High School
+VM1477:3 KIPP San Francisco College Preparatory
+VM1477:3 Leadership High School
+VM1477:3 The Bay School of San Francisco
+VM1477:3 Cornerstone Academy
+VM1477:3 Drew School
+VM1477:3 Fusion Academy
+VM1477:3 Hillwood Academic Day School
+VM1477:3 International High School of San Francisco
+VM1477:3 Jewish Community High School of the Bay
+VM1477:3 Lick-Wilmerding High School
+VM1477:3 Lycée Français La Pérouse
+VM1477:3 Proof School
+VM1477:3 Saint John of San Francisco Orthodox Academy
+VM1477:3 San Francisco Christian
+VM1477:3 San Francisco University High School
+VM1477:3 San Francisco Waldorf High School
+VM1477:3 The Urban School of San Francisco
+VM1477:3 Woodside International School
+VM1477:3 Youth Chance High School
+VM1477:3 Archbishop Riordan High School
+VM1477:3 Convent of the Sacred Heart High School
+VM1477:3 Immaculate Conception Academy
+VM1477:3 Mercy High School
+VM1477:3 Sacred Heart Cathedral Preparatory
+VM1477:3 St. Ignatius College Preparatory
+VM1477:3 Stuart Hall High School
+VM1477:3 Escalon Unified School District
+Escalon High School, Escalon
+VM1477:3 Escalon High School, Escalon
+VM1477:3 Lammersville Joint Unified School District
+Mountain House High School, Mountain House
+VM1477:3 Mountain House High School, Mountain House
+VM1477:3 Lincoln Unified School District
+Lincoln High School, Stockton
+VM1477:3 Lincoln High School, Stockton
+VM1477:3 Linden Unified School District
+Linden High School, Linden
+VM1477:3 Linden High School, Linden
+VM1477:3 Lodi Academy, Lodi
+VM1477:3 Lodi Unified School District
+Bear Creek High School, Stockton
+Lodi High School, Lodi
+Middle College High School, Stockton
+Ronald E. McNair High School, Stockton
+Tokay High School, Lodi
+VM1477:3 Bear Creek High School, Stockton
+VM1477:3 Lodi High School, Lodi
+VM1477:3 Middle College High School, Stockton
+VM1477:3 Ronald E. McNair High School, Stockton
+VM1477:3 Tokay High School, Lodi
+VM1477:3 Manteca Unified School District
+Calla Alternative High School, Manteca
+East Union High School, Manteca
+Lathrop High School, Lathrop
+Manteca Day School, Manteca
+Manteca High School, Manteca
+New Vision Alternative High School, Stockton
+Sierra High School, Manteca
+Weston Ranch High School, Stockton
+VM1477:3 Calla Alternative High School, Manteca
+VM1477:3 East Union High School, Manteca
+VM1477:3 Lathrop High School, Lathrop
+VM1477:3 Manteca Day School, Manteca
+VM1477:3 Manteca High School, Manteca
+VM1477:3 New Vision Alternative High School, Stockton
+VM1477:3 Sierra High School, Manteca
+VM1477:3 Weston Ranch High School, Stockton
+VM1477:3 Ripon Unified School District
+Ripon High School, Ripon
+VM1477:3 Ripon High School, Ripon
+VM1477:3 St. Mary's High School, Stockton
+VM1477:3 Stockton Unified School District
+Amos Alonzo Stagg High School, Stockton
+Cesar Chavez High School, Stockton
+Edison High School, Stockton
+Franklin High School, Stockton
+Stockton Collegiate International Schools, Stockton
+Stockton Early College Academy, Stockton
+VM1477:3 Amos Alonzo Stagg High School, Stockton
+VM1477:3 Cesar Chavez High School, Stockton
+VM1477:3 Edison High School, Stockton
+VM1477:3 Franklin High School, Stockton
+VM1477:3 Stockton Collegiate International Schools, Stockton
+VM1477:3 Stockton Early College Academy, Stockton
+VM1477:3 Tracy Unified School District
+John Kimball High School, Tracy
+Tracy High School, Tracy
+West High School, Tracy
+VM1477:3 John Kimball High School, Tracy
+VM1477:3 Tracy High School, Tracy
+VM1477:3 West High School, Tracy
+VM1477:3 Atascadero Unified School District
+Atascadero High School, Atascadero
+Del Rio Continuation High School, Atascadero
+VM1477:3 Atascadero High School, Atascadero
+VM1477:3 Del Rio Continuation High School, Atascadero
+VM1477:3 California Youth Authority
+Marie C. Romero High School, Paso Robles
+VM1477:3 Marie C. Romero High School, Paso Robles
+VM1477:3 Coast Unified School District
+Coast Union High School, Cambria
+Leffingwell Continuation High School, Cambria
+VM1477:3 Coast Union High School, Cambria
+VM1477:3 Leffingwell Continuation High School, Cambria
+VM1477:3 Lucia Mar Unified School District
+Arroyo Grande High School, Arroyo Grande
+Lopez High School, Arroyo Grande
+Nipomo High School, Nipomo
+Central Coast New Tech High School, Nipomo
+VM1477:3 Arroyo Grande High School, Arroyo Grande
+VM1477:3 Lopez High School, Arroyo Grande
+VM1477:3 Nipomo High School, Nipomo
+VM1477:3 Central Coast New Tech High School, Nipomo
+VM1477:3 Paso Robles Joint Unified School District
+Liberty High School, Paso Robles
+Paso Robles High School, Paso Robles
+VM1477:3 Liberty High School, Paso Robles
+VM1477:3 Paso Robles High School, Paso Robles
+VM1477:3 San Luis Coastal Unified School District
+Morro Bay High School, Morro Bay
+Pacific Beach High School, San Luis Obispo
+San Luis Obispo High School, San Luis Obispo
+VM1477:3 Morro Bay High School, Morro Bay
+VM1477:3 Pacific Beach High School, San Luis Obispo
+VM1477:3 San Luis Obispo High School, San Luis Obispo
+VM1477:3 Shandon Joint Unified School District
+Shandon High/Middle School, Shandon
+VM1477:3 Shandon High/Middle School, Shandon
+VM1477:3 Templeton Unified School District
+Eagle Canyon High School, Templeton
+Templeton High School, Templeton
+VM1477:3 Eagle Canyon High School, Templeton
+VM1477:3 Templeton High School, Templeton
+VM1477:3 Grizzly Challenge Charter School, San Luis Obispo
+VM1477:3 Mission College Preparatory, San Luis Obispo
+VM1477:3 North County Christian High School, Atascadero
+VM1477:3 San Luis Obispo Classical Academy, San Luis Obispo
+VM1477:3 Design Tech High School,[1] Redwood Shores
+VM1477:3 Cabrillo Unified School District
+Half Moon Bay High School, Half Moon Bay
+VM1477:3 Half Moon Bay High School, Half Moon Bay
+VM1477:3 Jefferson Union High School District
+Jefferson High School, Daly City
+Oceana High School, Pacifica
+Terra Nova High School, Pacifica
+Westmoor High School, Daly City
+VM1477:3 Jefferson High School, Daly City
+VM1477:3 Oceana High School, Pacifica
+VM1477:3 Terra Nova High School, Pacifica
+VM1477:3 Westmoor High School, Daly City
+VM1477:3 East Palo Alto City School District
+Ravenswood High School, East Palo Alto
+VM1477:3 Ravenswood High School, East Palo Alto
+VM1477:3 San Francisco Unified School District
+Urban Pioneer Experiential Academy, San Bruno
+VM1477:3 Urban Pioneer Experiential Academy, San Bruno
+VM1477:3 San Mateo Union High School District
+Aragon High School, San Mateo
+Burlingame High School, Burlingame
+Capuchino High School, San Bruno
+Hillsdale High School, San Mateo
+Mills High School, Millbrae
+San Mateo High School, San Mateo
+VM1477:3 Aragon High School, San Mateo
+VM1477:3 Burlingame High School, Burlingame
+VM1477:3 Capuchino High School, San Bruno
+VM1477:3 Hillsdale High School, San Mateo
+VM1477:3 Mills High School, Millbrae
+VM1477:3 San Mateo High School, San Mateo
+VM1477:3 Sequoia Union High School District
+Carlmont High School, Belmont
+Everest Public High School, Redwood City
+Menlo-Atherton High School, Atherton
+Sequoia High School, Redwood City
+Summit Preparatory Charter High School, Redwood City
+Woodside High School, Woodside
+VM1477:3 Carlmont High School, Belmont
+VM1477:3 Everest Public High School, Redwood City
+VM1477:3 Menlo-Atherton High School, Atherton
+VM1477:3 Sequoia High School, Redwood City
+VM1477:3 Summit Preparatory Charter High School, Redwood City
+VM1477:3 Woodside High School, Woodside
+VM1477:3 South San Francisco Unified School District
+Baden High School, South San Francisco
+El Camino High School, South San Francisco
+South San Francisco High School, South San Francisco
+VM1477:3 Baden High School, South San Francisco
+VM1477:3 El Camino High School, South San Francisco
+VM1477:3 South San Francisco High School, South San Francisco
+VM1477:3 Aurora High School, Redwood City
+VM1477:3 Crystal Springs Uplands School, Hillsborough
+VM1477:3 East Palo Alto Phoenix Academy, East Palo Alto
+VM1477:3 Eastside College Preparatory School, East Palo Alto
+VM1477:3 German-American International School, Menlo Park
+VM1477:3 Junípero Serra High School, San Mateo
+VM1477:3 Menlo School, Atherton
+VM1477:3 Mercy High School (Burlingame, California), Burlingame
+VM1477:3 Mid-Peninsula High School, Menlo Park
+VM1477:3 Notre Dame High School, Belmont
+VM1477:3 The Nueva School, Hillsborough
+VM1477:3 Pacific Rim International School, San Mateo
+VM1477:3 Pescadero High School, Pescadero
+VM1477:3 Sacred Heart Prep, Atherton
+VM1477:3 Woodside Priory School, Portola Valley
+VM1477:3 The Anacapa School, Santa Barbara
+VM1477:3 Bishop Garcia Diego High School, Santa Barbara
+VM1477:3 Cabrillo High School, Lompoc
+VM1477:3 Carpinteria High School, Carpinteria
+VM1477:3 Cate School, Carpinteria
+VM1477:3 Cuyama Valley High School, New Cuyama
+VM1477:3 Dos Pueblos High School, Goleta
+VM1477:3 Ernest Righetti High School, Santa Maria
+VM1477:3 Foothill Alternative High School, Carpinteria[2]
+VM1477:3 Laguna Blanca School, Santa Barbara
+VM1477:3 Lion of Judah Christian Academy, Orcutt
+VM1477:3 Lompoc High School, Lompoc
+VM1477:3 Los Angeles Catholic Archdiocese
+VM1477:3 Maple High School, Lompoc
+VM1477:3 Midland School, Los Olivos
+VM1477:3 Pioneer Valley High School, Santa Maria
+VM1477:3 Rincon Continuation High School, Carpinteria[2]
+VM1477:3 St. Joseph High School, Santa Maria
+VM1477:3 San Marcos High School, Santa Barbara
+VM1477:3 Santa Barbara High School, Santa Barbara
+VM1477:3 Santa Barbara Middle School (9th grade)
+VM1477:3 Santa Maria High School, Santa Maria
+VM1477:3 Santa Ynez Valley Union High School, Santa Ynez
+VM1477:3 Valley Christian Academy, Santa Maria
+VM1477:3 Campbell Union High School District
+Boynton High School, San Jose
+Branham High School, San Jose
+Del Mar High School, San Jose
+Leigh High School, San Jose
+Prospect High School, Saratoga
+Stellar Learning Academy, Campbell
+Westmont High School, Campbell
+VM1477:3 Boynton High School, San Jose
+VM1477:3 Branham High School, San Jose
+VM1477:3 Del Mar High School, San Jose
+VM1477:3 Leigh High School, San Jose
+VM1477:3 Prospect High School, Saratoga
+VM1477:3 Stellar Learning Academy, Campbell
+VM1477:3 Westmont High School, Campbell
+VM1477:3 East Side Union High School District
+Andrew P. Hill High School, San Jose
+East Side Cadet Academy, San Jose
+Evergreen Valley High School, San Jose
+Independence High School, San Jose
+James Lick High School, San Jose
+MACSA Academia Calmecac School, San Jose
+Mount Pleasant High School, San Jose
+Oak Grove High School, San Jose
+Piedmont Hills High School, San Jose
+San Jose Conservation Corps Charter School, San Jose
+Santa Teresa High School, San Jose
+Silver Creek High School, San Jose
+William C. Overfelt High School, San Jose
+Yerba Buena High School, San Jose
+VM1477:3 Andrew P. Hill High School, San Jose
+VM1477:3 East Side Cadet Academy, San Jose
+VM1477:3 Evergreen Valley High School, San Jose
+VM1477:3 Independence High School, San Jose
+VM1477:3 James Lick High School, San Jose
+VM1477:3 MACSA Academia Calmecac School, San Jose
+VM1477:3 Mount Pleasant High School, San Jose
+VM1477:3 Oak Grove High School, San Jose
+VM1477:3 Piedmont Hills High School, San Jose
+VM1477:3 San Jose Conservation Corps Charter School, San Jose
+VM1477:3 Santa Teresa High School, San Jose
+VM1477:3 Silver Creek High School, San Jose
+VM1477:3 William C. Overfelt High School, San Jose
+VM1477:3 Yerba Buena High School, San Jose
+VM1477:3 Fremont Union High School District
+Cupertino High School, Cupertino
+Fremont High School, Sunnyvale
+Homestead High School, Cupertino
+Lynbrook High School, San Jose
+Monta Vista High School, Cupertino
+VM1477:3 Cupertino High School, Cupertino
+VM1477:3 Fremont High School, Sunnyvale
+VM1477:3 Homestead High School, Cupertino
+VM1477:3 Lynbrook High School, San Jose
+VM1477:3 Monta Vista High School, Cupertino
+VM1477:3 Gilroy Unified School District
+Christopher High School, Gilroy
+Dr. TJ Owens Gilroy Early College Academy (GECA), Gilroy
+Gilroy High School, Gilroy
+MACSA Elementary Portal Leadership Academy, San Jose
+VM1477:3 Christopher High School, Gilroy
+VM1477:3 Dr. TJ Owens Gilroy Early College Academy (GECA), Gilroy
+VM1477:3 Gilroy High School, Gilroy
+VM1477:3 MACSA Elementary Portal Leadership Academy, San Jose
+VM1477:3 Los Gatos-Saratoga Joint Union High School District
+Los Gatos High School, Los Gatos
+Saratoga High School, Saratoga
+VM1477:3 Los Gatos High School, Los Gatos
+VM1477:3 Saratoga High School, Saratoga
+VM1477:3 Milpitas Unified School District
+Milpitas High School, Milpitas
+VM1477:3 Milpitas High School, Milpitas
+VM1477:3 Morgan Hill Unified School District
+Ann Sobrato High School, Morgan Hill
+Live Oak High School, Morgan Hill
+VM1477:3 Ann Sobrato High School, Morgan Hill
+VM1477:3 Live Oak High School, Morgan Hill
+VM1477:3 Mountain View-Los Altos Union High School District
+Los Altos High School, Los Altos
+Mountain View High School, Mountain View
+Silicon Valley Essential High School, Los Altos
+VM1477:3 Los Altos High School, Los Altos
+VM1477:3 Mountain View High School, Mountain View
+VM1477:3 Silicon Valley Essential High School, Los Altos
+VM1477:3 Palo Alto Unified School District
+Gunn High School, Palo Alto
+Palo Alto High School, Palo Alto
+VM1477:3 Gunn High School, Palo Alto
+VM1477:3 Palo Alto High School, Palo Alto
+VM1477:3 Roman Catholic Diocese of San Jose
+Archbishop Mitty High School, San Jose
+Bellarmine College Preparatory, San Jose
+Notre Dame High School, San Jose
+Presentation High School, San Jose
+Saint Francis High School, Mountain View
+VM1477:3 Archbishop Mitty High School, San Jose
+VM1477:3 Bellarmine College Preparatory, San Jose
+VM1477:3 Notre Dame High School, San Jose
+VM1477:3 Presentation High School, San Jose
+VM1477:3 Saint Francis High School, Mountain View
+VM1477:3 San Jose Unified School District
+Abraham Lincoln High School, San Jose
+Downtown College Prep, San Jose
+Gunderson High School, San Jose
+Leland High School, San Jose
+Middle College High, San Jose
+Pioneer High School, San Jose
+San Jose High Academy, San Jose
+Willow Glen High School, San Jose
+VM1477:3 Abraham Lincoln High School, San Jose
+VM1477:3 Downtown College Prep, San Jose
+VM1477:3 Gunderson High School, San Jose
+VM1477:3 Leland High School, San Jose
+VM1477:3 Middle College High, San Jose
+VM1477:3 Pioneer High School, San Jose
+VM1477:3 San Jose High Academy, San Jose
+VM1477:3 Willow Glen High School, San Jose
+VM1477:3 Santa Clara Unified School District
+Adrian C. Wilcox High School, Santa Clara
+Santa Clara High School, Santa Clara
+VM1477:3 Adrian C. Wilcox High School, Santa Clara
+VM1477:3 Santa Clara High School, Santa Clara
+VM1477:3 
+VM1477:3 Private Schools
+Beacon School, San Jose
+Cambrian Academy, San Jose
+Castilleja School, Palo Alto
+Communitas Charter High School, San Jose
+The Harker School, San Jose
+Kehillah Jewish High School, Palo Alto
+The King's Academy,[3] Sunnyvale
+Liberty Baptist School, San Jose
+Oakwood High School, Morgan Hill
+Our Shepherd's Academy, San Jose
+Palo Alto Preparatory School, Palo Alto
+Pine Hill School, San Jose
+Pinewood School, Los Altos Hills
+Thomas More School, San Jose
+University Preparatory Academy, San Jose
+Valley Christian High School, San Jose
+White Road Baptist Academy, San Jose
+VM1477:3 Beacon School, San Jose
+VM1477:3 Cambrian Academy, San Jose
+VM1477:3 Castilleja School, Palo Alto
+VM1477:3 Communitas Charter High School, San Jose
+VM1477:3 The Harker School, San Jose
+VM1477:3 Kehillah Jewish High School, Palo Alto
+VM1477:3 The King's Academy,[3] Sunnyvale
+VM1477:3 Liberty Baptist School, San Jose
+VM1477:3 Oakwood High School, Morgan Hill
+VM1477:3 Our Shepherd's Academy, San Jose
+VM1477:3 Palo Alto Preparatory School, Palo Alto
+VM1477:3 Pine Hill School, San Jose
+VM1477:3 Pinewood School, Los Altos Hills
+VM1477:3 Thomas More School, San Jose
+VM1477:3 University Preparatory Academy, San Jose
+VM1477:3 Valley Christian High School, San Jose
+VM1477:3 White Road Baptist Academy, San Jose
+VM1477:3 
+VM1477:3 Seventh-Day Adventist
+Mountain View Academy,[4]  Mountain View
+VM1477:3 Mountain View Academy,[4]  Mountain View
+VM1477:3 Aptos High School, Aptos
+VM1477:3 Costanoa Continuation High School, Santa Cruz
+VM1477:3 Cypress Charter High School, Live Oak
+VM1477:3 Delta Charter School, Santa Cruz
+VM1477:3 Georgiana Bruce Kirby Preparatory School, Santa Cruz
+VM1477:3 Harbor High School, Santa Cruz
+VM1477:3 MCP Middle and High School (Monterey Coast Prep), Santa Cruz
+VM1477:3 Monte Vista Christian School, Watsonville
+VM1477:3 Monterey Bay Academy, Watsonville
+VM1477:3 Pacific Collegiate School, Santa Cruz
+VM1477:3 Pajaro Valley High School, Watsonville
+VM1477:3 Saint Francis Central Coast Catholic High School, Watsonville
+VM1477:3 San Lorenzo Valley High School, Felton
+VM1477:3 Santa Cruz High School, Santa Cruz
+VM1477:3 Santa Cruz Waldorf High School, Santa Cruz
+VM1477:3 Scotts Valley High School, Scotts Valley
+VM1477:3 Soquel High School, Soquel
+VM1477:3 Watsonville High School, Watsonville
+VM1477:3 Anderson New Technology High School, Anderson
+VM1477:3 Anderson Union High School, Anderson
+VM1477:3 Bishop Quinn High School, Palo Cedro
+VM1477:3 Burney High School, Burney
+VM1477:3 Central Valley High School, Shasta Lake
+VM1477:3 Enterprise High School, Redding
+VM1477:3 Fall River High School, McArthur
+VM1477:3 Foothill High School, Palo Cedro
+VM1477:3 Liberty Christian High School, Redding
+VM1477:3 Nawa Academy, French Gulch
+VM1477:3 Redding Christian High School, Redding
+VM1477:3 Shasta High School, Redding
+VM1477:3 Stellar Charter School, Redding
+VM1477:3 University Preparatory School, Redding
+VM1477:3 West Valley High School, Cottonwood
+VM1477:3 Downieville School, Downieville
+VM1477:3 Loyalton High School, Loyalton
+VM1477:3 Pliocene Ridge Junior-Senior High School, North San Juan
+VM1477:3 Butte Valley Unified School District
+Butte Valley High School, Dorris
+Cascade High School, Dorris
+VM1477:3 Butte Valley High School, Dorris
+VM1477:3 Cascade High School, Dorris
+VM1477:3 Dunsmuir High School, Dunsmuir
+VM1477:3 Etna Union High School District
+Etna High School, Etna
+Scott River High School, Etna
+VM1477:3 Etna High School, Etna
+VM1477:3 Scott River High School, Etna
+VM1477:3 Golden Eagle Charter School, Mount Shasta
+VM1477:3 Siskiyou Union High School District
+Happy Camp High School, Happy Camp
+Jefferson High School, Mount Shasta
+McButt High School, McButt
+Mount Shasta High School, Mount Shasta
+Weed High School, Weed
+VM1477:3 Happy Camp High School, Happy Camp
+VM1477:3 Jefferson High School, Mount Shasta
+VM1477:3 McButt High School, McButt
+VM1477:3 Mount Shasta High School, Mount Shasta
+VM1477:3 Weed High School, Weed
+VM1477:3 Tulelake Basin Joint Unified School District
+Tulelake Continuation High School, Tulelake
+Tulelake High School, Tulelake
+VM1477:3 Tulelake Continuation High School, Tulelake
+VM1477:3 Tulelake High School, Tulelake
+VM1477:3 Yreka Union High School District
+Discovery High School, Yreka
+Yreka High School, Yreka
+VM1477:3 Discovery High School, Yreka
+VM1477:3 Yreka High School, Yreka
+VM1477:3 Benicia High School, Benicia
+VM1477:3 Buckingham Charter Magnet High School, Vacaville
+VM1477:3 Dixon High School, Dixon
+VM1477:3 Fairfield-Suisun Unified School District, Fairfield
+Angelo Rodriguez High School, Fairfield
+Armijo High School, Fairfield
+Fairfield High School, Fairfield
+Sem Yeto High School, Fairfield
+VM1477:3 Angelo Rodriguez High School, Fairfield
+VM1477:3 Armijo High School, Fairfield
+VM1477:3 Fairfield High School, Fairfield
+VM1477:3 Sem Yeto High School, Fairfield
+VM1477:3 Hogan High School, Vallejo
+VM1477:3 Jesse M. Bethel High School, Vallejo
+VM1477:3 Mare Island Technology Academy, Vallejo
+VM1477:3 Mary Bird School, Fairfield
+VM1477:3 Rio Vista High School, Rio Vista
+VM1477:3 St. Patrick-St. Vincent High School, Vallejo
+VM1477:3 Vacaville Christian High School, Vacaville
+VM1477:3 Vacaville High School, Vacaville
+VM1477:3 Vallejo High School, Vallejo
+VM1477:3 Vanden High School, Fairfield
+VM1477:3 Will C. Wood High School, Vacaville
+VM1477:3 Analy High School, Sebastopol
+VM1477:3 Cardinal Newman High School, Santa Rosa
+VM1477:3 Casa Grande High School, Petaluma
+VM1477:3 Cloverdale High School, Cloverdale
+VM1477:3 El Camino High School, Rohnert Park
+VM1477:3 El Molino High School, Forestville
+VM1477:3 Elsie Allen High School, Santa Rosa
+VM1477:3 Geyserville Educational Park High School, Geyserville
+VM1477:3 Healdsburg High School, Healdsburg
+VM1477:3 Journey High School, Sebastopol
+VM1477:3 Maria Carrillo High School, Santa Rosa
+VM1477:3 Montgomery High School, Santa Rosa
+VM1477:3 Nonesuch High School, Sebastopol
+VM1477:3 Petaluma High School, Petaluma
+VM1477:3 Piner High School, Santa Rosa
+VM1477:3 Rancho Cotate High School, Rohnert Park
+VM1477:3 Rincon Valley Christian School, Santa Rosa
+VM1477:3 Rio Lindo Adventist Academy, Healdsburg
+VM1477:3 Roseland University Prep, Santa Rosa
+VM1477:3 Russian River Charter School, Forestville
+VM1477:3 St. Vincent de Paul High School, Petaluma
+VM1477:3 Santa Rosa High School, Santa Rosa
+VM1477:3 Sonoma Academy, Santa Rosa
+VM1477:3 Sonoma Mountain High School, Petaluma
+VM1477:3 Sonoma Valley High School, Sonoma
+VM1477:3 Summerfield Waldorf High School[5] Santa Rosa
+VM1477:3 Technology High School, Rohnert Park
+VM1477:3 Ursuline High School, Santa Rosa
+VM1477:3 Windsor High School, Windsor
+VM1477:3 Windsor Oaks Academy, Windsor
+VM1477:3 Big Valley Grace Christian High School, Modesto
+VM1477:3 Brethren Heritage School, Modesto
+VM1477:3 Central Catholic High School, Modesto
+VM1477:3 Central Valley High School, Ceres
+VM1477:3 Ceres High School, Ceres
+VM1477:3 Community Middle College, Modesto
+VM1477:3 Denair High School, Denair
+VM1477:3 Fred C. Beyer High School, Modesto
+VM1477:3 Grace M. Davis High School, Modesto
+VM1477:3 Hughson Union High School, Hughson
+VM1477:3 James C. Enochs High School, Modesto
+VM1477:3 John H. Pitman High School, Turlock
+VM1477:3 Joseph Gregori High School, Modesto
+VM1477:3 Keyes to Learning Charter School, Keyes
+VM1477:3 Modesto Christian High School, Modesto
+VM1477:3 Modesto High School, Modesto
+VM1477:3 Oakdale High School, Oakdale
+VM1477:3 Orestimba High School, Newman
+VM1477:3 Patterson High School, Patterson
+VM1477:3 Peter Johansen High School, Modesto
+VM1477:3 Riverbank High School, Riverbank
+VM1477:3 Thomas Downey High School, Modesto
+VM1477:3 Turlock Christian High School, Turlock
+VM1477:3 Turlock High School, Turlock
+VM1477:3 Valley Business High School, Modesto
+VM1477:3 Waterford High School, Waterford
+VM1477:3 East Nicolaus High School, Nicolaus
+VM1477:3 Faith Christian Junior-Senior High School, Yuba City
+VM1477:3 Live Oak High School, Live Oak
+VM1477:3 River Valley High School, Yuba City
+VM1477:3 Sutter Union High School, Sutter
+VM1477:3 Yuba City High School, Yuba City
+VM1477:3 Corning High School, Corning
+VM1477:3 Los Molinos High School, Los Molinos
+VM1477:3 Mercy High School, Red Bluff
+VM1477:3 Red Bluff High School, Red Bluff
+VM1477:3 Hayfork High School, Hayfork
+VM1477:3 Southern Trinity High School, Mad River
+VM1477:3 Trinity High School, Weaverville
+VM1477:3 Burton Pathways Charter High School, Porterville
+VM1477:3 Butterfield Charter High School, Porterville
+VM1477:3 Central Valley Christian High School, Visalia
+VM1477:3 Citrus High School, Porterville
+VM1477:3 Crescent Valley Public Charter, Tulare
+VM1477:3 Crescent Valley Public Charter, Visalia
+VM1477:3 Dinuba High School, Dinuba
+VM1477:3 El Diamante High School, Visalia
+VM1477:3 Exeter High School, Exeter
+VM1477:3 Farmersville High School, Farmersville
+VM1477:3 Golden West High School, Visalia
+VM1477:3 Granite Hills High School, Porterville
+VM1477:3 Harmony Magnet Academy High School, Porterville
+VM1477:3 La Sierra High School, Visalia
+VM1477:3 Lindsay High School, Lindsay
+VM1477:3 Mission Oak High School, Tulare
+VM1477:3 Monache High School, Porterville
+VM1477:3 Mount Whitney High School, Visalia
+VM1477:3 Orosi High School, Orosi
+VM1477:3 Porterville High School, Porterville
+VM1477:3 Prospect Education Center, Porterville
+VM1477:3 Redwood High School, Visalia
+VM1477:3 Sequoia High School, Visalia
+VM1477:3 Strathmore High School, Porterville
+VM1477:3 Summit Charter Collegiate High School, Porterville
+VM1477:3 Tulare Union High School, Tulare
+VM1477:3 Tulare Western High School, Tulare
+VM1477:3 University Preparatory High School, Visalia
+VM1477:3 Vine Street Community School, Porterville
+VM1477:3 Woodlake High School, Woodlake
+VM1477:3 Cold Springs High School, Tuolumne
+VM1477:3 Mountain High School, Pinecrest
+VM1477:3 Sonora High School, Sonora
+VM1477:3 Southfork High School, Tuolumne
+VM1477:3 Summerville Union High School, Tuolumne
+VM1477:3 Tioga High School, Groveland
+VM1477:3 Besant Hill School (formerly Happy Valley School), Ojai
+VM1477:3 Buena High School, Ventura
+VM1477:3 Cornerstone Christian School, Camarillo
+VM1477:3 El Camino High School, Ventura
+VM1477:3 Fillmore High School, Fillmore
+VM1477:3 Foothill Technology High School, Ventura
+VM1477:3 Grace Brethren High School Simi Valley
+VM1477:3 La Reina High School, Thousand Oaks
+VM1477:3 Los Angeles Catholic Archdiocese
+VM1477:3 Mary B. Perry High School, Camarillo
+VM1477:3 Moorpark High School, Moorpark
+VM1477:3 Newbury Park Adventist Academy, Newbury Park
+VM1477:3 Newbury Park High School, Newbury Park
+VM1477:3 Nordhoff High School, Ojai
+VM1477:3 Oak Park High School, Oak Park
+VM1477:3 Oxnard Union High School District
+Adolfo Camarillo High School, Camarillo
+Channel Islands High School, Oxnard
+Hueneme High School, Oxnard
+Oxnard High School, Oxnard
+Pacifica High School, Oxnard
+Rio Mesa High School, Oxnard
+VM1477:3 Adolfo Camarillo High School, Camarillo
+VM1477:3 Channel Islands High School, Oxnard
+VM1477:3 Hueneme High School, Oxnard
+VM1477:3 Oxnard High School, Oxnard
+VM1477:3 Pacifica High School, Oxnard
+VM1477:3 Rio Mesa High School, Oxnard
+VM1477:3 Royal High School, Simi Valley
+VM1477:3 St. Bonaventure High School, Ventura
+VM1477:3 Santa Clara High School, Oxnard
+VM1477:3 Santa Paula High School, Santa Paula
+VM1477:3 Santa Susana High School, Simi Valley
+VM1477:3 Simi Valley High School, Simi Valley
+VM1477:3 The Thacher School, Ojai
+VM1477:3 Thousand Oaks High School, Thousand Oaks
+VM1477:3 Ventura County Christian School, Ventura [6]
+VM1477:3 Ventura High School, Ventura
+VM1477:3 Villanova Preparatory School, Ojai
+VM1477:3 Vista Real Charter High School, Oxnard
+VM1477:3 Vista Real Charter High School, Santa Paula
+VM1477:3 Vista Real Charter High School, Simi Valley
+VM1477:3 Vista Real Charter High School, Ventura
+VM1477:3 Weil Tennis Academy & College Prep School, Ojai
+VM1477:3 Westlake High School, Westlake Village
+VM1477:3 Cache Creek High School (Continuation), Yolo
+VM1477:3 Davis Senior High School, Davis
+VM1477:3 Delta High School, Clarksburg
+VM1477:3 Esparto High School, Esparto
+VM1477:3 Leonardo da Vinci High School, Davis
+VM1477:3 Martin Luther King High, Davis
+VM1477:3 Pioneer High School, Woodland
+VM1477:3 River City High School, West Sacramento
+VM1477:3 Winters High School, Winters
+VM1477:3 Woodland High School, Woodland
+VM1477:3 Lindhurst High School, Olivehurst
+VM1477:3 Marysville Charter Academy for the Arts, Marysville
+VM1477:3 Marysville High School, Marysville
+VM1477:3 New Life Christian School, Linda
+VM1477:3 Wheatland High School, Wheatland
+
+Chinle High School, Chinle
+VM1315:2 Ganado High School, Ganado
+VM1315:2 Many Farms High School, Many Farms
+VM1315:2 New Visions Academy (St. Johns campus), St. Johns
+VM1315:2 Red Mesa High School, Teec Nos Pos
+VM1315:2 Red Valley/Cove High School, Red Valley
+VM1315:2 Rock Point Community School, Rock Point
+VM1315:2 Rough Rock Community School, Chinle
+VM1315:2 Round Valley High School, Eagar
+VM1315:2 St. Johns High School, St. Johns
+VM1315:2 St. Michael High School, St. Michaels
+VM1315:2 Valley High School, Sanders
+VM1315:2 Window Rock High School, Fort Defiance
+VM1315:2 Benson High School, Benson
+VM1315:2 Bisbee High School, Bisbee
+VM1315:2 Bowie High School, Bowie
+VM1315:2 Buena High School, Sierra Vista
+VM1315:2 Douglas High School, Douglas
+VM1315:2 St. David High School, St. David
+VM1315:2 San Simon High School, San Simon
+VM1315:2 Tombstone High School, Tombstone
+VM1315:2 Valley Union High School, Elfrida
+VM1315:2 Willcox High School, Willcox
+VM1315:2 Coconino High School
+VM1315:2 Flagstaff Arts and Leadership Academy
+VM1315:2 Flagstaff High School
+VM1315:2 New Horizon Christian Academy
+VM1315:2 Northland Preparatory Academy
+VM1315:2 Ponderosa High School
+VM1315:2 Fredonia High School, Fredonia
+VM1315:2 Grand Canyon High School, Grand Canyon
+VM1315:2 Greyhills Academy High School, Tuba City
+VM1315:2 Page High School, Page
+VM1315:2 Tse Yaato High School, Page
+VM1315:2 Tuba City High School, Tuba City
+VM1315:2 Williams High School, Williams
+VM1315:2 Globe High School, Globe
+VM1315:2 Hayden High School, Winkelman
+VM1315:2 Liberty High School, Globe
+VM1315:2 Miami High School, Miami
+VM1315:2 New Visions Academy (Star Valley campus), Star Valley
+VM1315:2 Payson High School, Payson
+VM1315:2 San Carlos High School, San Carlos
+VM1315:2 Young Public School, Young
+VM1315:2 Fort Thomas High School, Fort Thomas
+VM1315:2 Mount Graham High School, Safford
+VM1315:2 Pima High School, Pima
+VM1315:2 Safford High School, Safford
+VM1315:2 Thatcher High School, Thatcher
+VM1315:2 Duncan High School, Duncan
+VM1315:2 Morenci Junior/Senior High School, Morenci
+VM1315:2 Parker High School, Parker
+VM1315:2 Salome High School, Salome
+VM1315:2 Anthem Preparatory Academy
+VM1315:2 Boulder Creek High School
+VM1315:2 Agua Fria High School
+VM1315:2 Estrella High School
+VM1315:2 La Joya Community High School
+VM1315:2 St. John Paul II Catholic High School
+VM1315:2 Westview High School
+VM1315:2 West Point High School
+VM1315:2 Buckeye Union High School
+VM1315:2 The Odyssey Institute for Advanced and International Studies
+VM1315:2 Verrado High School
+VM1315:2 Youngker High School
+VM1315:2 Skyview High School
+VM1315:2 e-Institute Charter High School
+VM1315:2 Arizona College Preparatory
+VM1315:2 AZ Compass Prep
+VM1315:2 Basha High School
+VM1315:2 Chandler High School
+VM1315:2 Chandler Preparatory Academy
+VM1315:2 El Dorado High School
+VM1315:2 Hamilton High School
+VM1315:2 Lincoln Preparatory Academy
+VM1315:2 Paragon Science Academy
+VM1315:2 Primavera Online High School
+VM1315:2 Seton Catholic Preparatory High School
+VM1315:2 Tri-City Christian Academy
+VM1315:2 Valley Christian High School
+VM1315:2 American Leadership Academy Gilbert North
+VM1315:2 Campo Verde High School
+VM1315:2 Desert Hills High School
+VM1315:2 Gilbert Christian High School
+VM1315:2 Gilbert Classical Academy
+VM1315:2 Gilbert High School
+VM1315:2 Highland High School
+VM1315:2 Higley High School
+VM1315:2 Leading Edge Academy
+VM1315:2 Mesquite High School
+VM1315:2 Perry High School
+VM1315:2 Williams Field High School
+VM1315:2 Apollo High School
+VM1315:2 Cactus High School
+VM1315:2 Copper Canyon High School
+VM1315:2 Deer Valley High School
+VM1315:2 Desert Heights Preparatory Academy
+VM1315:2 Glendale High School
+VM1315:2 Glendale Preparatory Academy
+VM1315:2 Independence High School
+VM1315:2 Ironwood High School
+VM1315:2 Joy Christian School
+VM1315:2 Mountain Ridge High School
+VM1315:2 Raymond S. Kellis High School
+VM1315:2 Sandra Day O'Connor High School
+VM1315:2 Betty H. Fairfax High School
+VM1315:2 César Chávez High School
+VM1315:2 Heritage Academy
+VM1315:2 Arete Preparatory Academy
+VM1315:2 Desert Ridge High School
+VM1315:2 Dobson High School
+VM1315:2 Eastmark High School
+VM1315:2 East Valley Academy
+VM1315:2 Heritage Academy
+VM1315:2 Mesa High School
+VM1315:2 Mountain View High School
+VM1315:2 Pinnacle High School
+VM1315:2 Red Mountain High School
+VM1315:2 Riverview High School
+VM1315:2 Sequoia Charter School
+VM1315:2 Skyline High School
+VM1315:2 Sun Valley High School
+VM1315:2 Superstition High School
+VM1315:2 Westwood High School
+VM1315:2 Canyon Valley School
+VM1315:2 Centennial High School
+VM1315:2 Liberty High School
+VM1315:2 Peoria High School
+VM1315:2 Peoria Accelerated High School
+VM1315:2 Skyline West Prep
+VM1315:2 Sunrise Mountain High School
+VM1315:2 Basis Peoria
+VM1315:2 Adobe Mountain School
+VM1315:2 Alhambra High School
+VM1315:2 Arcadia High School
+VM1315:2 Arizona Cultural Academy
+VM1315:2 Arizona Lutheran Academy
+VM1315:2 Arizona Preparatory Academy
+VM1315:2 Arizona School for the Arts
+VM1315:2 Barry Goldwater High School
+VM1315:2 Bioscience High School
+VM1315:2 Bostrom High School
+VM1315:2 Bourgade Catholic High School
+VM1315:2 Brophy College Preparatory
+VM1315:2 Camelback High School
+VM1315:2 Carl Hayden Community High School
+VM1315:2 Central High School
+VM1315:2 Cortez High School
+VM1315:2 Crestview College Preparatory High School
+VM1315:2 Cyber High School
+VM1315:2 Deer Valley Academy
+VM1315:2 Desert Vista High School
+VM1315:2 Desiderata Program
+VM1315:2 Excel Prep Academy
+VM1315:2 Franklin Police and Fire High School
+VM1315:2 GateWay Early College High School
+VM1315:2 Girls Leadership Academy of Arizona
+VM1315:2 Glenview Adventist Academy
+VM1315:2 Greenway High School
+VM1315:2 Horizon Community Learning Center (aka Horizon Honors HS)
+VM1315:2 James Sandoval Preparatory High School
+VM1315:2 Maryvale High School
+VM1315:2 Maya High School
+VM1315:2 Metro Tech High School
+VM1315:2 Metrocenter Academy
+VM1315:2 Metropolitan Arts Institute
+VM1315:2 Midtown High School
+VM1315:2 Mission Academy High School
+VM1315:2 Moon Valley High School
+VM1315:2 Mountain Pointe High School
+VM1315:2 NFL YET
+VM1315:2 North Canyon High School
+VM1315:2 North High School
+VM1315:2 North Pointe Preparatory
+VM1315:2 Northwest Christian High School
+VM1315:2 Paradise Valley High School
+VM1315:2 Phoenix Christian High School
+VM1315:2 Phoenix College Preparatory Academy
+VM1315:2 Phoenix Country Day School
+VM1315:2 Pinnacle High School
+VM1315:2 Polaris High School
+VM1315:2 Precision Academy
+VM1315:2 Premier High School
+VM1315:2 RCB High School Phoenix
+VM1315:2 Roadrunner School
+VM1315:2 St. Mary's High School
+VM1315:2 School for Integrated Academics and Technologies
+VM1315:2 Scottsdale Christian Academy
+VM1315:2 Shadow Mountain High School
+VM1315:2 Sierra Linda High School
+VM1315:2 Skyline Technical High School
+VM1315:2 Sonoran Science Academy (Phoenix)
+VM1315:2 South Mountain High School
+VM1315:2 South Pointe High School
+VM1315:2 South Ridge High School
+VM1315:2 Summit High School
+VM1315:2 Sunnyslope High School
+VM1315:2 Suns-Diamondbacks Education Academy
+VM1315:2 Tesseract School
+VM1315:2 Thunderbird High School
+VM1315:2 Trevor G. Browne High School
+VM1315:2 Valley Lutheran High School
+VM1315:2 Veritas Preparatory Academy
+VM1315:2 Washington High School
+VM1315:2 West Phoenix High School
+VM1315:2 Xavier College Preparatory
+VM1315:2 American Leadership Academy
+VM1315:2 Canyon State Academy
+VM1315:2 Casteel High School
+VM1315:2 Heritage Academy, Queen Creek
+VM1315:2 Queen Creek High School
+VM1315:2 BASIS Scottsdale
+VM1315:2 Bella Vista Private School
+VM1315:2 Chaparral High School
+VM1315:2 Coronado High School
+VM1315:2 Desert Mountain High School
+VM1315:2 Foothills Academy
+VM1315:2 Gateway Academy
+VM1315:2 Horizon High School
+VM1315:2 Notre Dame Preparatory High School
+VM1315:2 Rancho Solano Preparatory High School
+VM1315:2 Saguaro High School
+VM1315:2 Salt River High School (Salt River Pima-Maricopa Indian Community)
+VM1315:2 Scottsdale Preparatory Academy
+VM1315:2 Thunderbird Adventist Academy
+VM1315:2 Ville de Marie Academy
+VM1315:2 Arizona Charter Academy
+VM1315:2 Imagine Prep at Surprise
+VM1315:2 Paradise Honors High School
+VM1315:2 Shadow Ridge High School
+VM1315:2 Valley Vista High School
+VM1315:2 Willow Canyon High School
+VM1315:2 Compadre Academy
+VM1315:2 Corona del Sol High School
+VM1315:2 James Madison Preparatory School
+VM1315:2 Marcos de Niza High School
+VM1315:2 McClintock High School
+VM1315:2 The New School for the Arts and Academics
+VM1315:2 Pinnacle High School
+VM1315:2 Student Choice High School
+VM1315:2 Tempe Accelerated High School
+VM1315:2 Tempe High School
+VM1315:2 Tempe Preparatory Academy
+VM1315:2 Arizona Agribusiness and Equine Center, multiple locations
+VM1315:2 Canyon View High School, Waddell
+VM1315:2 Cactus Shadows High School, Cave Creek
+VM1315:2 Desert Edge High School, Goodyear
+VM1315:2 Dysart High School, El Mirage
+VM1315:2 e-Institute, multiple locations
+VM1315:2 Estrella Foothills High School, Goodyear
+VM1315:2 Fountain Hills High School, Fountain Hills
+VM1315:2 Gila Bend High School, Gila Bend
+VM1315:2 Millennium High School, Goodyear
+VM1315:2 Phoenix Country Day School, Paradise Valley
+VM1315:2 Sonoran Desert School, Gold Canyon
+VM1315:2 Tolleson Union High School, Tolleson
+VM1315:2 Tonopah Valley High School, Tonopah
+VM1315:2 Wickenburg High School, Wickenburg
+VM1315:2 Beaver Dam High School, Beaver Dam
+VM1315:2 El Capitan, Colorado City
+VM1315:2 Kingman Academy of Learning, Kingman
+VM1315:2 Kingman High School, Kingman
+VM1315:2 Lake Havasu High School, Lake Havasu City
+VM1315:2 Lee Williams High School, Kingman
+VM1315:2 Mohave Accelerated Learning Center, Bullhead City
+VM1315:2 Mohave High School, Bullhead City
+VM1315:2 Mount Tipton School, Dolan Springs
+VM1315:2 River Valley High School, Mohave Valley
+VM1315:2 Alchesay High School, Whiteriver
+VM1315:2 Blue Ridge High School, Lakeside
+VM1315:2 Cibecue Community School (Dishchii'bikoh), Cibecue
+VM1315:2 Holbrook High School, Holbrook
+VM1315:2 Hopi Junior/Senior High School, Keams Canyon
+VM1315:2 Jefferson Academy, Show Low
+VM1315:2 Joseph City High School, Joseph City
+VM1315:2 Mogollon High School, Heber
+VM1315:2 Monument Valley High School, Kayenta
+VM1315:2 Piñon Community School, Piñon
+VM1315:2 Pinon High School, Piñon
+VM1315:2 Shonto Preparatory Technology High School, Shonto
+VM1315:2 Show Low High School, Show Low
+VM1315:2 Snowflake High School, Snowflake
+VM1315:2 Winslow High School, Winslow
+VM1315:2 Marana High School
+VM1315:2 Mountain View High School
+VM1315:2 Canyon del Oro High School
+VM1315:2 Immaculate Heart High School
+VM1315:2 Ironwood Ridge High School
+VM1315:2 Pusch Ridge Christian Academy
+VM1315:2 Edge High School (Sahuarita campus)
+VM1315:2 Sahuarita High School
+VM1315:2 Walden Grove High School
+VM1315:2 Baboquivari High School
+VM1315:2 Tohono O'odham High School
+VM1315:2 Academy of Tucson
+VM1315:2 ACE Charter High School
+VM1315:2 Alta Vista High School
+VM1315:2 Amphitheater High School
+VM1315:2 Aztec Middle College
+VM1315:2 Canyon Rose Academy
+VM1315:2 Catalina Foothills High School
+VM1315:2 Catalina Magnet High School
+VM1315:2 Cholla High Magnet School
+VM1315:2 City High School
+VM1315:2 Compass High School
+VM1315:2 Desert Christian High School
+VM1315:2 Desert Rose Academy Charter School
+VM1315:2 Desert View High School
+VM1315:2 Eastpointe High School
+VM1315:2 Edge High School (Himmel Park and Northwest campuses)
+VM1315:2 Fenster School
+VM1315:2 Flowing Wells High School
+VM1315:2 The Gregory School
+VM1315:2 Hiaki High School
+VM1315:2 Luz-Guerrero Early College High School
+VM1315:2 Mica Mountain High School
+VM1315:2 Mountain Rose Academy
+VM1315:2 Nosotros Academy
+VM1315:2 Palo Verde High School
+VM1315:2 Pima Rose Academy
+VM1315:2 Pima Vocational High School
+VM1315:2 Pueblo Magnet High School
+VM1315:2 Rincon High School
+VM1315:2 Sabino High School
+VM1315:2 Sahuaro High School
+VM1315:2 St. Augustine Catholic High School
+VM1315:2 Salpointe Catholic High School
+VM1315:2 San Miguel High School
+VM1315:2 Santa Rita High School
+VM1315:2 School for Integrated Academics and Technologies
+VM1315:2 Skyview High School
+VM1315:2 Sonoran Science Academy (Tucson, Davis-Monthan)
+VM1315:2 Southern Arizona Community Academy
+VM1315:2 Sunnyside High School
+VM1315:2 Tanque Verde High School
+VM1315:2 Toltecalli High School
+VM1315:2 Tucson High Magnet School
+VM1315:2 Tucson Preparatory School
+VM1315:2 University High School
+VM1315:2 Andrada Polytechnic High School
+VM1315:2 Cienega High School
+VM1315:2 Empire High School
+VM1315:2 Pantano High School
+VM1315:2 Vail Academy and High School
+VM1315:2 Ajo High School, Ajo
+VM1315:2 Casa Grande Union High School
+VM1315:2 Casa Verde High School
+VM1315:2 Desert Winds High School
+VM1315:2 Mission Heights Preparatory High School
+VM1315:2 Pinnacle High School
+VM1315:2 Vista Grande High School
+VM1315:2 Coolidge High School
+VM1315:2 Imagine Prep at Coolidge
+VM1315:2 American Leadership Academy Ironwood
+VM1315:2 Combs High School
+VM1315:2 Poston Butte High School
+VM1315:2 San Tan Foothills High School
+VM1315:2 Apache Junction High School
+VM1315:2 Apache Trail High School, Apache Junction
+VM1315:2 Florence High School, Florence
+VM1315:2 Maricopa High School, Maricopa
+VM1315:2 Ray High School, Kearny
+VM1315:2 San Manuel Junior/Senior High School, San Manuel
+VM1315:2 Santa Cruz Valley Union High School, Eloy
+VM1315:2 Superior Junior/Senior High School, Superior
+VM1315:2 Lourdes Catholic School, Nogales
+VM1315:2 Nogales High School, Nogales
+VM1315:2 Patagonia Union High School, Patagonia
+VM1315:2 Pierson Vocational High School, Nogales
+VM1315:2 Rio Rico High School, Rio Rico
+VM1315:2 Arizona Agribusiness and Equine Center (Prescott Valley branch)
+VM1315:2 Ash Fork High School, Ash Fork
+VM1315:2 Bagdad High School, Bagdad
+VM1315:2 Bradshaw Mountain High School, Prescott Valley
+VM1315:2 Camp Verde High School, Camp Verde
+VM1315:2 Canyon View Preparatory Academy, Prescott Valley
+VM1315:2 Chino Valley High School, Chino Valley
+VM1315:2 Kestrel High School, Prescott
+VM1315:2 Mayer High School, Mayer
+VM1315:2 Mingus Mountain Academy, Prescott Valley
+VM1315:2 Mingus Union High School, Cottonwood
+VM1315:2 Oak Creek Ranch School, Cornville
+VM1315:2 The Orme School, Orme
+VM1315:2 Prescott High School, Prescott
+VM1315:2 Rimrock Public High School, Rimrock
+VM1315:2 Sedona Red Rock High School, Sedona
+VM1315:2 Sedona Sky Academy, Rimrock
+VM1315:2 Seligman High School, Seligman
+VM1315:2 Southwestern Academy, Rimrock
+VM1315:2 Spring Ridge Academy, Spring Valley
+VM1315:2 Tri-City College Prep High School, Prescott
+VM1315:2 Verde Valley School, Sedona
+VM1315:2 Yavapai County High School, Prescott Valley
+VM1315:2 Antelope Union High School, Wellton
+VM1315:2 Aztec High School, Yuma
+VM1315:2 Carpe Diem e-Learning Community, Yuma
+VM1315:2 Cibola High School, Yuma
+VM1315:2 Gila Ridge High School, Yuma
+VM1315:2 Kofa High School, Yuma
+VM1315:2 San Luis High School, San Luis
+VM1315:2 Vista Alternative High School, Yuma
+VM1315:2 Yuma Catholic High School, Yuma
+VM1315:2 Yuma High School, Yuma
+VM1315:2 Alhambra College Preparatory High School, Phoenix (2011)
+VM1315:2 Calli Ollin High School, Tucson (2010)
+VM1315:2 Carver High School, Phoenix (Black; 1954)
+VM1315:2 Catalina Mountain School, Tucson (2011)
+VM1315:2 Clarkdale High School, Clarkdale (1951)
+VM1315:2 Clifton High School, Clifton (2012)
+VM1315:2 Cottonwood High School, Cottonwood 
+VM1315:2 East High School, Phoenix (1985)
+VM1315:2 Gerard Catholic High School, Phoenix (1989)
+VM1315:2 Gila Preparatory Academy, Safford (2011)
+VM1315:2 Guadalupe Regional High School 
+VM1315:2 Jerome High School, Jerome (1951)
+VM1315:2 Jess Schwartz Jewish Community High School, Phoenix (2011)
+VM1315:2 Jokake School for Girls, Scottsdale (1945)
+VM1315:2 Judson School, Scottsdale (2000)
+VM1315:2 Litchfield Park High School, Litchfield Park
+VM1315:2 McNary High School, McNary (1980)
+VM1315:2 Mesa Central High School/Mesa Vo-Tech High School, Mesa (1991)
+VM1315:2 Mesa Ranch School, Mesa (1943)
+VM1315:2 Music Mountain Junior/Senior High School, Peach Springs
+VM1315:2 Northern Yuma County Union High School, Parker/Salome (circa mid-1950s; split into two schools)
+VM1315:2 Palo Verde Christian High School, Tucson (2000; acquired and renamed Pusch Ridge Christian Academy)
+VM1315:2 Phoenix Indian School, Phoenix (1990)
+VM1315:2 Phoenix Technical School, Phoenix (1955; folded back into Phoenix Union)
+VM1315:2 Phoenix Union Cyber High School, Phoenix (2010; folded into Camelback High School)
+VM1315:2 Phoenix Union High School, Phoenix (1982)
+VM1315:2 St. Johns Indian School, Laveen/Komatke (1976)
+VM1315:2 St. Paul's Preparatory Academy, Phoenix (December 2009)
+VM1315:2 Scottsdale High School, Scottsdale (1983)
+VM1315:2 Sierra Summit Academy, Hereford (2011)
+VM1315:2 Sinagua High School, Flagstaff (2010)
+VM1315:2 Southwest Indian School, Peoria (1982)
+VM1315:2 Suffolk Hills Catholic High School, Tucson (1971–90; reverted to the Immaculate Heart High School name)
+VM1315:2 Vicki A. Romero High School, Phoenix (2012)
+VM1315:2 West High School, Phoenix (1983, reopened 1985 as Metro Tech High School)
+VM1315:2 Western Christian High School, Phoenix (1988)
+VM1315:2 Westwind Preparatory Academy (2015)
+VM1315:2 White Cone High School, Keams Canyon (2012)
+Academy High School, Thornton
+VM1491:3 Academy of Charter Schools, Westminster
+VM1491:3 Adams City High School, Commerce City
+VM1491:3 Adams Youth Service Center, Brighton
+VM1491:3 Belleview Christian School, Westminster
+VM1491:3 Bennett High School, Bennett
+VM1491:3 Brighton Heritage Academy, Brighton
+VM1491:3 Brighton High School, Brighton
+VM1491:3 Cedar Wood Christian Academy, Aurora
+VM1491:3 Colorado Virtual Academy (cova), Northglenn
+VM1491:3 Community Christian, Northglenn
+VM1491:3 Cornerstone Christian Academy, Westminster
+VM1491:3 Eagle Ridge Academy, Brighton
+VM1491:3 Early College Of Arvada, Arvada
+VM1491:3 Elmwood Baptist Academy, Brighton
+VM1491:3 Global Leadership Academy, Sherrelwood
+VM1491:3 Goal Academy, Westminster
+VM1491:3 Hidden Lake High School, Westminster
+VM1491:3 Horizon High School, Brighton
+VM1491:3 Lester R Arnold High School, Commerce City
+VM1491:3 Life Christian Academy, Westminster
+VM1491:3 Mapleton Early College High School, Thornton
+VM1491:3 Mapleton Expeditionary School Of The Arts, Thornton
+VM1491:3 Mountain Range High School, Westminster
+VM1491:3 North Valley School For Young Adults, Thornton
+VM1491:3 Northglenn High School, Northglenn
+VM1491:3 Options School, Aurora
+VM1491:3 Pathways Future Center, Thornton
+VM1491:3 Prairie Creeks Charter School, Strausburg
+VM1491:3 Prairie View High School, Henderson
+VM1491:3 Riverdale Ridge High School, Thornton
+VM1491:3 Rocky Mountain Lutheran High School, Federal Heights
+VM1491:3 Strasburg High School, Strausburg
+VM1491:3 The New America School, Thornton
+VM1491:3 The Pinnacle Charter School High School, Federal Heights
+VM1491:3 Thornton High School, Thornton
+VM1491:3 Vantage Point, Northglenn
+VM1491:3 Westgate Charter, Northglenn
+VM1491:3 Westminster High School, Westminster
+VM1491:3 York International, Thornton
+VM1491:3 Alamosa High School, Alamosa
+VM1491:3 Alamosa Ombudsman School Of Excellence, Alamosa
+VM1491:3 Sangre De Cristo Undivided High School, Mosca
+VM1491:3 Arapahoe High School, Centennial
+VM1491:3 Aurora Central High School, Aurora
+VM1491:3 Aurora West College Preparatory Academy, Aurora
+VM1491:3 Byers High School, Byers
+VM1491:3 Calvary Apostolic Academy, Holly Hills
+VM1491:3 Cherokee Trail High School, Aurora
+VM1491:3 Cherry Creek High School, Greenwood Village
+VM1491:3 Colorado Provost Academy, Greenwood Village
+VM1491:3 Colorado's Finest Alternative High School, Englewood
+VM1491:3 Deer Trail High School, Deer Trail
+VM1491:3 Denver Jewish Day School, unincorporated Arapahoe County near Aurora
+VM1491:3 Eaglecrest High School, unincorporated Arapahoe County near Aurora and Centennial
+VM1491:3 Englewood High School, Englewood
+VM1491:3 Englewood Leadership Academy, Englewood
+VM1491:3 Englewood Middle School, Englewood
+VM1491:3 Gateway High School, Aurora
+VM1491:3 Grandview High School, Aurora
+VM1491:3 Great Plains Academy, Byers
+VM1491:3 Heritage High School, Littleton
+VM1491:3 Hinkley High School, Aurora
+VM1491:3 Humanex Academy, Englewood
+VM1491:3 Kent Denver School, Cherry Hills Village
+VM1491:3 Littleton High School, Littleton
+VM1491:3 Lotus School For Excellence, Aurora
+VM1491:3 Options School, Aurora
+VM1491:3 Our Lady Help Of Christians Academy, Watkins
+VM1491:3 Overland High School, Aurora
+VM1491:3 Rangeview High School, Aurora
+VM1491:3 Regis Jesuit High School, Aurora
+VM1491:3 Ridge View Academy Charter School, Watkins
+VM1491:3 Rock Solid High School, Littleton
+VM1491:3 Sheridan High School, Sheridan
+VM1491:3 Smoky Hill High School, Aurora
+VM1491:3 St Mary's Academy, Cherry Hills Village
+VM1491:3 The Joshua School, Englewood
+VM1491:3 Vista Peak 9-12 Preparatory, Aurora
+VM1491:3 William Smith High School, Aurora
+VM1491:3 Pagosa Springs High School, Pagosa Springs
+VM1491:3 Campo Undivided High School, Campo
+VM1491:3 Pritchett High School, Pritchett
+VM1491:3 Springfield High School, Springfield
+VM1491:3 Vilas Undivided High School, Vilas
+VM1491:3 Walsh High School, Walsh
+VM1491:3 Las Animas High School, Las Animas
+VM1491:3 McClave High School, McClave
+VM1491:3 Adult Education/Lincoln Center, Longmont
+VM1491:3 Alexander Dawson School, Lafayette
+VM1491:3 Apex Home School Enrichment Program, Niwot
+VM1491:3 Arapahoe Ridge High School, Boulder
+VM1491:3 Boulder Explore, Boulder
+VM1491:3 Boulder High School, Boulder
+VM1491:3 Boulder Prep Charter High School, Boulder
+VM1491:3 Boulder Universal, Boulder
+VM1491:3 Catalyst High School, Lafayette
+VM1491:3 Centaurus High School, Lafayette
+VM1491:3 Desiderata School, Longmont
+VM1491:3 Fairview High School, Boulder
+VM1491:3 Faith Baptist School, Longmont
+VM1491:3 Halcyon School (special Education), Boulder
+VM1491:3 Hillside School, Boulder
+VM1491:3 Justice High Charter School, Lafayette
+VM1491:3 Longmont Christian School, Longmont
+VM1491:3 Longmont High School, Longmont
+VM1491:3 Lyons High School, Lyons
+VM1491:3 Messiahville Baptist Academy, Longmont
+VM1491:3 Monarch High School, Louisville
+VM1491:3 Mountain Shadows Montessori School, Boulder
+VM1491:3 Nederland High School, Nederland
+VM1491:3 New Vista High School, Boulder
+VM1491:3 Niwot High School, Niwot
+VM1491:3 Olde Columbine High School, Longmont
+VM1491:3 Peak To Peak Charter School, Lafayette
+VM1491:3 September School, Boulder
+VM1491:3 Shining Mountain Waldorf School, Boulder
+VM1491:3 Silver Creek High School, Longmont
+VM1491:3 Skyline High School, Longmont
+VM1491:3 St. Vrain Global Online Academy, Longmont
+VM1491:3 Tara Performing Arts High School, Boulder
+VM1491:3 Twin Peaks Charter Academy, Longmont
+VM1491:3 Watershed School, Boulder
+VM1491:3 Broomfield High School, Broomfield
+VM1491:3 Holy Family High School, Broomfield
+VM1491:3 Legacy High School, Broomfield
+VM1491:3 Prospect Ridge Academy, Broomfield
+VM1491:3 Buena Vista High School, Buena Vista
+VM1491:3 Buena Vista Online Academy, Buena Vista
+VM1491:3 Chaffee County High School, Buena Vista
+VM1491:3 Darren Patterson Christian Academy, Buena Vista
+VM1491:3 Horizons Exploratory Academy, Salida
+VM1491:3 Salida High School, Salida
+VM1491:3 The Link School, Buena Vista
+VM1491:3 Cheyenne Wells High School, Cheyenne Wells
+VM1491:3 Kit Carson High School, Kit Carson
+VM1491:3 Clear Creek High School, Evergreen / Beaver Brook
+VM1491:3 Antonito High School, Antonito
+VM1491:3 Centauri High School, La Jara
+VM1491:3 La Jara Second Chance School, La Jara
+VM1491:3 Sanford High School, Sanford
+VM1491:3 Centennial High School, San Louis
+VM1491:3 Sierra Grande High School, Blanca
+VM1491:3 Crowley County High School, Ordway
+VM1491:3 Custer County High School, Westcliffe
+VM1491:3 Cedaredge High School, Cedaredge
+VM1491:3 Delta County Opportunity School, Delta
+VM1491:3 Delta County Virtual Academy, Delta
+VM1491:3 Delta High School, Delta
+VM1491:3 Delta Vision School, Delta
+VM1491:3 Hotchkiss High School, Hotchkiss
+VM1491:3 North Fork Vision School, Delta
+VM1491:3 Paonia High School, Paonia
+VM1491:3 Surface Creek Vision School, Cedaredge
+VM1491:3 Abraham Lincoln High School, Denver
+VM1491:3 Academy Of Urban Learning, Denver
+VM1491:3 Accelerated Schools, Denver
+VM1491:3 Ace Community Challenge School, Denver
+VM1491:3 Arrupe Jesuit High School, Denver
+VM1491:3 Bansbach Academy At Denver Children's Home, Denver
+VM1491:3 Beth Jacob High School, Denver
+VM1491:3 Bishop Machebeuf Catholic High School, Denver
+VM1491:3 Bruce Randolph School, Denver
+VM1491:3 Cec Middle College Of Denver, Denver
+VM1491:3 Change Christian Academy, Denver
+VM1491:3 Collegiate Preparatory Academy, Denver
+VM1491:3 Colorado High School, Denver
+VM1491:3 Contemporary Learning Academy High School, Denver
+VM1491:3 Denver Center for International Studies at Montbello, Denver
+VM1491:3 Denver Center for International Studies, Denver
+VM1491:3 Denver Academy, Denver
+VM1491:3 Denver Center for 21st Learning At Wyman, Denver
+VM1491:3 Denver Christian Schools, Denver
+VM1491:3 Denver Online High School, Denver
+VM1491:3 Denver School of the Arts, Denver
+VM1491:3 Denver Waldorf School, Denver
+VM1491:3 Denver School of Science and Technology, Cole High School, Denver
+VM1491:3 Denver School of Science and Technology, College View High School, Denver
+VM1491:3 Denver School of Science and Technology, Green Valley Ranch High School, Denver
+VM1491:3 Denver School of Science and Technology, Stapleton High School, Denver
+VM1491:3 East High School, Denver
+VM1491:3 Emily Griffith Technical College, Denver
+VM1491:3 Escuela Tlatelolco School, Denver
+VM1491:3 Florence Crittenton High School, Denver
+VM1491:3 George Washington High School, Denver
+VM1491:3 Gilliam School, Denver
+VM1491:3 High Tech Early College, Denver
+VM1491:3 John F. Kennedy High School, Denver
+VM1491:3 Justice High School Denver, Denver
+VM1491:3 Kipp Denver Collegiate High School, Denver
+VM1491:3 Kunsmiller Creative Arts Academy, Denver
+VM1491:3 Life Skills Center Of Denver, Denver
+VM1491:3 Love Christian Fellowship Ed, Denver
+VM1491:3 Manual High School, Denver
+VM1491:3 Martin Luther King Junior Early College, Denver
+VM1491:3 Mile High Academy, Denver
+VM1491:3 Montbello High School, Denver
+VM1491:3 Mullen High School, Denver
+VM1491:3 Noel Community Arts School, Denver
+VM1491:3 North High School, Denver
+VM1491:3 Rocky Mountain School Of Expeditionary Learning, Denver
+VM1491:3 Sims Fayola International Academy Denver, Denver
+VM1491:3 Soar Academy, Denver
+VM1491:3 South High School, Denver
+VM1491:3 Southwest Early College, Denver
+VM1491:3 Strive Prep-Smart Academy, Denver
+VM1491:3 Summit Academy, Denver
+VM1491:3 Tennyson Center For Children At Cch, Denver
+VM1491:3 Thomas Jefferson High School, Denver
+VM1491:3 Venture Prep High School, Denver
+VM1491:3 Vista Academy, Denver
+VM1491:3 West Career Academy
+VM1491:3 West Generations Academy, Denver
+VM1491:3 West High School, Denver
+VM1491:3 West Leadership Academy, Denver
+VM1491:3 Yeshiva Toras Chaim, Denver
+VM1491:3 Dove Creek High School, Dove Creek
+VM1491:3 Castle View High School, Castle Rock
+VM1491:3 Chaparral High School, Parker
+VM1491:3 Daniel C Oakes High School—Castle Rock, Castle Rock
+VM1491:3 Douglas County High School, Castle Rock
+VM1491:3 Eagle Academy, Highlands Ranch
+VM1491:3 Highlands Ranch High School, Highlands Ranch
+VM1491:3 Hope On-line, Englewood
+VM1491:3 Japanese School Of Denver, Highlands Ranch
+VM1491:3 Legend High School, Parker
+VM1491:3 Lutheran High School, Parker
+VM1491:3 Mountain Vista High School, Highlands Ranch
+VM1491:3 Ponderosa High School, Parker
+VM1491:3 Rock Canyon High School, Littleton
+VM1491:3 Skyview Academy, Highlands Ranch
+VM1491:3 Stem High School, Highlands Ranch
+VM1491:3 Thunderridge High School, Highlands Ranch
+VM1491:3 Valor Christian High School, Highlands Ranch
+VM1491:3 Battle Mountain High School, Edwards
+VM1491:3 Eagle Valley High School, Gypsum
+VM1491:3 New America Charter School, Gypsum
+VM1491:3 Red Canyon High School, Edwards
+VM1491:3 Vail Christian School, Edwards
+VM1491:3 Vail Mountain School, Vail
+VM1491:3 Vail Ski And Snowboard Academy (ussa, Eagle
+VM1491:3 World Academy, Eagle
+VM1491:3 Elbert High School, Elbert
+VM1491:3 Elizabeth High School, Elizabeth
+VM1491:3 Frontier High School, Elizabeth
+VM1491:3 Kiowa High School, Kiowa
+VM1491:3 Simla High School, Simla
+VM1491:3 Achievek12, Colorado Springs
+VM1491:3 Air Academy High School, USAF Academy
+VM1491:3 Atlas Preparatory High School, Colorado Springs
+VM1491:3 Aspen Valley High School, Colorado Springs
+VM1491:3 Banning Lewis Preparatory Academy, Colorado Springs
+VM1491:3 Calhan High School, Calhan
+VM1491:3 Cheyenne Mountain High School, Colorado Springs
+VM1491:3 Civa Charter Academy, Colorado Springs
+VM1491:3 Colorado School For The Deaf And Blind, Colorado Springs
+VM1491:3 Colorado Springs Christian, Colorado Springs
+VM1491:3 Colorado Springs Early Colleges, Colorado Springs
+VM1491:3 Community Prep Charter School, Colorado Springs
+VM1491:3 Coronado High School, Colorado Springs
+VM1491:3 Discovery Canyon Campus School, Colorado Springs
+VM1491:3 Discovery High School, Colorado Springs
+VM1491:3 Doherty High School, Colorado Springs
+VM1491:3 Edison Academy, Yoder
+VM1491:3 Edison High School, Yoder
+VM1491:3 Ellicott Senior High School, Ellicott
+VM1491:3 Falcon High School, Peyton
+VM1491:3 Falcon Virtual Academy, Falcon
+VM1491:3 Fountain Valley School Of Colorado, Colorado Springs
+VM1491:3 Fountain-Fort Carson High School, Fountain
+VM1491:3 Hanover High School, Colorado Springs
+VM1491:3 Harrison High School, Colorado Springs
+VM1491:3 High School Preparatory Academy, Colorado Springs
+VM1491:3 James Irwin Charter High School, Colorado Springs
+VM1491:3 Lewis-Palmer High School, Monument
+VM1491:3 Liberty High School, Colorado Springs
+VM1491:3 Life Skills Center Of Colorado Springs, Colorado Springs
+VM1491:3 Lorraine Secondary School, Fountain
+VM1491:3 Manitou Springs High School, Manitou Springs
+VM1491:3 Mesa Ridge High, Colorado Springs
+VM1491:3 Miami-Yoder Senior High School, Rush
+VM1491:3 Mitchell High School, Colorado Springs
+VM1491:3 New Horizons Day School   Public  Colorado Springs, CO
+VM1491:3 Nikola Tesla Education Opportunity Center, Colorado Springs
+VM1491:3 Palmer High School, Colorado Springs
+VM1491:3 Palmer Ridge High School, Monument
+VM1491:3 Patriot Learning Center, Falcon
+VM1491:3 Peyton Senior High School, Peyton
+VM1491:3 Pikes Peak Academy, Colorado Springs
+VM1491:3 Pikes Peak Christian School, Colorado Springs
+VM1491:3 Pikes Peak Prep, Colorado Springs
+VM1491:3 Pine Creek High School, Colorado Springs
+VM1491:3 Rampart High School, Colorado Springs
+VM1491:3 Rocky Mountain Montessori Academy, Colorado Springs
+VM1491:3 Sand Creek High School, Colorado Springs
+VM1491:3 Sierra High School, Colorado Springs
+VM1491:3 Spring Creek Youth Services Center, Colorado Springs
+VM1491:3 St Mary's High School, Colorado Springs
+VM1491:3 Tca College Pathways, Colorado Springs
+VM1491:3 The Bijou School, Colorado Springs
+VM1491:3 The Classical Academy High School, Colorado Springs
+VM1491:3 The Colorado Springs School, Colorado Springs
+VM1491:3 The Vanguard School (high), Colorado Springs
+VM1491:3 Thomas Maclaren State Charter School, Colorado Springs
+VM1491:3 Vista Ridge High School, Colorado Springs
+VM1491:3 Wasson High School, Colorado Springs
+VM1491:3 Widefield High School, Colorado Springs
+VM1491:3 Calvary Christian School, Canon City
+VM1491:3 Canon City High School, Canon City
+VM1491:3 Canon Online Academy, Canon City
+VM1491:3 Cotopaxi High School, Cotopaxi
+VM1491:3 Florence Christian School, Florence
+VM1491:3 Florence High School, Florence
+VM1491:3 Focus Academy, Florence
+VM1491:3 Garden Park High School, Canon City
+VM1491:3 Bridges, Carbondale
+VM1491:3 Coal Ridge High School, New Castle
+VM1491:3 Colorado Rocky Mountain School, Carbondale
+VM1491:3 Glenwood Springs High School, Glenwood Springs
+VM1491:3 Grand Valley High School, Parachute
+VM1491:3 Project Rebound, Glenwood Springs
+VM1491:3 Rifle High School, Rifle
+VM1491:3 Roaring Fork High School, Carbondale
+VM1491:3 The Garden School, New Castle
+VM1491:3 Yampah Mountain School, Glenwood Springs
+VM1491:3 Yampah Teen Parent Program, Glenwood Springs
+VM1491:3 Gilpin County Undivided High School, Black Hawk
+VM1491:3 Middle Park High School, Granby
+VM1491:3 Mountain Valley Christian Academy, Kremmling
+VM1491:3 West Grand High School, Kremmling
+VM1491:3 Winter Park Christian School, Tabernash
+VM1491:3 Crested Butte Community School, Crested Butte
+VM1491:3 Gunnison High School, Gunnison
+VM1491:3 Marble Charter School, Marble
+VM1491:3 Lake City Community School, Lake City
+VM1491:3 John Mall High School, Walsenburg
+VM1491:3 La Veta High School, La Veta
+VM1491:3 North Park High School, Walden
+VM1491:3 Alameda International Junior/Senior High School, Lakewood
+VM1491:3 Arvada High School, Arvada
+VM1491:3 Arvada West High School, Arvada
+VM1491:3 Bear Creek High School, Lakewood
+VM1491:3 Beth Eden Baptist School, Wheat Ridge
+VM1491:3 Brady Exploration School, Lakewood
+VM1491:3 Chatfield High School, Littleton
+VM1491:3 Collegiate Academy Of Colorado, Littleton
+VM1491:3 Colorado Academy, Denver
+VM1491:3 Columbine High School, Littleton
+VM1491:3 Compass Montessori-Golden Charter School, Golden
+VM1491:3 Conifer Senior High School, Conifer
+VM1491:3 Connections Learning Center On The Earle Johnson C, Golden
+VM1491:3 D'evelyn High School, Denver
+VM1491:3 Dakota Ridge Senior High School, Littleton
+VM1491:3 Denver Street School, Lakewood
+VM1491:3 Devereux Cleo Wallace Center, Westminster
+VM1491:3 Evergreen High School, Evergreen
+VM1491:3 Excel Academy Charter School, Arvada
+VM1491:3 Faith Christian Academy, Arvada
+VM1491:3 Front Range Christian School, Littleton
+VM1491:3 Golden High School, Golden
+VM1491:3 Green Mountain High School, Lakewood
+VM1491:3 Hyland Christian School, Westminster
+VM1491:3 Jeffco's 21st Century Virtual Academy, Golden
+VM1491:3 Jefferson Charter Academy Senior High School, Broomfield
+VM1491:3 Jefferson County Open Secondary, Lakewood
+VM1491:3 Jefferson High School, Edgewater
+VM1491:3 Lakewood High School, Lakewood
+VM1491:3 Longview High School, Lakewood
+VM1491:3 Manning Options School, Lakewood
+VM1491:3 McLain High School, Lakewood
+VM1491:3 Mile High Baptist School, Denver
+VM1491:3 Miller Special Education, Lakewood
+VM1491:3 Mountview Youth Service Center, Denver
+VM1491:3 New America School, Lakewood
+VM1491:3 Pomona High School, Arvada
+VM1491:3 Ralston Valley Senior High School, Arvada
+VM1491:3 Rocky Mountain Deaf School, Golden
+VM1491:3 Sobesky Academy, Lakewood
+VM1491:3 Standley Lake High School, Westminster
+VM1491:3 Summit Ridge Middle School, Littleton
+VM1491:3 Truth Christian Academy, Littleton
+VM1491:3 Two Roads Charter School, Wheat Ridge
+VM1491:3 Warren Occupation Technical Center, Lakewood
+VM1491:3 Warren Tech North, Arvada
+VM1491:3 Wheat Ridge High School, Wheat Ridge
+VM1491:3 Eads High School, Eads
+VM1491:3 Plainview High School, Sheridan Lake
+VM1491:3 Bethune High School, Bethune
+VM1491:3 Burlington High School, Burlington
+VM1491:3 Flagler Senior High School, Flagler
+VM1491:3 High Plains Undivided High School, Seibert
+VM1491:3 Stratton Senior High School, Stratton
+VM1491:3 Animas High School, Durango
+VM1491:3 Bayfield High School, Bayfield
+VM1491:3 Colorado Timberline Academy, Durango
+VM1491:3 Durango High School, Durango
+VM1491:3 Grace Preparatory Academy Of Durango, Durango
+VM1491:3 Ignacio High School, Ignacio
+VM1491:3 Robert Denier Youth Services Center, Durango
+VM1491:3 Southwest Colorado E-school, Durango
+VM1491:3 High Mountain Institute, Leadville
+VM1491:3 Lake County High School, Leadville
+VM1491:3 Berthoud High School, Berthoud
+VM1491:3 Centennial High School, Fort Collins
+VM1491:3 Colorado Early College Fort Collins, Fort Collins
+VM1491:3 Cornerstone Christian School, Fort Collins
+VM1491:3 Discovery Montessori, Fort Collins
+VM1491:3 Eagle Rock School, Estes Park
+VM1491:3 Estes Park High School, Estes Park
+VM1491:3 Estes Park Options School, Estes Park
+VM1491:3 Fort Collins High School, Fort Collins
+VM1491:3 Fossil Ridge High School, Fort Collins
+VM1491:3 Front Range Baptist Academy, Fort Collins
+VM1491:3 Harold Ferguson High School, Loveland
+VM1491:3 Heritage Christian Academy, Fort Collins
+VM1491:3 Leap School, Loveland
+VM1491:3 Liberty Common Charter School, Fort Collins
+VM1491:3 Loveland Classical School, Loveland
+VM1491:3 Loveland High School, Loveland
+VM1491:3 Mountain View High School, Loveland
+VM1491:3 Polaris Expeditionary Learning School, Fort Collins
+VM1491:3 Poudre Community Academy, Fort Collins
+VM1491:3 Poudre High School, Fort Collins
+VM1491:3 Psd Global Academy, Fort Collins
+VM1491:3 Psd Options School, Fort Collins
+VM1491:3 Reflections For Youth Academy, Loveland
+VM1491:3 Resurrection Christian School, Loveland
+VM1491:3 Ridgeview Classical Charter Schools, Fort Collins
+VM1491:3 Rocky Mountain High School, Fort Collins
+VM1491:3 Thompson Online, Loveland
+VM1491:3 Thompson Valley High School, Loveland
+VM1491:3 Aguilar Junior-senior High School, Aguilar
+VM1491:3 Branson School Online, Branson
+VM1491:3 Branson Undivided High School, Branson
+VM1491:3 Grace Christian Center, Trinidad
+VM1491:3 Hoehne High School, Trinidad
+VM1491:3 Holy Trinity Academy, Trinidad
+VM1491:3 Kim Undivided High School, Kim
+VM1491:3 Primero Junior-senior High School, Weston
+VM1491:3 Trinidad High School, Trinidad
+VM1491:3 Genoa-Hugo High School, Hugo
+VM1491:3 Karval Junior-senior High School, Karval
+VM1491:3 Limon High School, Limon
+VM1491:3 Caliche High School, Iliff
+VM1491:3 Fleming High School, Fleming
+VM1491:3 Merino High School, Merino
+VM1491:3 Peetz High School, Peetz
+VM1491:3 Smith High School, Sterling
+VM1491:3 Sterling High School, Sterling
+VM1491:3 Caprock Academy, Grand Junction
+VM1491:3 Central High School, Grand Junction
+VM1491:3 Christian Community School-East Campus, Clifton
+VM1491:3 De Beque Undivided High School, De Beque
+VM1491:3 Fruita Monument High School, Fruita
+VM1491:3 Gateway School, Gateway
+VM1491:3 Grand Junction High School, Grand Junction
+VM1491:3 Grand Mesa High School, Collbran
+VM1491:3 Grand Valley Mennonite School, Loma
+VM1491:3 Grande River Virtual Academy, Grand Junction
+VM1491:3 Landmark Baptist School, Grand Junction
+VM1491:3 Life Academy, Grand Junction
+VM1491:3 Mesa Valley Vision Home And Community Program, Grand Junction
+VM1491:3 Palisade High School, Palisade
+VM1491:3 Pear Park Baptist School, Grand Junction
+VM1491:3 Plateau Valley High School, Collbran
+VM1491:3 R-5 High School, Grand Junction
+VM1491:3 Creede High School, Creede
+VM1491:3 Moffat County High School, Craig
+VM1491:3 Dolores High School, Dolores
+VM1491:3 Lighthouse Christian Academy, Cortez
+VM1491:3 Mancos High School, Mancos
+VM1491:3 Montezuma-Cortez High School, Cortez
+VM1491:3 Southwest Open Charter School, Cortez
+VM1491:3 Montrose High School, Montrose
+VM1491:3 Nucla High School, Nucla
+VM1491:3 Olathe High School, Olathe
+VM1491:3 Passage Charter School, Montrose
+VM1491:3 Peak Virtual Academy, Montrose
+VM1491:3 Vista Charter School, Montrose
+VM1491:3 Brush High School, Brush
+VM1491:3 Fort Morgan High School, Fort Morgan
+VM1491:3 Lincoln High School, Fort Morgan
+VM1491:3 Weldon Valley High School, Weldona
+VM1491:3 Wiggins High School, Wiggins
+VM1491:3 Cbr Youth Connect, La Junta
+VM1491:3 Cheraw High School, Cheraw
+VM1491:3 Fowler High School, Fowler
+VM1491:3 La Junta High School, La Junta
+VM1491:3 Manzanola High School, Manzanola
+VM1491:3 Rocky Ford High School, Rocky Ford
+VM1491:3 Swink High School, Swink
+VM1491:3 Ouray High School,Ouray
+VM1491:3 Ridgway High School, Ridgway
+VM1491:3 Platte Canyon High School, Bailey
+VM1491:3 South Park High School, Fairplay
+VM1491:3 Haxtun High School, Haxtun
+VM1491:3 Holyoke Senior High School, Holyoke
+VM1491:3 Aspen High School, Aspen
+VM1491:3 Basalt High School, Basalt
+VM1491:3 Granada Undivided High School, Granada
+VM1491:3 Holly High School, Holly
+VM1491:3 Lamar High School, Lamar
+VM1491:3 Wiley High School, Wiley
+VM1491:3 Centennial High School, Pueblo
+VM1491:3 Central High School, Pueblo
+VM1491:3 Chavez/Huerta K-12 Preparatory Academy, Pueblo
+VM1491:3 Dolores Huerta Preparatory High School, Pueblo
+VM1491:3 Eest High School, Pueblo
+VM1491:3 Futures Academy   Public  Pueblo, CO
+VM1491:3 Parkhill Christian Academy, Pueblo
+VM1491:3 Pueblo County High School. Pueblo
+VM1491:3 Pueblo West High School, Pueblo West
+VM1491:3 Pueblo Youth Service Center, Pueblo
+VM1491:3 Rye High School, Rye
+VM1491:3 South High School, Pueblo
+VM1491:3 Southern Colorado Early College, Pueblo West
+VM1491:3 St Therese Catholic School, Pueblo
+VM1491:3 Youth & Family Academy Charter, Pueblo
+VM1491:3 Meeker High School, Meeker
+VM1491:3 Rangely High School, Rangely
+VM1491:3 Byron Syring Delta Center, Monte Vista
+VM1491:3 Del Norte High School, Del Norte
+VM1491:3 Monte Vista Senior High School, Monte Vista
+VM1491:3 Monte Vista Shared School, Monte Vista
+VM1491:3 Sargent Senior High School, Monte Vista
+VM1491:3 Christian Heritage School, Steamboat Springs
+VM1491:3 Hayden High School, Hayden
+VM1491:3 Lowell Whiteman School, Steamboat Springs
+VM1491:3 Soroco High School, Oak Creek
+VM1491:3 Steamboat Springs High School, Steamboat Springs
+VM1491:3 Yampa Valley School, Steamboat Springs
+VM1491:3 Center High School, Center
+VM1491:3 Center Virtual Academy, Center
+VM1491:3 Crestone Charter School, Crestone
+VM1491:3 Moffat Senior High School. Moffat
+VM1491:3 Mountain Valley Senior High School, Saguache
+VM1491:3 The Academic Recovery Center Of San Luis Valley, Center
+VM1491:3 Silverton High School, Silverton
+VM1491:3 Norwood High School, Norwood
+VM1491:3 Telluride High School, Telluride
+VM1491:3 Telluride Mountain School, Telluride
+VM1491:3 Julesburg High School, Julesburg
+VM1491:3 Revere High School, Ovid
+VM1491:3 Snowy Peaks High School, Frisco
+VM1491:3 Summit High School, Frisco
+VM1491:3 Cripple Creek-victor High School, Cripple Creek
+VM1491:3 Woodland Park High School, Woodland Park
+VM1491:3 Akron High School, Akron
+VM1491:3 Arickaree Undivided High School, Anton
+VM1491:3 Lone Star Undivided High School, Otis
+VM1491:3 Otis High School, Otis
+VM1491:3 Woodlin Undivided High School, Woodrow
+VM1491:3 Briggsdale Undivided High School, Briggsdale
+VM1491:3 Cameron School, Greeley
+VM1491:3 Centennial Boces High School, Greeley
+VM1491:3 Dayspring Christian Academy, Greeley
+VM1491:3 Eaton High School, Eaton
+VM1491:3 Erie High School, Erie
+VM1491:3 Fort Lupton High School, Fort Lupton
+VM1491:3 Frederick Senior High School, Frederick
+VM1491:3 Frontier Charter Academy, Greeley
+VM1491:3 Greeley Central High School, Greeley
+VM1491:3 Greeley West High School, Greeley
+VM1491:3 Highland High School, Ault
+VM1491:3 Innovative Connections High School, Greeley
+VM1491:3 Jefferson High School, Greeley
+VM1491:3 Mead High School, Longmont
+VM1491:3 Northridge High School, Greeley
+VM1491:3 Pawnee High School, Grover
+VM1491:3 Platte Valley High School, Kersey
+VM1491:3 Prairie High School, New Raymer
+VM1491:3 Roosevelt High School, Johnstown
+VM1491:3 Union Colony Preparatory School, Greeley
+VM1491:3 University Schools, Greeley
+VM1491:3 Valley High School, Gilcrest
+VM1491:3 Vista Ridge Academy, Erie
+VM1491:3 Weld Central Senior High School, Keenesburg
+VM1491:3 West Ridge Academy, Greeley
+VM1491:3 Windsor High School, Windsor
+VM1491:3 Idalia High School, Idalia
+VM1491:3 Liberty High School, Joes
+VM1491:3 Wray High School, Wray
+VM1491:3 Yuma High School, Yuma
