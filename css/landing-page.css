@@ -52,21 +52,30 @@ h6 {
 /* ---------- */
 
 .scroll-container {
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 
 section {
-  height: 100vh;
+  height: 100%;
   scroll-snap-align: center;
 }
 
 /* Other styles */
+@media (min-width: 768px) {
+  section {
+    padding: 1rem;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+  }
+}
+
 section {
   padding: 1rem;
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
   justify-content: center;
 }
 
